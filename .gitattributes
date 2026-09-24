@@ -1,0 +1,6 @@
+# 줄바꿈은 LF 로 통일 (Windows 에서 CRLF 경고 방지, Actions 빌드와 동일)
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary

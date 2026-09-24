@@ -71,16 +71,24 @@ site/
 
 `specs` 항목: `name / value / source(출처·성적서) / note(확인 필요 등)`. `docs`: `name / date / url`.
 
-## 배포 (도메인 확정 후)
+## 배포 — GitHub Pages (확정: https://story.yerim.net)
 
-1. `config.json` 의 `base_url` 을 실제 도메인으로 (예: `https://story.yerim.net`) → 다시 빌드
-2. `dist/` 를 호스팅에 올린다 (GitHub Pages 면 저장소 Pages 설정, Cloudflare Pages 면 폴더 업로드)
-3. Google Search Console · Bing Webmaster Tools 에 사이트 등록, `sitemap.xml` 제출
-4. 이후 매 빌드마다 IndexNow 호출 (추후 `build.py --indexnow` 로 추가 예정)
+`site/` 폴더 자체가 독립 git 저장소다(상위 크롤러 저장소와 별개). `main` 에 push 하면 `.github/workflows/deploy.yml` 이 Actions 에서 `build.py --check` 를 돌리고 `dist/` 를 Pages 에 올린다. **로컬 dist/ 는 미리보기용일 뿐 배포에 쓰이지 않는다.**
+
+```
+.\.venv\Scripts\python.exe site\tools\deploy.py "content: 현관중문 가이드"   # add → commit → push → Actions 배포
+```
+
+최초 1회 설정 (완료 여부는 아래 체크):
+- [ ] GitHub 저장소 `yerim-story` 생성, `site/` 의 origin 으로 연결
+- [ ] 저장소 Settings → Pages → Source: **GitHub Actions**
+- [ ] Settings → Pages → Custom domain: `story.yerim.net` (빌드가 `dist/CNAME` 도 넣는다)
+- [ ] **DNS**: `yerim.net` 관리 콘솔에서 `story` CNAME → `<GitHub계정>.github.io` 추가 (TTL 짧게). 전파 후 Pages 에서 "Enforce HTTPS" 켜기
+- [ ] 첫 배포 확인 → Google Search Console · Bing Webmaster Tools 등록, `https://story.yerim.net/sitemap.xml` 제출
+- [ ] 이후 IndexNow 연동 (추후 `build.py --indexnow`)
 
 ## 결정이 필요한 것
 
-- **도메인** — `story.yerim.net` 같은 서브도메인이 브랜드 엔티티 연결에 유리(sameAs·Organization). 별도 도메인이면 config 에 반영
 - **학습용 크롤러 정책** — `training_policy: allow|disallow`
 - **YBF-140T 사양 검증** — 전략 문서 §10.2 항목 8개. 검증 전까지 draft
 - **로고 URL** — `config.json` organization.logo 실제 경로
