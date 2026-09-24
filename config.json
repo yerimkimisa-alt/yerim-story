@@ -2,8 +2,9 @@
   "site_name": "예림 스토리",
   "site_name_en": "YERIM STORY",
   "tagline": "예림 제품·기술 지식 — 도어·중문·키친·창호·필름·마루",
-  "base_url": "https://story.yerim.net",
-  "_base_url_note": "배포 도메인 미정. 확정되면 여기만 바꾸고 다시 빌드한다. canonical·sitemap·JSON-LD 전부 이 값을 쓴다.",
+  "base_url": "https://yerimkimisa-alt.github.io/yerim-story",
+  "production_base_url": "https://story.yerim.net",
+  "_base_url_note": "지금은 DNS 연결 전이라 github.io 주소로 서비스 중. DNS 가 붙으면 base_url 을 production_base_url 값으로 바꾸고 push 하면 끝 (CNAME 파일·canonical·sitemap 이 자동 전환). base_url 에 경로가 있으면 모든 내부 링크에 그 접두가 붙는다.",
   "language": "ko",
   "organization": {
     "name": "예림",

@@ -30,6 +30,14 @@ STATIC = os.path.join(HERE, "static")
 DIST = os.path.join(HERE, "dist")
 CFG = json.load(io.open(os.path.join(HERE, "config.json"), encoding="utf-8"))
 BASE = CFG["base_url"].rstrip("/")
+from urllib.parse import urlparse as _up
+PREFIX = _up(BASE).path.rstrip("/")          # 예: github.io/yerim-story 로 서비스할 때 "/yerim-story", 커스텀 도메인이면 ""
+CUSTOM_DOMAIN = not _up(BASE).hostname.endswith("github.io")
+
+
+def href(u: str) -> str:
+    """사이트 내부 경로에 base_url 의 경로 접두를 붙인다."""
+    return u if u.startswith("http") else PREFIX + u
 ORG = CFG["organization"]
 CATS = {c["slug"]: c for c in CFG["categories"]}
 TYPE_LABEL = {"guide": "가이드", "product": "제품", "group": "제품군", "category": "제품 분류", "news": "소식", "page": "", "home": "", "section": ""}
@@ -202,10 +210,10 @@ def base(p, body, by_url, extra_ld=()):
     if p["type"] in ("home", "page"):
         lds.insert(0, jsonld_org())
     title = p["title"] if p["type"] == "home" else f'{p["title"]} — {CFG["site_name"]}'
-    nav = "".join(f'<a href="/{c["slug"]}/"{" aria-current=\"page\"" if p["category"] == c["slug"] else ""}>{E(c["name"])}</a>' for c in CFG["categories"])
-    nav += '<a href="/guide/">가이드</a><a href="/about/">예림 소개</a>'
+    nav = "".join(f'<a href="{href("/" + c["slug"] + "/")}"{" aria-current=\"page\"" if p["category"] == c["slug"] else ""}>{E(c["name"])}</a>' for c in CFG["categories"])
+    nav += f'<a href="{href("/guide/")}">가이드</a><a href="{href("/about/")}">예림 소개</a>'
     crumbs_html = "" if p["type"] == "home" else '<nav class="crumbs" aria-label="경로"><ol>' + "".join(
-        f'<li>{E(n)}</li>' if u == p["url"] else f'<li><a href="{u}">{E(n)}</a></li>' for n, u in crumbs) + "</ol></nav>"
+        f'<li>{E(n)}</li>' if u == p["url"] else f'<li><a href="{href(u)}">{E(n)}</a></li>' for n, u in crumbs) + "</ol></nav>"
     robots = '<meta name="robots" content="noindex,nofollow">' if p["draft"] else '<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">'
     og_img = f'<meta property="og:image" content="{E(abs_url(p["image"]))}">' if p.get("image") else ""
     ld = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in lds)
@@ -225,13 +233,13 @@ def base(p, body, by_url, extra_ld=()):
 <meta property="og:url" content="{E(abs_url(p['url']))}">
 <meta property="og:site_name" content="{E(CFG['site_name'])}">
 {og_img}
-<link rel="alternate" type="application/rss+xml" title="{E(CFG['site_name'])}" href="/feed.xml">
-<link rel="stylesheet" href="/style.css">
+<link rel="alternate" type="application/rss+xml" title="{E(CFG['site_name'])}" href="{href('/feed.xml')}">
+<link rel="stylesheet" href="{href('/style.css')}">
 {ld}
 </head>
 <body>
 <header class="site"><div class="wrap">
-  <a class="brand" href="/">{E(CFG['site_name'])}<small>{E(CFG['site_name_en'])}</small></a>
+  <a class="brand" href="{href('/')}">{E(CFG['site_name'])}<small>{E(CFG['site_name_en'])}</small></a>
   <nav aria-label="제품군">{nav}</nav>
 </div></header>
 <main><div class="wrap">
@@ -240,7 +248,7 @@ def base(p, body, by_url, extra_ld=()):
 </div></main>
 <footer class="site"><div class="wrap">
   <div class="ent">{E(ORG['legal_name'])} · {E(a['region'])} {E(a['locality'])} {E(a['street'])} · 설립 {E(ORG['founding_date'])}</div>
-  <div>공식 홈페이지 <a href="{E(ORG['url'])}">{E(ORG['url'].replace('https://',''))}</a> · <a href="{E(ORG['contact_url'])}">온라인 문의</a> · <a href="/sitemap.xml">sitemap</a> · <a href="/feed.xml">RSS</a> · <a href="/llms.txt">llms.txt</a></div>
+  <div>공식 홈페이지 <a href="{E(ORG['url'])}">{E(ORG['url'].replace('https://',''))}</a> · <a href="{E(ORG['contact_url'])}">온라인 문의</a> · <a href="{href('/sitemap.xml')}">sitemap</a> · <a href="{href('/feed.xml')}">RSS</a> · <a href="{href('/llms.txt')}">llms.txt</a></div>
   <div>이 사이트의 제품 사양은 예림 공식 자료를 기준으로 하며, 수정일이 표기됩니다. 시험 성적·인증은 해당 페이지에 발행일과 적용 모델을 함께 적습니다.</div>
 </div></footer>
 </body>
@@ -249,12 +257,12 @@ def base(p, body, by_url, extra_ld=()):
 
 def card(p):
     k = TYPE_LABEL.get(p["type"], "")
-    return f'<div class="card"><span class="k">{E(k)}{" · " + E(p["model"]) if p.get("model") else ""}</span><a href="{p["url"]}">{E(p["title"])}</a><p>{E(p["description"][:90])}</p></div>'
+    return f'<div class="card"><span class="k">{E(k)}{" · " + E(p["model"]) if p.get("model") else ""}</span><a href="{href(p["url"])}">{E(p["title"])}</a><p>{E(p["description"][:90])}</p></div>'
 
 
 def list_items(ps):
     return '<ul class="list">' + "".join(
-        f'<li><span class="k">{E(fmt_date(p["updated"]))}</span><a href="{p["url"]}">{E(p["title"])}</a><span class="d">{E(p["description"])}</span></li>' for p in ps) + "</ul>"
+        f'<li><span class="k">{E(fmt_date(p["updated"]))}</span><a href="{href(p["url"])}">{E(p["title"])}</a><span class="d">{E(p["description"])}</span></li>' for p in ps) + "</ul>"
 
 
 def faq_html(faq):
@@ -267,7 +275,7 @@ def cta_html(p, by_url):
     cat = CATS.get(p["category"])
     links = []
     if cat:
-        links.append(f'<a href="/{cat["slug"]}/">예림 {E(cat["name"])} 전체</a>')
+        links.append(f'<a href="{href("/" + cat["slug"] + "/")}">예림 {E(cat["name"])} 전체</a>')
     links.append(f'<a href="{E(ORG["url"])}">공식 홈페이지 제품 정보</a>')
     links.append(f'<a href="{E(ORG["contact_url"])}">온라인 문의·전시장</a>')
     return f'<div class="cta"><b>더 알아보기</b>{" ".join(links)}</div>'
@@ -304,7 +312,7 @@ def render(p, pages, by_url):
     body = md(p["body_md"])
     lds = []
     if t == "home":
-        cats = "".join(card(by_url[f"/{c['slug']}/"]) if f"/{c['slug']}/" in by_url else f'<div class="card"><a href="/{c["slug"]}/">{E(c["name"])}</a></div>' for c in CFG["categories"])
+        cats = "".join(card(by_url[f"/{c['slug']}/"]) if f"/{c['slug']}/" in by_url else f'<div class="card"><a href="{href("/" + c["slug"] + "/")}">{E(c["name"])}</a></div>' for c in CFG["categories"])
         guides = sorted([q for q in pages if q["type"] == "guide" and not q["draft"]], key=lambda q: q["updated"], reverse=True)[:8]
         prods = [q for q in pages if q["type"] == "product" and not q["draft"]][:6]
         inner = f'<h1>{E(p["title"])}</h1>{lead}{body}<h2>제품군</h2><div class="grid">{cats}</div>'
@@ -425,10 +433,11 @@ def main():
     write(os.path.join(DIST, "robots.txt"), build_robots())
     write(os.path.join(DIST, "llms.txt"), build_llms(pages))
     write(os.path.join(DIST, "feed.xml"), build_feed(pages))
-    # GitHub Pages: 커스텀 도메인 · Jekyll 처리 비활성화
-    write(os.path.join(DIST, "CNAME"), BASE.replace("https://", "").replace("http://", "") + "\n")
+    # GitHub Pages: Jekyll 처리 비활성화. CNAME 은 커스텀 도메인으로 서비스할 때만 (github.io 주소일 땐 넣으면 리다이렉트가 생긴다)
     write(os.path.join(DIST, ".nojekyll"), "")
-    write(os.path.join(DIST, "404.html"), base(dict(url="/404/", type="page", title="페이지를 찾을 수 없습니다", description="", draft=True, category=""), '<h1>페이지를 찾을 수 없습니다</h1><p><a href="/">홈으로</a></p>', by_url))
+    if CUSTOM_DOMAIN:
+        write(os.path.join(DIST, "CNAME"), _up(BASE).hostname + "\n")
+    write(os.path.join(DIST, "404.html"), base(dict(url="/404/", type="page", title="페이지를 찾을 수 없습니다", description="", draft=True, category=""), f'<h1>페이지를 찾을 수 없습니다</h1><p><a href="{href("/")}">홈으로</a></p>', by_url))
     for root, _, files in os.walk(STATIC):
         for fn in files:
             src = os.path.join(root, fn); rel = os.path.relpath(src, STATIC)
