@@ -1,0 +1,43 @@
+{
+  "site_name": "예림 스토리",
+  "site_name_en": "YERIM STORY",
+  "tagline": "예림 제품·기술 지식 — 도어·중문·키친·창호·필름·마루",
+  "base_url": "https://story.yerim.net",
+  "_base_url_note": "배포 도메인 미정. 확정되면 여기만 바꾸고 다시 빌드한다. canonical·sitemap·JSON-LD 전부 이 값을 쓴다.",
+  "language": "ko",
+  "organization": {
+    "name": "예림",
+    "legal_name": "㈜예림임업",
+    "alternate_name": "YERIM",
+    "url": "https://www.yerim.net",
+    "logo": "https://www.yerim.net/kor/img/common/logo.png",
+    "_logo_note": "실제 로고 URL로 교체 필요",
+    "founding_date": "2005",
+    "address": {
+      "street": "논현고잔로135번길 29",
+      "locality": "남동구",
+      "region": "인천광역시",
+      "country": "KR"
+    },
+    "same_as": [
+      "https://www.yerim.net",
+      "https://yerimcorp.co.kr",
+      "https://blog.naver.com/yerimdoor",
+      "https://www.instagram.com/official_yerim"
+    ],
+    "sub_organizations": ["예림임업", "예림키친", "예림화학"],
+    "contact_url": "https://www.yerim.net/kor/cs/cs__faq.html"
+  },
+  "categories": [
+    {"slug": "door",     "name": "도어",        "en": "Door"},
+    {"slug": "innergate","name": "중문",        "en": "Front Door"},
+    {"slug": "kitchen",  "name": "키친",        "en": "Kitchen"},
+    {"slug": "window",   "name": "창호",        "en": "Window"},
+    {"slug": "film",     "name": "인테리어 필름", "en": "Interior Film"},
+    {"slug": "wall",     "name": "몰딩·월·마루",  "en": "Wall Panel & Flooring"}
+  ],
+  "crawlers_allow": ["Googlebot", "Bingbot", "Yeti", "OAI-SearchBot", "ChatGPT-User", "PerplexityBot", "Perplexity-User", "ClaudeBot", "Claude-SearchBot", "Applebot", "DuckDuckBot"],
+  "crawlers_training": ["GPTBot", "Google-Extended", "CCBot", "Applebot-Extended", "meta-externalagent", "Bytespider"],
+  "training_policy": "allow",
+  "_training_policy_note": "allow = AI 학습용 크롤러도 허용(브랜드 인지 확대). disallow = 검색·인용용만 허용. 회사 정책으로 결정 후 변경."
+}
