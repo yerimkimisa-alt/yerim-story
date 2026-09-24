@@ -137,7 +137,11 @@ MD = markdown.Markdown(extensions=["tables", "fenced_code", "sane_lists", "attr_
 
 def md(text):
     MD.reset()
-    return MD.convert(text or "")
+    out = MD.convert(text or "")
+    # 본문(마크다운·figure) 안의 사이트 절대경로(/img/…, /guide/…)에도 base_url 경로 접두를 붙인다
+    if PREFIX:
+        out = re.sub(r'(src|href)="/(?!/)', lambda m: f'{m.group(1)}="{PREFIX}/', out)
+    return out
 
 
 def abs_url(u):
