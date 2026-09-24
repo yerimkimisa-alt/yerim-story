@@ -79,13 +79,18 @@ site/
 .\.venv\Scripts\python.exe site\tools\deploy.py "content: 현관중문 가이드"   # add → commit → push → Actions 배포
 ```
 
-최초 1회 설정 (완료 여부는 아래 체크):
-- [ ] GitHub 저장소 `yerim-story` 생성, `site/` 의 origin 으로 연결
-- [ ] 저장소 Settings → Pages → Source: **GitHub Actions**
-- [ ] Settings → Pages → Custom domain: `story.yerim.net` (빌드가 `dist/CNAME` 도 넣는다)
-- [ ] **DNS**: `yerim.net` 관리 콘솔에서 `story` CNAME → `<GitHub계정>.github.io` 추가 (TTL 짧게). 전파 후 Pages 에서 "Enforce HTTPS" 켜기
-- [ ] 첫 배포 확인 → Google Search Console · Bing Webmaster Tools 등록, `https://story.yerim.net/sitemap.xml` 제출
+저장소: **https://github.com/yerimkimisa-alt/yerim-story** (공개) · Actions: https://github.com/yerimkimisa-alt/yerim-story/actions
+
+최초 1회 설정 (2026-09-24 진행 상황):
+- [x] GitHub 저장소 `yerimkimisa-alt/yerim-story` 생성, `site/` 의 origin 으로 연결
+- [x] Pages Source: **GitHub Actions** (API 로 설정)
+- [x] Custom domain: `story.yerim.net` (Pages 설정 + 빌드가 `dist/CNAME` 도 넣는다)
+- [x] 첫 배포 성공 (run 36007490886)
+- [ ] **DNS** — `yerim.net` DNS 관리 콘솔에 추가: `story  CNAME  yerimkimisa-alt.github.io.` (TTL 300~3600). 전파 후 GitHub 가 인증서를 발급하면 Settings → Pages → "Enforce HTTPS" 켜기
+- [ ] DNS 전파 후 https://story.yerim.net 확인 → Google Search Console · Bing Webmaster Tools 등록, `https://story.yerim.net/sitemap.xml` 제출
 - [ ] 이후 IndexNow 연동 (추후 `build.py --indexnow`)
+
+> DNS 가 붙기 전까지 `yerimkimisa-alt.github.io/yerim-story/` 는 커스텀 도메인으로 리다이렉트되므로 브라우저에서 열리지 않는다. 정상이다.
 
 ## 결정이 필요한 것
 
