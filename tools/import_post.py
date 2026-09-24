@@ -71,7 +71,8 @@ def main():
     desc = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", first).replace("\n", " ").strip()
     desc = (desc[:160].rsplit(" ", 1)[0] + "…") if len(desc) > 160 else desc
     tags = [t.strip() for t in fm.get("tags", "").strip("[]").split(",") if t.strip()]
-    cat = PG_MAP.get(fm.get("product_group", ""), "") or CAT_MAP.get(fm.get("category", ""), "")
+    # 네이버 카테고리(편성용)와 사이트 제품군(정보 구조용)은 다를 수 있다 — site_category 가 있으면 그것이 우선
+    cat = fm.get("site_category", "").strip() or PG_MAP.get(fm.get("product_group", ""), "") or CAT_MAP.get(fm.get("category", ""), "")
     date = os.path.basename(os.path.dirname(a.post))[:8]
     date = f"{date[:4]}-{date[4:6]}-{date[6:8]}" if re.match(r"\d{8}", date) else ""
     out = f"""---
