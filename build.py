@@ -38,6 +38,24 @@ CUSTOM_DOMAIN = not _up(BASE).hostname.endswith("github.io")
 def href(u: str) -> str:
     """사이트 내부 경로에 base_url 의 경로 접두를 붙인다."""
     return u if u.startswith("http") else PREFIX + u
+
+
+_VER = {}
+
+
+def asset_ver(path: str) -> str:
+    """static/ 파일 내용 해시 8자리. GitHub Pages 는 max-age=600 캐시를 붙이므로,
+    이미지·CSS 가 바뀌면 주소(?v=)도 바뀌게 해서 휴대폰·CDN 이 옛 파일을 계속 쓰지 않게 한다."""
+    if path not in _VER:
+        import hashlib
+        fs = os.path.join(STATIC, path.lstrip("/").split("?")[0])
+        _VER[path] = hashlib.md5(open(fs, "rb").read()).hexdigest()[:8] if os.path.isfile(fs) else ""
+    return _VER[path]
+
+
+def static_url(path: str) -> str:
+    v = asset_ver(path)
+    return href(path) + (f"?v={v}" if v else "")
 ORG = CFG["organization"]
 CATS = {c["slug"]: c for c in CFG["categories"]}
 TYPE_LABEL = {"guide": "가이드", "product": "제품", "group": "제품군", "category": "제품 분류", "news": "소식", "page": "", "home": "", "section": ""}
@@ -138,6 +156,8 @@ MD = markdown.Markdown(extensions=["tables", "fenced_code", "sane_lists", "attr_
 def md(text):
     MD.reset()
     out = MD.convert(text or "")
+    # 본문 이미지: 내용 해시 버전을 붙인다 (사진을 바꾸면 주소가 바뀌어 캐시된 옛 사진이 안 뜬다)
+    out = re.sub(r'src="(/img/[^"?]+)"', lambda m: f'src="{m.group(1)}?v={asset_ver(m.group(1))}"' if asset_ver(m.group(1)) else m.group(0), out)
     # 본문(마크다운·figure) 안의 사이트 절대경로(/img/…, /guide/…)에도 base_url 경로 접두를 붙인다
     if PREFIX:
         out = re.sub(r'(src|href)="/(?!/)', lambda m: f'{m.group(1)}="{PREFIX}/', out)
@@ -238,7 +258,7 @@ def base(p, body, by_url, extra_ld=()):
 <meta property="og:site_name" content="{E(CFG['site_name'])}">
 {og_img}
 <link rel="alternate" type="application/rss+xml" title="{E(CFG['site_name'])}" href="{href('/feed.xml')}">
-<link rel="stylesheet" href="{href('/style.css')}">
+<link rel="stylesheet" href="{static_url('/style.css')}">
 {ld}
 </head>
 <body>
