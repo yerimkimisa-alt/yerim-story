@@ -6,6 +6,7 @@
   - frontmatter: title·description(첫 문단 요약)·category(제품군 슬러그)·keywords(태그)·date·slug·source
   - `## 본문` 섹션만 가져온다. 시리즈 라벨(YERIM PRODUCT 등) 첫 줄은 뺀다
   - `[이미지 N]` + `캡션:` → site/static/img/<slug>/N.(jpg|png|webp) 가 있으면 <figure>, 없으면 제거(경고 출력)
+  - post.md 에 `cover: N` 이 있으면 N 번 사진이 대표 이미지(목록 썸네일·og:image). 없으면 본문 첫 사진
   - `## 마무리 블록` 은 네이버용(댓글·이웃추가)이라 제외. 사이트는 템플릿 CTA 를 쓴다
   - 외부 링크의 utm_source=naverblog → utm_source=story (사이트 자체 추적)
   - 본문 안 blog.naver.com 내부 링크는 그대로 둔다 (외부 참조)
@@ -45,9 +46,9 @@ def section(body, name, end_names):
 
 
 def make_thumb(md_text, slug):
-    """본문 첫 사진으로 목록용 썸네일(4:3, 480x360)을 static/img/<slug>/thumb.jpg 에 만든다.
+    """본문 첫 사진(frontmatter image 가 있으면 그것)으로 목록용 썸네일(4:3, 480x360)을 static/img/<slug>/thumb.jpg 에 만든다.
     build.py 는 이 파일이 있으면 목록에 쓰고, 없으면 원본을 쓴다 (Actions 빌드엔 PIL 이 없으므로 여기서 만들어 commit)."""
-    m = re.search(r'<img src="(/img/[^"?]+)"', md_text)
+    m = re.search(r"^image:\s*(/img/\S+)\s*$", md_text, re.M) or re.search(r'<img src="(/img/[^"?]+)"', md_text)
     if not m: return
     src = os.path.join(SITE, "static", m.group(1).lstrip("/"))
     dst = os.path.join(SITE, "static", "img", slug, "thumb.jpg")
@@ -75,11 +76,13 @@ def main():
     # 이미지 자리 → figure 또는 제거
     img_dir = os.path.join(SITE, "static", "img", slug)
     missing = []
+    placed = {}   # 자리 번호 → (경로, 캡션) — cover 지정용
 
     def img(m):
         n, cap = m.group(1), m.group(2).strip()
         for ext in ("jpg", "jpeg", "png", "webp"):
             if os.path.exists(os.path.join(img_dir, f"{n}.{ext}")):
+                placed[n] = (f"/img/{slug}/{n}.{ext}", cap)
                 return f'<figure><img src="/img/{slug}/{n}.{ext}" alt="{cap}" loading="lazy"><figcaption>{cap}</figcaption></figure>\n'
         missing.append(f"{n}: {cap}")
         return ""
@@ -101,6 +104,15 @@ def main():
     if os.path.exists(dst):
         m = re.search(r"^published_at:\s*(\S+)", io.open(dst, encoding="utf-8").read(), re.M)
         if m: published_at = m.group(1)
+    # 대표 이미지 — post.md 에 `cover: N` 이 있으면 본문 첫 사진 대신 N 번 사진을 목록 썸네일·og:image 로 쓴다
+    # (예: 첫 사진이 교체 전 BEFORE 컷이라 표지로 쓰면 안 될 때). 없으면 build.py 가 본문 첫 사진을 쓴다.
+    cover_fm = ""
+    cv = fm.get("cover", "").strip()
+    if cv:
+        if cv in placed:
+            cover_fm = f"image: {placed[cv][0]}\nimage_alt: {placed[cv][1]}\n"
+        else:
+            print(f"cover: {cv} 번 사진이 본문에 없어 무시합니다 — 본문 첫 사진이 대표 이미지가 됩니다")
     out = f"""---
 type: guide
 title: {fm.get('title', slug)}
@@ -112,7 +124,7 @@ updated: {date}
 published_at: {published_at}
 source: {a.post.replace(os.sep, '/')}
 main_keyword: {fm.get('main_keyword', '')}
----
+{cover_fm}---
 
 {main_md}
 """
