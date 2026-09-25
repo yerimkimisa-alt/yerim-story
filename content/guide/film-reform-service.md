@@ -6,6 +6,7 @@ category: kitchen
 keywords: [싱크대필름리폼, 싱크대리폼, 싱크대시트지, 싱크대교체, 주방리폼, 주방리모델링, 인테리어필름, 매트밀크화이트, 예림인테리어필름, 예림리폼서비스]
 date: 2026-09-25
 updated: 2026-09-25
+published_at: 2026-09-25T08:22
 source: yerim-blog/posts/20260925_film-reform-service/post.md
 main_keyword: 싱크대 필름 리폼
 ---

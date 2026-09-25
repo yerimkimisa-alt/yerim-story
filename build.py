@@ -289,6 +289,11 @@ def card(p):
     return f'<div class="card"><span class="k">{E(k)}{" · " + E(p["model"]) if p.get("model") else ""}</span><a href="{href(p["url"])}">{E(p["title"])}</a><p>{E(p["description"][:90])}</p></div>'
 
 
+def newest(q):
+    """목록 정렬 키 — 수정일, 같은 날이면 게시 시각(published_at, import_post.py 가 기록)."""
+    return (q["updated"], str(q.get("published_at") or ""))
+
+
 def gallery_card(c, p):
     """메인 제품군 갤러리 카드 — 대표 이미지 + 제품군 이름 + 한 줄 설명. 분류 라벨은 넣지 않는다."""
     img = f'<img src="{static_url(c["cover"])}" alt="{E(c.get("cover_alt") or c["name"])}" loading="lazy" width="900" height="675">' if c.get("cover") else '<span class="ph"></span>'
@@ -354,7 +359,7 @@ def render(p, pages, by_url):
     lds = []
     if t == "home":
         cats = "".join(gallery_card(c, by_url.get(f"/{c['slug']}/")) for c in CFG["categories"])
-        guides = sorted([q for q in pages if q["type"] == "guide" and not q["draft"]], key=lambda q: q["updated"], reverse=True)[:8]
+        guides = sorted([q for q in pages if q["type"] == "guide" and not q["draft"]], key=newest, reverse=True)[:8]
         prods = [q for q in pages if q["type"] == "product" and not q["draft"]][:6]
         inner = f'<h1>{E(p["title"])}</h1>{lead}{body}<h2>제품군</h2><div class="gallery">{cats}</div>'
         if guides: inner += f'<h2>최근 가이드</h2>{list_items(guides)}'
@@ -365,7 +370,7 @@ def render(p, pages, by_url):
         kids = [q for q in pages if q["url"] != pre and q["url"].startswith(pre) and not q["draft"]]
         groups = [q for q in kids if q["type"] == "group"]
         prods = [q for q in kids if q["type"] == "product"]
-        guides = sorted([q for q in pages if q["type"] in ("guide", "news") and not q["draft"] and (q["url"].startswith(pre) or (t == "category" and q["category"] == p["category"]))], key=lambda q: q["updated"], reverse=True)
+        guides = sorted([q for q in pages if q["type"] in ("guide", "news") and not q["draft"] and (q["url"].startswith(pre) or (t == "category" and q["category"] == p["category"]))], key=newest, reverse=True)
         hero = ""
         cat = CATS.get(p["category"]) if t == "category" else None
         if cat and cat.get("cover"):

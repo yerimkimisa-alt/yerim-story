@@ -6,6 +6,7 @@ category: innergate
 keywords: [현관중문, 부천중문, 30평아파트, 좁은현관, 화이트우드인테리어, 3연동중문, 슬라이딩중문, 예림중문, 자기부상자동문, 리안슬라이딩]
 date: 2026-09-24
 updated: 2026-09-24
+published_at: 2026-09-24T22:35
 source: yerim-blog/posts/20260924_innergate-3lock-vs-sliding/post.md
 main_keyword: 현관중문
 ---

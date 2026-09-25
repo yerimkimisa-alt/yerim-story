@@ -16,6 +16,7 @@ import os
 import re
 import subprocess
 import sys
+from datetime import datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.dirname(HERE)
@@ -94,6 +95,12 @@ def main():
     cat = fm.get("site_category", "").strip() or PG_MAP.get(fm.get("product_group", ""), "") or CAT_MAP.get(fm.get("category", ""), "")
     date = os.path.basename(os.path.dirname(a.post))[:8]
     date = f"{date[:4]}-{date[4:6]}-{date[6:8]}" if re.match(r"\d{8}", date) else ""
+    # 게시 시각 — 같은 날 올린 글끼리 목록 순서를 정한다. 재수입해도 처음 값을 유지한다.
+    dst = os.path.join(SITE, "content", "guide", f"{slug}.md")
+    published_at = datetime.now().strftime("%Y-%m-%dT%H:%M")
+    if os.path.exists(dst):
+        m = re.search(r"^published_at:\s*(\S+)", io.open(dst, encoding="utf-8").read(), re.M)
+        if m: published_at = m.group(1)
     out = f"""---
 type: guide
 title: {fm.get('title', slug)}
@@ -102,13 +109,13 @@ category: {cat}
 keywords: [{', '.join(tags)}]
 date: {date}
 updated: {date}
+published_at: {published_at}
 source: {a.post.replace(os.sep, '/')}
 main_keyword: {fm.get('main_keyword', '')}
 ---
 
 {main_md}
 """
-    dst = os.path.join(SITE, "content", "guide", f"{slug}.md")
     if os.path.exists(dst) and not a.force:
         # 기존 파일의 updated 만 오늘로 갱신하며 덮어쓴다 (본문 재수입)
         pass

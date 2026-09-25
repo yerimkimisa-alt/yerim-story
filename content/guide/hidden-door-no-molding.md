@@ -6,6 +6,7 @@ category: door
 keywords: [히든도어, 서초인테리어, 34평아파트, 무몰딩인테리어, 원톤인테리어, 스텝도어, 아웃코너라운드몰딩, 예림히든도어, 무문선, 마이너스몰딩]
 date: 2026-09-24
 updated: 2026-09-24
+published_at: 2026-09-24T23:30
 source: yerim-blog/posts/20260924_hidden-door-no-molding/post.md
 main_keyword: 히든도어
 ---
