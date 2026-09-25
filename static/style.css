@@ -39,6 +39,7 @@ th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);verti
 th{font-weight:600;background:var(--soft);font-size:13px}
 figure{margin:18px 0}
 figure img{max-width:100%;height:auto;display:block;border:1px solid var(--line)}
+figure.hero img{width:100%;aspect-ratio:4/3;object-fit:cover}
 figcaption{font-size:13px;color:var(--muted);margin-top:6px}
 blockquote{margin:14px 0;padding:10px 16px;border-left:3px solid var(--accent);background:var(--soft);color:var(--ink2)}
 ul,ol{padding-left:22px}

@@ -356,7 +356,14 @@ def render(p, pages, by_url):
         groups = [q for q in kids if q["type"] == "group"]
         prods = [q for q in kids if q["type"] == "product"]
         guides = sorted([q for q in pages if q["type"] in ("guide", "news") and not q["draft"] and (q["url"].startswith(pre) or (t == "category" and q["category"] == p["category"]))], key=lambda q: q["updated"], reverse=True)
-        inner = f'<h1>{E(p["title"])}</h1>{lead}{body}'
+        hero = ""
+        cat = CATS.get(p["category"]) if t == "category" else None
+        if cat and cat.get("cover"):
+            # 메인 갤러리와 같은 대표 이미지를 제품군 페이지 본문 첫머리에 — og:image 로도 쓴다
+            alt = cat.get("cover_alt") or cat["name"]
+            hero = f'<figure class="hero"><img src="{static_url(cat["cover"])}" alt="{E(alt)}" width="900" height="675"><figcaption>{E(alt)}</figcaption></figure>'
+            p.setdefault("image", cat["cover"])
+        inner = f'<h1>{E(p["title"])}</h1>{lead}{hero}{body}'
         if groups: inner += '<h2>제품군</h2><div class="grid">' + "".join(card(q) for q in groups) + "</div>"
         if prods: inner += '<h2>제품</h2><div class="grid">' + "".join(card(q) for q in prods) + "</div>"
         if guides: inner += '<h2>가이드</h2>' + list_items(guides)
