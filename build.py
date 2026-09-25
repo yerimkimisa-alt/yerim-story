@@ -303,7 +303,7 @@ def list_items(ps):
         src = t if os.path.isfile(os.path.join(STATIC, t.lstrip("/"))) else p["image"]
         return f'<a class="th" href="{href(p["url"])}" tabindex="-1" aria-hidden="true"><img src="{static_url(src)}" alt="{E(p.get("image_alt") or p["title"])}" loading="lazy" width="160" height="120"></a>'
     return '<ul class="list">' + "".join(
-        f'<li{" class=\"has-th\"" if thumb(p) else ""}>{thumb(p)}<div><span class="k">{E(fmt_date(p["updated"]))}</span><a href="{href(p["url"])}">{E(p["title"])}</a><span class="d">{E(p["description"])}</span></div></li>' for p in ps) + "</ul>"
+        f'<li{" class=\"has-th\"" if thumb(p) else ""}>{thumb(p)}<div><a href="{href(p["url"])}">{E(p["title"])}</a><span class="d">{E(p["description"])}</span></div></li>' for p in ps) + "</ul>"
 
 
 def faq_html(faq):
