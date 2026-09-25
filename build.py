@@ -284,6 +284,13 @@ def card(p):
     return f'<div class="card"><span class="k">{E(k)}{" · " + E(p["model"]) if p.get("model") else ""}</span><a href="{href(p["url"])}">{E(p["title"])}</a><p>{E(p["description"][:90])}</p></div>'
 
 
+def gallery_card(c, p):
+    """메인 제품군 갤러리 카드 — 대표 이미지 + 제품군 이름 + 한 줄 설명. 분류 라벨은 넣지 않는다."""
+    img = f'<img src="{static_url(c["cover"])}" alt="{E(c.get("cover_alt") or c["name"])}" loading="lazy" width="900" height="675">' if c.get("cover") else '<span class="ph"></span>'
+    desc = f'<p>{E(p["description"])}</p>' if p and p.get("description") else ""
+    return f'<a class="gcard" href="{href("/" + c["slug"] + "/")}">{img}<span class="gt">{E(c["name"])}</span>{desc}</a>'
+
+
 def list_items(ps):
     return '<ul class="list">' + "".join(
         f'<li><span class="k">{E(fmt_date(p["updated"]))}</span><a href="{href(p["url"])}">{E(p["title"])}</a><span class="d">{E(p["description"])}</span></li>' for p in ps) + "</ul>"
@@ -336,10 +343,10 @@ def render(p, pages, by_url):
     body = md(p["body_md"])
     lds = []
     if t == "home":
-        cats = "".join(card(by_url[f"/{c['slug']}/"]) if f"/{c['slug']}/" in by_url else f'<div class="card"><a href="{href("/" + c["slug"] + "/")}">{E(c["name"])}</a></div>' for c in CFG["categories"])
+        cats = "".join(gallery_card(c, by_url.get(f"/{c['slug']}/")) for c in CFG["categories"])
         guides = sorted([q for q in pages if q["type"] == "guide" and not q["draft"]], key=lambda q: q["updated"], reverse=True)[:8]
         prods = [q for q in pages if q["type"] == "product" and not q["draft"]][:6]
-        inner = f'<h1>{E(p["title"])}</h1>{lead}{body}<h2>제품군</h2><div class="grid">{cats}</div>'
+        inner = f'<h1>{E(p["title"])}</h1>{lead}{body}<h2>제품군</h2><div class="gallery">{cats}</div>'
         if guides: inner += f'<h2>최근 가이드</h2>{list_items(guides)}'
         if prods: inner += f'<h2>제품</h2><div class="grid">{"".join(card(q) for q in prods)}</div>'
         return base(p, inner, by_url)

@@ -49,6 +49,12 @@ hr{border:0;border-top:1px solid var(--line);margin:28px 0}
 .card a{font-weight:600;text-decoration:none;color:var(--ink)}
 .card a:hover{text-decoration:underline}
 .card p{margin:4px 0 0;font-size:13.5px;color:var(--ink2)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;margin:14px 0 8px}
+.gcard{display:block;border:1px solid var(--line);border-radius:3px;overflow:hidden;text-decoration:none;color:var(--ink)}
+.gcard img,.gcard .ph{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;background:var(--line)}
+.gcard .gt{display:block;padding:10px 12px 0;font-weight:600}
+.gcard p{margin:4px 12px 12px;font-size:13px;color:var(--ink2);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.gcard:hover .gt{text-decoration:underline}
 .card .k{font-family:var(--mono);font-size:11.5px;color:var(--muted);display:block;margin-bottom:4px;letter-spacing:.04em}
 .list{list-style:none;padding:0;margin:8px 0 0}
 .list li{padding:10px 0;border-bottom:1px solid var(--line);margin:0}

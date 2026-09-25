@@ -30,12 +30,12 @@
     "contact_url": "https://www.yerim.net/kor/cs/cs__faq.html"
   },
   "categories": [
-    {"slug": "door",     "name": "도어",        "en": "Door"},
-    {"slug": "innergate","name": "중문",        "en": "Front Door"},
-    {"slug": "kitchen",  "name": "키친",        "en": "Kitchen"},
-    {"slug": "window",   "name": "창호",        "en": "Window"},
-    {"slug": "film",     "name": "인테리어 필름", "en": "Interior Film"},
-    {"slug": "wall",     "name": "몰딩·월·마루",  "en": "Wall Panel & Flooring"}
+    {"slug": "door",     "name": "도어",        "en": "Door", "cover": "/img/cat/door.jpg", "cover_alt": "그란데 도어 — 천장까지 일체화한 특대형 스텝도어"},
+    {"slug": "innergate","name": "중문",        "en": "Front Door", "cover": "/img/cat/innergate.jpg", "cover_alt": "슈퍼 슬림 3연동 자기부상 자동문 YSS-100 — 2026 예림 룩북"},
+    {"slug": "kitchen",  "name": "키친",        "en": "Kitchen", "cover": "/img/cat/kitchen.jpg", "cover_alt": "예림보드 럭스 MR 매트 다크그레이 SM-07 주방 · 서초 30평대"},
+    {"slug": "window",   "name": "창호",        "en": "Window", "cover": "/img/cat/window.jpg", "cover_alt": "하임 필름 CL01 퓨어화이트 창호 · 창틀과 벽이 만나는 창가"},
+    {"slug": "film",     "name": "인테리어 필름", "en": "Interior Film", "cover": "/img/cat/film.jpg", "cover_alt": "하임 인테리어 필름 HP530 쁘레 회벽스노우 · HPW24 던오크로 리폼한 주방"},
+    {"slug": "wall",     "name": "몰딩·월·마루",  "en": "Wall Panel & Flooring", "cover": "/img/cat/wall.jpg", "cover_alt": "아웃코너 라운드 몰딩 — 모서리와 옆 벽·문이 같은 톤으로 이어지는 코너"}
   ],
   "crawlers_allow": ["Googlebot", "Bingbot", "Yeti", "OAI-SearchBot", "ChatGPT-User", "PerplexityBot", "Perplexity-User", "ClaudeBot", "Claude-SearchBot", "Applebot", "DuckDuckBot"],
   "crawlers_training": ["GPTBot", "Google-Extended", "CCBot", "Applebot-Extended", "meta-externalagent", "Bytespider"],
