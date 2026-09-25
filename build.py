@@ -134,6 +134,11 @@ def load_pages():
                      date=str(fm.get("date") or mtime), updated=str(fm.get("updated") or fm.get("date") or mtime))
             segs = [s for s in url.split("/") if s]
             p["category"] = fm.get("category") or (segs[0] if segs and segs[0] in CATS else "")
+            # 대표 이미지: frontmatter image 가 없으면 본문 첫 사진 — 목록 썸네일·og:image·JSON-LD 에 쓴다
+            if not p.get("image"):
+                m = re.search(r'<img src="(/img/[^"?]+)"(?:[^>]*?alt="([^"]*)")?', body)
+                if m and os.path.isfile(os.path.join(STATIC, m.group(1).lstrip("/"))):
+                    p["image"], p["image_alt"] = m.group(1), m.group(2) or ""
             pages.append(p)
     return pages
 
@@ -292,8 +297,13 @@ def gallery_card(c, p):
 
 
 def list_items(ps):
+    def thumb(p):
+        if not p.get("image") or p["type"] not in ("guide", "news"): return ""
+        t = os.path.dirname(p["image"]) + "/thumb.jpg"   # import_post.py 가 만든 목록용 썸네일, 없으면 원본
+        src = t if os.path.isfile(os.path.join(STATIC, t.lstrip("/"))) else p["image"]
+        return f'<a class="th" href="{href(p["url"])}" tabindex="-1" aria-hidden="true"><img src="{static_url(src)}" alt="{E(p.get("image_alt") or p["title"])}" loading="lazy" width="160" height="120"></a>'
     return '<ul class="list">' + "".join(
-        f'<li><span class="k">{E(fmt_date(p["updated"]))}</span><a href="{href(p["url"])}">{E(p["title"])}</a><span class="d">{E(p["description"])}</span></li>' for p in ps) + "</ul>"
+        f'<li{" class=\"has-th\"" if thumb(p) else ""}>{thumb(p)}<div><span class="k">{E(fmt_date(p["updated"]))}</span><a href="{href(p["url"])}">{E(p["title"])}</a><span class="d">{E(p["description"])}</span></div></li>' for p in ps) + "</ul>"
 
 
 def faq_html(faq):

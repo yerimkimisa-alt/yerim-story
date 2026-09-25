@@ -43,6 +43,25 @@ def section(body, name, end_names):
     return m.group(1).strip() if m else ""
 
 
+def make_thumb(md_text, slug):
+    """본문 첫 사진으로 목록용 썸네일(4:3, 480x360)을 static/img/<slug>/thumb.jpg 에 만든다.
+    build.py 는 이 파일이 있으면 목록에 쓰고, 없으면 원본을 쓴다 (Actions 빌드엔 PIL 이 없으므로 여기서 만들어 commit)."""
+    m = re.search(r'<img src="(/img/[^"?]+)"', md_text)
+    if not m: return
+    src = os.path.join(SITE, "static", m.group(1).lstrip("/"))
+    dst = os.path.join(SITE, "static", "img", slug, "thumb.jpg")
+    try:
+        from PIL import Image
+    except ImportError:
+        print("썸네일 건너뜀 — PIL 없음"); return
+    im = Image.open(src).convert("RGB")
+    w, h = im.size
+    tw, th = (w, int(w * 3 / 4)) if w * 3 / 4 <= h else (int(h * 4 / 3), h)
+    l, t = (w - tw) // 2, (h - th) // 2
+    im.crop((l, t, l + tw, t + th)).resize((480, 360), Image.LANCZOS).save(dst, quality=82, optimize=True)
+    print("thumb ->", os.path.relpath(dst, ROOT))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("post"); ap.add_argument("--build", action="store_true"); ap.add_argument("--force", action="store_true")
@@ -100,6 +119,7 @@ main_keyword: {fm.get('main_keyword', '')}
     except Exception:
         pass
     print("imported ->", os.path.relpath(dst, ROOT), f"| category={cat or '(없음)'} | tags={len(tags)} | {len(main_md)}자")
+    make_thumb(out, slug)
     if missing:
         print(f"이미지 {len(missing)}장 없음 — site/static/img/{slug}/N.jpg 로 넣고 다시 실행하면 <figure> 로 들어간다:")
         for m in missing: print("   ", m)
