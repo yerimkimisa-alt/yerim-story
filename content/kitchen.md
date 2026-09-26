@@ -1,7 +1,7 @@
 ---
 type: category
 title: 예림 키친 — 예림보드 럭스 MR 주방 도어재·컬러 안내
-description: 예림 키친 자재 안내. 내수보드(MR) 기반 예림보드 럭스ᴹᴿ의 도어재 라인(Prestige Glass·PET·Acryl, Supreme, Deco, Prime)과 세라믹 문, 매트·우드·아크·새틴 컬러. 습기·스크래치·지문에 강한 소재를 주방 환경별로 고르는 기준.
+description: 예림 키친 자재 안내. 내수보드(MR) 기반 예림보드 럭스ᴹᴿ의 도어재 라인(Prestige Glass·PET·Acryl, Supreme, Deco, Prime)과 세라믹 문, 매트·우드·아크 컬러. 습기·스크래치·지문에 강한 소재를 주방 환경별로 고르는 기준.
 category: kitchen
 faq:
   - q: 예림보드 럭스 MR의 MR은 무슨 뜻인가요?
