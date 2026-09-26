@@ -15,7 +15,8 @@ a{color:var(--link);text-decoration:underline;text-underline-offset:2px}
 a:hover{text-decoration-thickness:2px}
 code,kbd,.mono{font-family:var(--mono);font-size:.92em}
 .wrap{max-width:74ch;margin:0 auto;padding:0 20px}
-header.site{border-bottom:1px solid var(--line)}
+header.site{border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20;background:var(--bg)}  /* 상단 고정 */
+:target,h2[id],h3[id]{scroll-margin-top:90px}  /* #faq 같은 앵커가 고정 메뉴 밑에 가려지지 않게 */
 header.site .wrap{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 20px;padding:16px 20px}
 header.site .brand{font-weight:700;font-size:17px;color:var(--ink);text-decoration:none;letter-spacing:-.01em}
 header.site .brand small{font-family:var(--mono);font-weight:400;color:var(--muted);margin-left:8px;font-size:12px;letter-spacing:.06em}
@@ -89,3 +90,4 @@ footer.site .ent{font-family:var(--mono);font-size:12px}
 .tags{font-family:var(--mono);font-size:12px;color:var(--muted);margin:20px 0 0}
 .tags span{margin-right:10px}
 @media print{header.site nav,footer.site,.cta{display:none}}
+@media (max-width:560px){header.site .wrap{padding:10px 16px;gap:4px 16px}header.site nav{font-size:13px;gap:0 14px;flex-wrap:nowrap;overflow-x:auto;white-space:nowrap;width:100%;scrollbar-width:none}header.site nav::-webkit-scrollbar{display:none}}  /* 폰에서는 메뉴를 한 줄 가로 스크롤로 — 고정 메뉴가 화면을 덜 차지하게 */
