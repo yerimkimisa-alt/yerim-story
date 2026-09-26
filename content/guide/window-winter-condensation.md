@@ -41,7 +41,7 @@ main_keyword: 창문 결로
 
 **확인 5**는 유리 구성과 효율등급입니다. 제품 정보나 안내 자료를 받으면 유리 두께, 유리 구성, 효율등급 세 가지를 확인해 보세요. 유리 구성은 일반·로이 유리의 조합과 가운데를 공기층으로 채웠는지 아르곤으로 채웠는지를 말해요. 효율등급은 1등급에 가까울수록 단열 성능이 높다고 읽으시면 됩니다.
 
-<figure><img src="/img/window-winter-condensation/6.jpg" alt="발코니 이중창과 터닝도어 · 조희선 디자이너 40평 아파트" loading="lazy"><figcaption>발코니 이중창과 터닝도어 · 조희선 디자이너 40평 아파트</figcaption></figure>
+<figure><img src="/img/window-winter-condensation/6.jpg" alt="조희선 디자이너 40평 아파트 다이닝 · 시어 커튼을 친 창가와 열린 패널 뒤 출입문" loading="lazy"><figcaption>조희선 디자이너 40평 아파트 다이닝 · 시어 커튼을 친 창가와 열린 패널 뒤 출입문</figcaption></figure>
 
 | 제품 | 모델 | 구분 | 유리 구성 | 효율등급 (홈페이지 성능표 기준) |
 |---|---|---|---|---|
