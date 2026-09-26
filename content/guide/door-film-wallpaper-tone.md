@@ -33,7 +33,7 @@ main_keyword: 방문 필름
 
 매끈한 필름과 결이 있는 벽지는 같은 색이어도 빛이 다르게 맺혀, 회벽·페인트 벽지에는 결이 있는 필름이 자연스럽습니다. HP 쁘레(HP530·HP540)는 페인트·회벽의 매트한 텍스처를 살린 시트로 벽지와 일체감이 높습니다. [2026년 협업 필름 HP601~604](https://blog.naver.com/yerimdoor/224327141714)는 개나리벽지의 인기 회벽 벽지에 톤을 맞춰 만든 필름입니다. [HP540 쁘레 회벽크렘](https://blog.naver.com/yerimdoor/224299846365)이 멀리서는 깔끔한 화이트, 가까이서는 페인트 결로 보이듯 질감은 떨어져서도 가까이서도 봐야 합니다.
 
-<figure><img src="/img/door-film-wallpaper-tone/4.jpg" alt="하임 HP540 쁘레 회벽크렘 — 페인트 질감" loading="lazy"><figcaption>하임 HP540 쁘레 회벽크렘 — 페인트 질감</figcaption></figure>
+<figure><img src="/img/door-film-wallpaper-tone/4.jpg" alt="하임 HP540 쁘레 회벽크렘 — 필름 표면 스와치" loading="lazy"><figcaption>하임 HP540 쁘레 회벽크렘 — 필름 표면 스와치</figcaption></figure>
 
 ## 하임 × 개나리벽지 조합표, 벽지 품번으로 찾기
 
