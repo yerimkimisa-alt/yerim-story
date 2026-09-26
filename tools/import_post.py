@@ -70,9 +70,13 @@ def main():
     a = ap.parse_args()
     fm, body = parse_front(io.open(a.post, encoding="utf-8").read())
     slug = fm.get("slug") or os.path.basename(os.path.dirname(a.post)).split("_", 1)[-1]
-    main_md = section(body, "본문", ["마무리 블록", "이미지 브리프"])
+    main_md = section(body, "본문", ["마무리 블록", "사이트 보강", "이미지 브리프"])
     # 시리즈 라벨 제거
     main_md = re.sub(r"^\s*YERIM [A-Z ]+\s*\n", "", main_md, count=1)
+    # 사이트 보강 — 네이버판 2,500자 상한 때문에 덜어 낸 표·FAQ·사양. 사이트에는 글자 수 상한이 없으므로 본문 뒤에 붙인다 (2026-09-26 결정)
+    extra = section(body, "사이트 보강", ["마무리 블록", "이미지 브리프"])
+    if extra:
+        main_md += "\n\n" + extra
     # 이미지 자리 → figure 또는 제거
     img_dir = os.path.join(SITE, "static", "img", slug)
     missing = []
