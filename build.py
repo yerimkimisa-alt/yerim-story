@@ -166,7 +166,7 @@ def md(text):
     # 본문(마크다운·figure) 안의 사이트 절대경로(/img/…, /guide/…)에도 base_url 경로 접두를 붙인다
     if PREFIX:
         out = re.sub(r'(src|href)="/(?!/)', lambda m: f'{m.group(1)}="{PREFIX}/', out)
-    return out
+    return newtab(out)   # 글 본문 안의 링크만 새 창 — 메뉴·목록·카드·푸터는 같은 창 (2026-09-27)
 
 
 def abs_url(u):
@@ -280,7 +280,7 @@ def base(p, body, by_url, extra_ld=()):
   <nav aria-label="제품군">{nav}</nav>
 </div></header>
 <main><div class="wrap">
-{crumbs_html}<!--newtab-->
+{crumbs_html}
 {body}
 </div></main>
 <footer class="site"><div class="wrap">
@@ -290,9 +290,7 @@ def base(p, body, by_url, extra_ld=()):
 </div></footer>
 </body>
 </html>"""
-    # 본문·목록·카드·CTA·푸터의 링크는 새 창으로 — 보던 페이지를 덮지 않게. 상단 메뉴·로고·경로(crumbs)는 사이트 이동이라 같은 창.
-    top, _, rest = page.partition("<!--newtab-->")
-    return top + newtab(rest)
+    return page
 
 
 def card(p):
