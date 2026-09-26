@@ -233,6 +233,14 @@ def jsonld_product(p):
 
 
 # ---------------------------------------------------------------- render
+_A = re.compile(r'<a (?![^>]*\btarget=)([^>]*\bhref="(?!#)[^"]*"[^>]*)>')
+
+
+def newtab(html):
+    """페이지 안 앵커(#…)만 빼고 모든 링크에 target=_blank. noopener 로 원래 창을 새 창이 건드리지 못하게."""
+    return _A.sub(r'<a \1 target="_blank" rel="noopener">', html)
+
+
 def base(p, body, by_url, extra_ld=()):
     crumbs = crumbs_for(p, by_url)
     lds = [jsonld_crumbs(crumbs)] + list(extra_ld)
@@ -247,7 +255,7 @@ def base(p, body, by_url, extra_ld=()):
     og_img = f'<meta property="og:image" content="{E(abs_url(p["image"]))}">' if p.get("image") else ""
     ld = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in lds)
     a = ORG["address"]
-    return f"""<!DOCTYPE html>
+    page = f"""<!DOCTYPE html>
 <html lang="{CFG['language']}">
 <head>
 <meta charset="utf-8">
@@ -272,7 +280,7 @@ def base(p, body, by_url, extra_ld=()):
   <nav aria-label="제품군">{nav}</nav>
 </div></header>
 <main><div class="wrap">
-{crumbs_html}
+{crumbs_html}<!--newtab-->
 {body}
 </div></main>
 <footer class="site"><div class="wrap">
@@ -282,6 +290,9 @@ def base(p, body, by_url, extra_ld=()):
 </div></footer>
 </body>
 </html>"""
+    # 본문·목록·카드·CTA·푸터의 링크는 새 창으로 — 보던 페이지를 덮지 않게. 상단 메뉴·로고·경로(crumbs)는 사이트 이동이라 같은 창.
+    top, _, rest = page.partition("<!--newtab-->")
+    return top + newtab(rest)
 
 
 def card(p):
