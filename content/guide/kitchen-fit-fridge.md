@@ -44,12 +44,14 @@ main_keyword: 키친핏 냉장고장
 
 아래 표는 냉장고 도어와 톤을 맞춰 예림이 제안하는 조합을 모은 것입니다. 2025년 7월과 2026년 7월 글의 제안을 한데 정리했어요. 조합별 연출은 [럭스 보드와 냉장고 도어 조합(2026년 7월)](https://blog.naver.com/yerimdoor/224334999598) 글에서 보실 수 있습니다.
 
+<figure><img src="/img/kitchen-fit-fridge/4.jpg" alt="매트 듀이클라우드 SM-30 · 매트 코타화이트 SM-31 주방 연출 — 2026-27 예림보드 럭스MR 도어재 샘플북" loading="lazy"><figcaption>매트 듀이클라우드 SM-30 · 매트 코타화이트 SM-31 주방 연출 — 2026-27 예림보드 럭스MR 도어재 샘플북</figcaption></figure>
+
 | 냉장고 도어 색 | 예림보드 럭스 MR | 라인 | 무드 | 예림 제안 |
 |---|---|---|---|---|
-| 삼성 코타화이트 | 매트 코타화이트 SM-31 | Supreme PET Matt | Pure White | 2025-07 · 2026-07 |
+| 삼성 코타화이트 | 매트 코타화이트 SM-31 | Supreme PET Matt | Pure White | 2025-07 · 2026-07 · 샘플북 p60 |
 | 삼성 새틴화이트 | 아크 플랫화이트 YPA-01 | Prestige Acryl | Pure White | 2026-07 |
 | 삼성 새틴화이트 + 새틴베이지 | 아크 샌드듄 YPA-03 | Prestige Acryl | Soft Neutral | 2026-07 |
-| 삼성 글램화이트 | 글로시 캐시미어 SG-03 | Supreme PET Glossy | — | 2025-07 |
+| 삼성 글램화이트 | 글로시 캐시미어 SG-03 | Supreme PET Glossy | — | 2025-07 · 샘플북 p68 |
 | LG 베이지 톤 도어 | 매트 듀이클라우드 SM-30 | Supreme PET Matt | Soft Neutral | 2026-07 |
 
 네이처 오크 YPW-01(Pure White)과 몽블랑 체스넛 MFB-505(Soft Neutral)는 특정 냉장고 색과 짝지은 보드가 아닙니다. 같은 무드 안에서 함께 쓰기 좋은 포인트 보드로 제안했어요. 표의 컬러는 [예림 키친 제품 페이지](https://www.yerim.net/kor/products/kitchen_new.html?utm_source=story&utm_medium=post&utm_campaign=kitchen-fit-fridge)에서 확인하실 수 있습니다.
@@ -64,9 +66,9 @@ main_keyword: 키친핏 냉장고장
 
 <figure><img src="/img/kitchen-fit-fridge/6.jpg" alt="예림보드 럭스 MR 매트 다크그레이 SM-07 · 서초 30평대 · 설계 인디자인 스페이스" loading="lazy"><figcaption>예림보드 럭스 MR 매트 다크그레이 SM-07 · 서초 30평대 · 설계 인디자인 스페이스</figcaption></figure>
 
-[인플루언서 까사드제리님의 44평 아파트](https://blog.naver.com/yerimdoor/223911343354)는 반대로 웜톤으로 균형을 잡았습니다. 스테인리스 냉장고의 차가운 메탈 질감 옆 주방 가구에 예림보드 LUX 새틴 퓨어코튼 YPM-02를 썼습니다. 원톤은 공간을 한 면으로 정리하고, 웜톤 매치는 메탈의 차가움을 누그러뜨립니다. 냉장고 도어 색이 아직 정해지지 않았다면 두 방향 중 하나부터 고르세요.
+[인플루언서 까사드제리님의 44평 아파트](https://blog.naver.com/yerimdoor/223911343354)는 반대로 웜톤으로 균형을 잡았습니다. 스테인리스 냉장고의 차가운 메탈 질감 옆 주방 가구에 예림보드 LUX 새틴 퓨어코튼 YPM-02(2025년 6월 당시 표기, 현행 아크 퓨어코튼 YPA-02 의 이전 시리즈)를 썼습니다. 원톤은 공간을 한 면으로 정리하고, 웜톤 매치는 메탈의 차가움을 누그러뜨립니다. 냉장고 도어 색이 아직 정해지지 않았다면 두 방향 중 하나부터 고르세요.
 
-<figure><img src="/img/kitchen-fit-fridge/7.jpg" alt="예림보드 LUX 새틴 퓨어코튼 YPM-02 · 44평 아파트" loading="lazy"><figcaption>예림보드 LUX 새틴 퓨어코튼 YPM-02 · 44평 아파트</figcaption></figure>
+<figure><img src="/img/kitchen-fit-fridge/7.jpg" alt="예림보드 LUX 새틴 퓨어코튼 YPM-02(당시 표기) · 44평 아파트" loading="lazy"><figcaption>예림보드 LUX 새틴 퓨어코튼 YPM-02(당시 표기) · 44평 아파트</figcaption></figure>
 
 ## 키친핏 냉장고장 FAQ
 
@@ -74,7 +76,7 @@ main_keyword: 키친핏 냉장고장
 
 **Q2. 냉장고장 도어 라인을 냉장고 도어 높이에 맞추고 싶어요.** 도어별 치수는 모델마다 달라 이 글에서는 다루지 않아요. 대신 라인을 맞추려면 냉장고 모델부터 확정해야 하고, 색과 표면감은 조합표로, 라인은 설치 가이드와 실측으로 잡습니다.
 
-**Q3. 상부장과 하부장 색을 다르게 가도 되나요?** 됩니다. 예림 홈페이지 연출 컷에도 상부장 매트 듀이클라우드 SM-30, 하부장·키큰장 매트 코타화이트 SM-31의 투톤 조합이 있고, 두 색 모두 조합표에 있습니다.
+**Q3. 상부장과 하부장 색을 다르게 가도 되나요?** 됩니다. 예림 홈페이지와 2026-27 도어재 샘플북(p60) 연출 컷에도 상부장 매트 듀이클라우드 SM-30, 하부장·키큰장 매트 코타화이트 SM-31의 투톤 조합이 있고, 두 색 모두 조합표에 있습니다.
 
 키친핏 냉장고장은 치수는 제조사 가이드로, 색은 표면감까지 맞춘 보드로 정하면 냉장고와 가구가 한 벽처럼 정리됩니다. 치수는 모델과 연식에 따라 달라지니 마지막까지 실측과 최신 가이드로 확인하세요. 색은 도어 이름보다 표면의 결부터 보시면 고르기가 쉬워집니다.
 

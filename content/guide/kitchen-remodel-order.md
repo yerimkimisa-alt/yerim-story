@@ -45,7 +45,7 @@ main_keyword: 주방 리모델링
 
 <figure><img src="/img/kitchen-remodel-order/4.jpg" alt="하부장 도어 — 예림보드 럭스MR 매트 밀크화이트(SM-02)" loading="lazy"><figcaption>하부장 도어 — 예림보드 럭스MR 매트 밀크화이트(SM-02)</figcaption></figure>
 
-하부장 도어재인 럭스 MR의 MR은 Moisture Resistant의 약자입니다. 2025년 7월 기존 LUX를 물과 습기에 강한 MR 보드로 업그레이드하며 두께 팽창률을 약 30% 개선했어요. 매트 컬러가 속한 Supreme PET Matt 라인은 매트 전 제품의 내지문 성능을 강화해, 손이 자주 닿는 하부장 도어에 잘 맞습니다. 자세한 내용은 [예림보드 럭스 MR 소개 글](https://blog.naver.com/yerimdoor/223944041211)과 [예림보드 럭스 MR 컬러 보기](https://www.yerim.net/kor/products/kitchen_new.html?utm_source=story&utm_medium=post&utm_campaign=kitchen-remodel-order)에서 확인할 수 있습니다.
+하부장 도어재인 럭스 MR의 MR은 Moisture Resistance의 약자입니다. 2025년 7월 기존 LUX를 물과 습기에 강한 MR 보드로 업그레이드하며 두께 팽창률을 약 30% 개선했어요. 매트 컬러가 속한 Supreme PET Matt 라인은 매트 전 제품의 내지문 성능을 강화해, 손이 자주 닿는 하부장 도어에 잘 맞습니다. 자세한 내용은 [예림보드 럭스 MR 소개 글](https://blog.naver.com/yerimdoor/223944041211)과 [예림보드 럭스 MR 컬러 보기](https://www.yerim.net/kor/products/kitchen_new.html?utm_source=story&utm_medium=post&utm_campaign=kitchen-remodel-order)에서 확인할 수 있습니다.
 
 <figure><img src="/img/kitchen-remodel-order/5.jpg" alt="예림보드 럭스 MR — Supreme PET Matt" loading="lazy"><figcaption>예림보드 럭스 MR — Supreme PET Matt</figcaption></figure>
 
@@ -55,7 +55,7 @@ main_keyword: 주방 리모델링
 
 가전을 바꾸거나 냉장고장을 새로 짤 계획이라면, 치수는 가구 도면이 아니라 냉장고 제조사의 설치 가이드로 발주 전에 확정해야 합니다. 가구 치수를 먼저 정해 버리면 새 냉장고가 요구하는 설치 공간과 어긋날 수 있기 때문이에요. 제조사별 항목은 [냉장고장 치수 맞추는 법](https://yerimkimisa-alt.github.io/yerim-story/guide/kitchen-fit-fridge/)에 정리해 두었습니다.
 
-<figure><img src="/img/kitchen-remodel-order/6.jpg" alt="34평 아파트 주방 — 키큰장과 아일랜드" loading="lazy"><figcaption>34평 아파트 주방 — 키큰장과 아일랜드</figcaption></figure>
+<figure><img src="/img/kitchen-remodel-order/6.jpg" alt="냉장고장 벽면 연출 — 글로시 캐시미어 SG-03 · 2026-27 예림보드 럭스MR 도어재 샘플북" loading="lazy"><figcaption>냉장고장 벽면 연출 — 글로시 캐시미어 SG-03 · 2026-27 예림보드 럭스MR 도어재 샘플북</figcaption></figure>
 
 마지막은 색입니다. 방법을 섞으면 보드 도어와 필름 도어가 한 주방에 나란히 서게 되므로, 색 이름부터 맞추는 것이 기본이에요. 앞의 10평 원룸은 럭스MR 매트 밀크화이트(SM-02) 도어와 하임 인테리어 필름 매트 밀크화이트(HSM02)를 짝지어 상·하부장을 한 톤으로 이었습니다. 같은 색 이름이라도 보드와 필름은 표면 구조가 달라, 샘플을 실제 주방에 나란히 대 보고 정하는 것이 안전합니다.
 

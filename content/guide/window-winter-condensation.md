@@ -19,7 +19,7 @@ main_keyword: 창문 결로
 
 **확인 1**은 집 안의 습기입니다. 가습기, 실내 빨래 건조, 조리할 때 나는 수증기는 모두 실내 습도를 끌어올립니다. 겨울에는 추위 때문에 창을 닫아 두는 시간까지 길어져 그 습기가 빠져나갈 길이 좁아지죠. 창이 제 성능을 내도 습기가 갈 곳이 없으면 가장 차가운 유리와 창틀에 먼저 맺힙니다. 기밀이 좋은 창일수록 습기가 틈으로 새지 못해, 습기를 내보내는 일은 결국 환기가 맡게 됩니다.
 
-<figure><img src="/img/window-winter-condensation/2.jpg" alt="터닝도어 YBF-130T · HP522와 예림보드 럭스 SM-02 매트 밀크화이트 주방" loading="lazy"><figcaption>터닝도어 YBF-130T · HP522와 예림보드 럭스 SM-02 매트 밀크화이트 주방</figcaption></figure>
+<figure><img src="/img/window-winter-condensation/2.jpg" alt="터닝도어 YBF-130T · HP522와 예림보드 럭스(MR 이전) SM-02 매트 밀크화이트 주방" loading="lazy"><figcaption>터닝도어 YBF-130T · HP522와 예림보드 럭스(MR 이전) SM-02 매트 밀크화이트 주방</figcaption></figure>
 
 ## 확인 2·3, 창 테두리 마감과 창짝의 닫힘
 

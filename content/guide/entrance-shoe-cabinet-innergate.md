@@ -88,6 +88,22 @@ main_keyword: 현관 신발장
 
 <figure><img src="/img/entrance-shoe-cabinet-innergate/8.jpg" alt="예림보드 LUX 메탈 바이브레이션 실버(PM-60) 신발장 · 하임 우드 필름 HW1018 벽·현관문 — 21평 아파트" loading="lazy"><figcaption>예림보드 LUX 메탈 바이브레이션 실버(PM-60) 신발장 · 하임 우드 필름 HW1018 벽·현관문 — 21평 아파트</figcaption></figure>
 
+### 도어재 샘플북 연출로 보는 현관 조합
+
+① 피넛 오크 — 럭스MR PW-22 벽 수납 × 예림도어 스텝 도어 피넛 오크 × 하임 필름 HPW 22(p13)
+
+<figure><img src="/img/entrance-shoe-cabinet-innergate/9.jpg" alt="예림보드 럭스MR 피넛 오크(PW-22) 벽 수납 · 예림도어 스텝 도어 피넛 오크 · 하임 필름 피넛 오크(HPW 22) — 2026-27 예림보드 럭스MR 도어재 샘플북" loading="lazy"><figcaption>예림보드 럭스MR 피넛 오크(PW-22) 벽 수납 · 예림도어 스텝 도어 피넛 오크 · 하임 필름 피넛 오크(HPW 22) — 2026-27 예림보드 럭스MR 도어재 샘플북</figcaption></figure>
+
+② 콘크리트 화이트 LC-010 현관 수납장 × 중문 YSL-200 화이트(p57)
+
+<figure><img src="/img/entrance-shoe-cabinet-innergate/10.jpg" alt="예림보드 럭스MR 콘크리트 화이트(LC-010) 현관 수납장 · 중문 YSL-200 화이트 — 2026-27 예림보드 럭스MR 도어재 샘플북" loading="lazy"><figcaption>예림보드 럭스MR 콘크리트 화이트(LC-010) 현관 수납장 · 중문 YSL-200 화이트 — 2026-27 예림보드 럭스MR 도어재 샘플북</figcaption></figure>
+
+③ 몽블랑 체스넛 MFB-505 복도 수납 벽 × 슬림노출 프로파일 세트 8x9(p80)
+
+<figure><img src="/img/entrance-shoe-cabinet-innergate/11.jpg" alt="예림보드 럭스MR 몽블랑 체스넛(MFB-505) 복도 수납 벽 · 슬림노출 프로파일 세트 8x9 — 2026-27 예림보드 럭스MR 도어재 샘플북" loading="lazy"><figcaption>예림보드 럭스MR 몽블랑 체스넛(MFB-505) 복도 수납 벽 · 슬림노출 프로파일 세트 8x9 — 2026-27 예림보드 럭스MR 도어재 샘플북</figcaption></figure>
+
+모두 샘플북 연출 이미지이며 시공 현장이 아닙니다.
+
 ### 중문 목문틀 래핑 4색
 
 | 문틀 색 | 시트 래핑 색 | 같은 색 |

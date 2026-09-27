@@ -23,7 +23,7 @@ main_keyword: 싱크대 문짝
 
 | 부위 | 먼저 닿는 것 | 먼저 볼 층 | 예림 도어재에서 확인된 선택지 |
 |---|---|---|---|
-| 개수대·화구 하부장 | 물, 습기, 열기 | 보드 · 에지 | MR 보드 표기 라인(Supreme PET Matt · Prestige Acryl · Prestige PET), REHAU 에지(Supreme PET Matt · Prestige Acryl) |
+| 개수대·화구 하부장 | 물, 습기, 열기 | 보드 · 에지 | MR 보드 라인(Glass·UV 제외 전 라인), REHAU 에지(Prestige Acryl·PP · Supreme PP·PET Matt · Prime MFB 등) |
 | 손이 자주 닿는 하부장·키큰장 | 손, 지문, 긁힘 | 표면 | 매트 내지문 강화(SM), 아크 내지문·내스크래치(YPA) |
 | 상부장·포인트 면 | 시선 | 표면 질감·색 | PP 우드(YPW·PW), 세라믹 문(CP), MFB, 메탈 PET(PM), Glass(PC) |
 
@@ -33,11 +33,11 @@ main_keyword: 싱크대 문짝
 
 ## 물과 열이 닿는 하부장은 보드와 에지부터
 
-수리 후기에 자주 나오는 '물먹은 하부장'은 대개 표면보다 그 아래 보드와 모서리에서 시작됩니다. 예림보드 럭스 MR의 MR은 Moisture Resistant, 곧 물과 습기에 강한 내수 성능을 뜻합니다. 2025년 7월 기존 LUX에서 MR 보드로 바뀌면서 두께 팽창률이 약 30% 개선됐어요. 구조 표기에서 MR 보드가 확인되는 라인은 Supreme PET Matt(E0 MR), Prestige Acryl(SE0 MR), Prestige PET(SE0 내수보드)입니다. 달라진 보드는 [럭스 MR 내수 성능 자세히](https://blog.naver.com/yerimdoor/223944041211)에서 볼 수 있습니다.
+수리 후기에 자주 나오는 '물먹은 하부장'은 대개 표면보다 그 아래 보드와 모서리에서 시작됩니다. 예림보드 럭스 MR의 MR은 Moisture Resistance, 곧 물과 습기에 강한 내수 성능을 뜻합니다. 2025년 7월 기존 LUX에서 MR 보드로 바뀌면서 두께 팽창률이 약 30% 개선됐어요. MR 보드는 Prestige Glass(E0 R)와 Prime UV(E1)를 뺀 모든 라인에 쓰이고, 등급은 Prestige Acryl·PP·PET 가 SE0, Supreme·Deco·Prime MFB 가 E0 입니다. 달라진 보드는 [럭스 MR 내수 성능 자세히](https://blog.naver.com/yerimdoor/223944041211)에서 볼 수 있습니다.
 
 <figure><img src="/img/kitchen-door-material/2.jpg" alt="예림보드 럭스 MR — 에지 마감" loading="lazy"><figcaption>예림보드 럭스 MR — 에지 마감</figcaption></figure>
 
-보드만큼 중요한 것이 옆면을 감싸는 에지입니다. REHAU EDGE 1T 표기가 확인되는 Supreme PET Matt·Prestige Acryl은 독일 레하우(REHAU) 에지를 쓰고, 압출 방식의 코어 색상 에지라 전면과 옆면의 색이 이어집니다. 예림은 '주방처럼 열기와 습기에 자주 노출되는 공간에서는 에지가 내구성과 품질을 결정하는 데 중요한 역할을 한다'고 설명하죠. 개수대와 화구 하부장은 이 두 층부터 보시고, 견적에 에지 사양도 적어 달라고 하면 같은 조건으로 비교할 수 있습니다.
+보드만큼 중요한 것이 옆면을 감싸는 에지입니다. 독일 레하우(REHAU) 에지는 Prestige Acryl·PP, Supreme PP·PET Matt, Prime MFB 등에 쓰이고(일부 색 제외), 압출 방식의 코어 색상 에지라 전면과 옆면의 색이 이어집니다. 예림은 '주방처럼 열기와 습기에 자주 노출되는 공간에서는 에지가 내구성과 품질을 결정하는 데 중요한 역할을 한다'고 설명하죠. 개수대와 화구 하부장은 이 두 층부터 보시고, 견적에 에지 사양도 적어 달라고 하면 같은 조건으로 비교할 수 있습니다.
 
 ## 손이 닿는 면은 표면 마감으로 고릅니다
 
@@ -45,7 +45,7 @@ main_keyword: 싱크대 문짝
 
 <figure><img src="/img/kitchen-door-material/3.jpg" alt="예림보드 럭스 MR Prestige Acryl('아크') 아크 퓨어코튼(YPA-02) 키큰장과 아일랜드" loading="lazy"><figcaption>예림보드 럭스 MR Prestige Acryl('아크') 아크 퓨어코튼(YPA-02) 키큰장과 아일랜드</figcaption></figure>
 
-더 단단한 표면이 필요하다면 Prestige Acryl, 이른바 '아크'가 있습니다. 아크릴 0.4T에 울트라 매트 코팅을 입혀 표면 경도가 기존 새틴(PET) 대비 약 6배이고, 내오염·내지문·내스크래치·항균 성능을 갖췄습니다. 예전의 새틴 퓨어코튼이 지금의 아크 퓨어코튼(YPA-02)이라고 보시면 됩니다.
+더 단단한 표면이 필요하다면 Prestige Acryl, 이른바 '아크'가 있습니다. 아크릴 0.4T에 울트라 매트 코팅으로 기존 새틴 시리즈 대비 6배 강한 표면 경도를 냈고, 내오염·내지문·내스크래치·항균 성능을 갖췄습니다. 예전의 새틴 퓨어코튼이 지금의 아크 퓨어코튼(YPA-02)이라고 보시면 됩니다.
 
 광택을 원한다면 광택 마감이 확인되는 Supreme PET Glossy를 볼 수 있습니다. 견적서에서 흔히 보는 '하이그로시'라는 이름은 예림 분류에는 없어요. 다만 내지문 표기는 글로시에서 제외되니, 손이 많이 닿는 하부장에는 매트나 아크를, 광택은 손이 덜 가는 면에 두는 식으로 나눌 수 있습니다. 라인별 컬러는 [예림보드 럭스 MR 도어재 라인 보기](https://www.yerim.net/kor/products/kitchen_new.html?utm_source=story&utm_medium=post&utm_campaign=kitchen-door-material)에서 확인할 수 있습니다.
 
@@ -61,7 +61,7 @@ main_keyword: 싱크대 문짝
 
 <figure><img src="/img/kitchen-door-material/5.jpg" alt="마블 텍스처 상판과 우드 톤 상·하부장 — 55평 아파트 주방" loading="lazy"><figcaption>마블 텍스처 상판과 우드 톤 상·하부장 — 55평 아파트 주방</figcaption></figure>
 
-34평 현장은 홈바와 냉장고장 도어를 세라믹 문 퍼시픽(CP-01)으로 맞추고, 물을 쓰지 않는 홈바의 대리석 질감 면은 고가의 대리석 대신 예림보드 팔라디나(MFB-502)로 냈습니다. 2025년 3월 현장의 보드라 지금 선택지와는 다를 수 있습니다. 대리석 느낌을 도어가 아닌 주변 면으로 보탠 예로 참고할 만하죠.
+34평 현장은 홈바와 냉장고장 도어를 세라믹 문 퍼시픽(CP-01)으로 맞추고, 물을 쓰지 않는 홈바의 대리석 질감 면은 고가의 대리석 대신 예림보드 팔라디나(MFB-502)로 냈습니다. 팔라디나는 지금도 Prime MFB 컬러(MFB-502)로 나옵니다. 대리석 느낌을 도어가 아닌 주변 면으로 보탠 예로 참고할 만하죠.
 
 <figure><img src="/img/kitchen-door-material/6.jpg" alt="예림보드 LUX 세라믹 문 퍼시픽(CP-01) · 팔라디나(MFB-502) 홈바 — 34평 아파트" loading="lazy"><figcaption>예림보드 LUX 세라믹 문 퍼시픽(CP-01) · 팔라디나(MFB-502) 홈바 — 34평 아파트</figcaption></figure>
 
@@ -78,7 +78,7 @@ main_keyword: 싱크대 문짝
 | 2025-07 | 55평 | 주방 벽면과 아일랜드 상판의 은은한 패턴 마블 텍스처 | 우드 톤 상·하부장 | 대비 | [현장 보기](https://blog.naver.com/yerimdoor/223946402607) |
 | 2022-07 | 40평대 | 대리석 디자인 상판 | 매트캐시미어 상하부장 | 원문에 방식 표기 없음 | [현장 보기](https://blog.naver.com/yerimdoor/222829734948) |
 
-팔라디나(MFB-502)는 2025년 3월 현장에 쓰인 보드이고, 현재 Prime MFB 목록에서는 확인되지 않습니다. 대리석 느낌을 홈바 면으로 가져오는 방법의 예로 읽어 주시면 됩니다.
+팔라디나(MFB-502)는 2026-27 도어재 샘플북 Prime MFB 목록에 있는 현행 컬러입니다. 대리석 느낌을 홈바 면으로 가져오는 방법의 예로 읽어 주시면 됩니다.
 
 ### 싱크대 문짝 FAQ
 
@@ -89,13 +89,13 @@ main_keyword: 싱크대 문짝
 예림 도어재 분류에 '하이그로시'라는 이름은 없습니다. 광택 마감이 확인되는 라인은 Supreme PET Glossy이고, 매트는 Supreme PET Matt입니다. 라인별 가격과 가격 순위는 이 글에서 다루지 않습니다.
 
 **Q3. 문짝 하단이 물에 닿아 부풀었어요. 물에 강한 문짝은 무엇을 보면 되나요?**
-보드와 에지를 먼저 봅니다. 구조 표기에서 MR 보드가 확인되는 라인은 Supreme PET Matt(E0 MR), Prestige Acryl(SE0 MR 18T), Prestige PET(SE0 내수보드)이고, 등급 기준은 SE0 0.3 mg/L 이하, E0 0.5 mg/L 이하입니다. 에지는 Supreme PET Matt·Prestige Acryl에서 독일 REHAU EDGE 1T 표기가 확인되며, 예림은 열기와 습기가 잦은 주방에서는 에지가 내구성과 품질을 좌우하는 중요한 요소라고 설명합니다.
+보드와 에지를 먼저 봅니다. MR 보드는 Prestige Glass(E0 R)와 Prime UV(E1)를 뺀 모든 라인에 쓰이고, 등급은 Prestige Acryl·PP·PET 가 SE0, Supreme·Deco·Prime MFB 가 E0 이며, 등급 기준은 SE0 0.3 mg/L 이하, E0 0.5 mg/L 이하입니다. KS F 3200:2022 흡수두께팽창률 시험에서 기존 럭스 보드 9.2%, 럭스MR 보드 6.5%였고 MR 보드 기준은 7.0% 미만입니다. 에지는 Prestige Acryl·PP, Supreme PP·PET Matt(펄 3색 제외), Prestige PET 웨이비, Prime MFB(화이트 유광 제외)에 독일 레하우(REHAU) 에지를 쓰고, Glass·Glossy·Deco·UV 와 메탈·사피아노·헤어라인은 일반 에지입니다. 예림은 열기와 습기가 잦은 주방에서는 에지가 내구성과 품질을 좌우하는 중요한 요소라고 설명합니다.
 
 **Q4. 상판을 인조대리석으로 정했는데 문짝은 무엇으로 맞추면 되나요?**
 상판의 결과 색을 기준으로 같은 질감으로 이을지, 결을 달리해 대비를 줄지를 먼저 정합니다. 대리석 느낌을 주방 안에서 잇고 싶다면 34평 현장처럼 세라믹 문(CP-01) 도어에 대리석 질감 보드를 홈바 면에 더한 사례가 있고, 대비를 원한다면 55평 현장처럼 우드 톤 도어를 조합할 수 있습니다. 상판 소재 자체의 특성은 예림 제품 범위 밖이라 이 글에서 다루지 않습니다.
 
 **Q5. 무광·유광 중 지문과 흠집 관리가 쉬운 쪽은 어디인가요?**
-Supreme PET Matt는 매트 전 제품에 내지문 강화가 적용됐고, 50평대 현장에서는 같은 매트 라인의 매트 샌드그레이(SM-21)를 지문 때문에 신발장에 골랐습니다. Prestige Acryl('아크')은 표면 경도가 기존 새틴(PET) 대비 약 6배이고 내지문·내스크래치 성능을 갖췄습니다. Supreme PET Glossy는 내지문 표기에서 제외되니, 손이 덜 가는 면에 두는 편이 관리에 유리합니다.
+Supreme PET Matt는 매트 전 제품에 내지문 강화가 적용됐고, 50평대 현장에서는 같은 매트 라인의 매트 샌드그레이(SM-21)를 지문 때문에 신발장에 골랐습니다. Prestige Acryl('아크')은 울트라 매트 코팅으로 기존 새틴 시리즈 대비 6배 강한 표면 경도를 냈고 내지문·내스크래치 성능을 갖췄습니다. Supreme PET Glossy는 내지문 표기에서 제외되니, 손이 덜 가는 면에 두는 편이 관리에 유리합니다.
 
 ### 문짝과 같은 색 필름
 
@@ -103,4 +103,4 @@ Supreme PET Matt는 매트 전 제품에 내지문 강화가 적용됐고, 50평
 
 ### 라인별 코드 더 보기
 
-라인별 컬러 코드는 [붙박이장 글의 라인별 컬러 코드](https://yerimkimisa-alt.github.io/yerim-story/guide/built-in-closet-mr/)에 정리해 두었습니다. 여기에 덧붙이면 Prime MFB의 현행 코드는 MFB-500 사하라 누아르, MFB-501 아라베스카토, MFB-503 부클레, MFB-504 밤부, MFB-505 몽블랑 체스넛이고, Deco는 PVC 도어재로 하임 필름 코드(HS·HC·HP·HW) 체계를 따릅니다.
+라인별 컬러 코드는 [붙박이장 글의 라인별 컬러 코드](https://yerimkimisa-alt.github.io/yerim-story/guide/built-in-closet-mr/)에 정리해 두었습니다. 여기에 덧붙이면 Prime MFB 는 MFB-100 화이트 유광·200 소프트 화이트·302 코임브라·303 윈체스터 월넛·304 소프트 월넛·400 스톤 화이트·401 스톤 그레이·402 스톤 블랙·500 사하라 누아르·501 아라베스카토·502 팔라디나·503 부클레·504 밤부·505 몽블랑 체스넛 14색, Prime UV 는 LP-100·101·200·201·LS-001·002 6색, Deco 는 하임 필름 코드 체계(HS·HC·HP·HW)의 PVC 12색이고 항균은 HC801·HC802 입니다.
