@@ -5,7 +5,7 @@ description: 맞춤 붙박이장 견적을 받아 보면 업체마다 PET, 하�
 category: kitchen
 keywords: [붙박이장, 50평대아파트, 붙박이장고르는법, 원톤인테리어, 럭스MR, 매트듀이클라우드, 예림보드, 붙박이장도어, 맞춤붙박이장]
 date: 2026-09-26
-updated: 2026-09-26
+updated: 2026-09-28
 published_at: 2026-09-26T16:36
 source: yerim-blog/posts/20260926_built-in-closet-mr/post.md
 main_keyword: 붙박이장

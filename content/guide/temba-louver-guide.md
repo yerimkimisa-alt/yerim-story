@@ -5,7 +5,7 @@ description: 거실이나 침실 벽에 입체감을 주려고 템바보드를 �
 category: wall
 keywords: [월판넬, 30평아파트, 침대헤드인테리어, 아트월, 템바디자인루바, 흡음루바, 예림템바보드, 템바보드, 템바루바]
 date: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-28
 published_at: 2026-09-25T16:00
 source: yerim-blog/posts/20260925_temba-louver-guide/post.md
 main_keyword: 템바보드

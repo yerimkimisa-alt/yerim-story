@@ -5,7 +5,7 @@ description: 벽지는 정했는데 방문 필름 색에서 멈추는 분들이 
 category: film
 keywords: [인테리어필름, 30평대아파트, 원톤인테리어, 벽지조합, 개나리벽지, 쁘레회벽크렘, 하임필름, 방문필름, 무몰딩]
 date: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-28
 published_at: 2026-09-25T13:37
 source: yerim-blog/posts/20260925_door-film-wallpaper-tone/post.md
 main_keyword: 방문 필름

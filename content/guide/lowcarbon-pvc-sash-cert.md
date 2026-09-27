@@ -5,7 +5,7 @@ description: 창호 견적서나 카탈로그에서 '저탄소 인증'이라는 
 category: window
 keywords: [창호, 40평아파트, 저탄소제품, 환경성적표지, PVC창호, 창호프로파일, 예림창호, 저탄소인증, 탄소발자국]
 date: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-28
 published_at: 2026-09-27T15:08
 source: yerim-blog/posts/20260927_lowcarbon-pvc-sash-cert/post.md
 main_keyword: 저탄소 인증

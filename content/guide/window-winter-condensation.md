@@ -5,7 +5,7 @@ description: 아침마다 창문 결로를 닦아 내고 창가에 서면 찬바
 category: window
 keywords: [창호, 30평아파트, 창문결로, 외풍차단, 발코니이중창, 터닝도어, 예림창호, 샷시교체, 결로방지]
 date: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-28
 published_at: 2026-09-25T10:49
 source: yerim-blog/posts/20260925_window-winter-condensation/post.md
 main_keyword: 창문 결로

@@ -5,7 +5,7 @@ description: 키친핏 냉장고를 먼저 사고 장을 나중에 짜면 냉장
 category: kitchen
 keywords: [주방가구, 30평대아파트, 키친핏냉장고장, 주방색조합, 매트코타화이트, 아크플랫화이트, 예림보드, 냉장고장, 키친핏냉장고]
 date: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-28
 published_at: 2026-09-25T12:16
 source: yerim-blog/posts/20260925_kitchen-fit-fridge/post.md
 main_keyword: 키친핏 냉장고장

@@ -5,7 +5,7 @@ description: 창은 아직 쓸 만한데 손잡이가 헐거워졌거나, 창을
 category: window
 keywords: [창호, 30평아파트, 창문잠금장치, 샷시교체, 창호손잡이, 터빈핸들, 예림창호, 샷시손잡이, 창문손잡이]
 date: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-28
 published_at: 2026-09-27T04:09
 source: yerim-blog/posts/20260927_window-handle-lock/post.md
 main_keyword: 샷시 손잡이

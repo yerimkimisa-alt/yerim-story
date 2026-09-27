@@ -5,7 +5,7 @@ description: 방 하나를 시스템행거와 선반으로 채우면 옷이 한�
 category: innergate
 keywords: [드레스룸문, 21평아파트, 드레스룸인테리어, 미니멀인테리어, 간살슬라이딩도어, LED무드도어, 예림, 시스템행거, 드레스룸도어]
 date: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-28
 published_at: 2026-09-27T02:23
 source: yerim-blog/posts/20260927_dressroom-open-storage-door/post.md
 main_keyword: 드레스룸 문

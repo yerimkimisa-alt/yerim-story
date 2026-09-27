@@ -5,7 +5,7 @@ description: 오래 산 집의 방문은 시트지가 벗겨지거나 구멍이 
 category: door
 keywords: [방문교체, 32평아파트, 구축아파트리모델링, 문짝교체, ABS도어, 양방향슬림문틀, 예림도어, 문틀교체, 우드데코도어]
 date: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-28
 published_at: 2026-09-25T18:40
 source: yerim-blog/posts/20260925_door-replacement-checklist/post.md
 main_keyword: 방문 교체

@@ -5,7 +5,7 @@ description: 현관문 교체 견적서에는 '방화문'이, 상가나 학원 �
 category: door
 keywords: [방화문, 준불연도어, 갑종방화문, 60분방화문, 화재안전도어, 준불연, 방염도어, 철재방화문, 예림도어, 방화문교체]
 date: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-28
 published_at: 2026-09-27T03:20
 source: yerim-blog/posts/20260927_fire-door-semi-noncombustible/post.md
 main_keyword: 방화문

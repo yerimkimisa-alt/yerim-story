@@ -5,7 +5,7 @@ description: 거실 아트월을 새로 하려고 견적을 받아 보면 가장
 category: wall
 keywords: [거실아트월, 월판넬, 30평아파트, 거실벽인테리어, 톤온톤인테리어, 아르떼월, 벨로체월, 예림월판넬, 아트월]
 date: 2026-09-26
-updated: 2026-09-26
+updated: 2026-09-28
 published_at: 2026-09-26T18:11
 source: yerim-blog/posts/20260926_living-artwall-wallpanel/post.md
 main_keyword: 거실 아트월

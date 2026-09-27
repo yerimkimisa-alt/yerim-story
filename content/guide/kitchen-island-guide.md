@@ -5,7 +5,7 @@ description: 주방 아일랜드는 주방 리모델링이나 입주를 앞둔 �
 category: kitchen
 keywords: [주방아일랜드, 34평인테리어, 대면형주방, 투톤주방, 럭스MR, 던오크, 예림보드, 아일랜드식탁, 아일랜드주방]
 date: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-28
 published_at: 2026-09-27T01:03
 source: yerim-blog/posts/20260927_kitchen-island-guide/post.md
 main_keyword: 주방 아일랜드

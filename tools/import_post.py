@@ -105,9 +105,20 @@ def main():
     # 게시 시각 — 같은 날 올린 글끼리 목록 순서를 정한다. 재수입해도 처음 값을 유지한다.
     dst = os.path.join(SITE, "content", "guide", f"{slug}.md")
     published_at = datetime.now().strftime("%Y-%m-%dT%H:%M")
+    # 수정일 — 본문(사실)이 바뀌면 그날로, 안 바뀌면(products 줄만 등) 기존 값 유지. 새 글은 발행일.
+    updated = date
     if os.path.exists(dst):
-        m = re.search(r"^published_at:\s*(\S+)", io.open(dst, encoding="utf-8").read(), re.M)
+        prev = io.open(dst, encoding="utf-8").read()
+        m = re.search(r"^published_at:\s*(\S+)", prev, re.M)
         if m: published_at = m.group(1)
+        m = re.search(r"^updated:\s*(\S+)", prev, re.M)
+        prev_body = prev.split("
+---
+", 1)[-1].strip()
+        if prev_body != main_md.strip():
+            updated = datetime.now().strftime("%Y-%m-%d")
+        elif m:
+            updated = m.group(1)
     # 대표 이미지 — post.md 에 `cover: N` 이 있으면 본문 첫 사진 대신 N 번 사진을 목록 썸네일·og:image 로 쓴다
     # (예: 첫 사진이 교체 전 BEFORE 컷이라 표지로 쓰면 안 될 때). 없으면 build.py 가 본문 첫 사진을 쓴다.
     cover_fm = ""
@@ -127,7 +138,7 @@ description: {desc}
 category: {cat}
 keywords: [{', '.join(tags)}]
 date: {date}
-updated: {date}
+updated: {updated}
 published_at: {published_at}
 source: {a.post.replace(os.sep, '/')}
 main_keyword: {fm.get('main_keyword', '')}
@@ -135,9 +146,6 @@ main_keyword: {fm.get('main_keyword', '')}
 
 {main_md}
 """
-    if os.path.exists(dst) and not a.force:
-        # 기존 파일의 updated 만 오늘로 갱신하며 덮어쓴다 (본문 재수입)
-        pass
     os.makedirs(os.path.dirname(dst), exist_ok=True)
     io.open(dst, "w", encoding="utf-8", newline="\n").write(out)
     try:

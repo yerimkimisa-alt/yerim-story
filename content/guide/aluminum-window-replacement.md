@@ -5,7 +5,7 @@ description: 베란다의 오래된 알루미늄 샷시가 겨울마다 유난�
 category: window
 keywords: [창호, 40평아파트, 샷시교체, 단열창호, 알루미늄샷시, PVC샷시, 예림창호, 하이샷시, 이중창]
 date: 2026-09-26
-updated: 2026-09-26
+updated: 2026-09-28
 published_at: 2026-09-26T15:21
 source: yerim-blog/posts/20260926_aluminum-window-replacement/post.md
 main_keyword: 알루미늄 샷시

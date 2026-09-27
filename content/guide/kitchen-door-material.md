@@ -5,7 +5,7 @@ description: 싱크대 문짝 견적을 받아 보면 하이그로시, PET, 무�
 category: kitchen
 keywords: [싱크대, 21평인테리어, 주방인테리어, 무광주방, 럭스MR, 아크릴도어, 예림보드, 싱크대문짝, 싱크대문짝재질]
 date: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-28
 published_at: 2026-09-27T05:12
 source: yerim-blog/posts/20260927_kitchen-door-material/post.md
 main_keyword: 싱크대 문짝

@@ -5,7 +5,7 @@ description: 중문과 현관 신발장은 따로 고르고 따로 견적을 받
 category: innergate
 keywords: [현관신발장, 34평아파트, 현관인테리어, 원톤인테리어, 럭스MR, 간살중문, 예림, 현관중문, 신발장색상, 중문신발장]
 date: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-28
 published_at: 2026-09-27T01:32
 source: yerim-blog/posts/20260927_entrance-shoe-cabinet-innergate/post.md
 main_keyword: 현관 신발장

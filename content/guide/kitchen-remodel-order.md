@@ -5,7 +5,7 @@ description: 싱크대 문이 들뜨고 색이 바랬는데, 다 뜯어내자니
 category: kitchen
 keywords: [주방가구, 10평인테리어, 주방부분리모델링, 화이트주방, 럭스MR, 인테리어필름, 예림보드, 주방리모델링, 싱크대문짝교체]
 date: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-28
 published_at: 2026-09-27T01:55
 source: yerim-blog/posts/20260927_kitchen-remodel-order/post.md
 main_keyword: 주방 리모델링

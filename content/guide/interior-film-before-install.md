@@ -5,7 +5,7 @@ description: 이사나 리모델링을 앞두고 벽지는 정했는데, 창틀�
 category: film
 keywords: [인테리어필름, 40평대아파트, 원톤인테리어, 친환경인테리어, 방염필름, 항균필름, 하임필름, 붙박이장필름, 창틀필름]
 date: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-28
 published_at: 2026-09-27T04:41
 source: yerim-blog/posts/20260927_interior-film-before-install/post.md
 main_keyword: 인테리어 필름

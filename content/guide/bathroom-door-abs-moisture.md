@@ -5,7 +5,7 @@ description: 샤워를 마치고 나오다 화장실문 아래쪽이 부풀고 �
 category: door
 keywords: [화장실문교체, 욕실문교체, 화장실문, 욕실리모델링, 문짝교체, ABS도어, 슬림문틀, 예림도어, 욕실문]
 date: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-28
 published_at: 2026-09-27T03:47
 source: yerim-blog/posts/20260927_bathroom-door-abs-moisture/post.md
 main_keyword: 화장실문 교체

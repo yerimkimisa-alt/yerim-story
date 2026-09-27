@@ -5,7 +5,7 @@ description: 문과 문틀이 이미 오크색인데 바닥은 어떤 색으로 
 category: wall
 keywords: [강마루색상, 강마루, 10평원룸, 톤온톤인테리어, 우드톤바닥, 모데나크림, 아르떼월, 예림마루, 화이트강마루, 오크마루]
 date: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-28
 published_at: 2026-09-27T02:51
 source: yerim-blog/posts/20260927_gangmaru-color-tone/post.md
 main_keyword: 강마루 색상

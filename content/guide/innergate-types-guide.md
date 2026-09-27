@@ -5,7 +5,7 @@ description: 현관중문을 알아보면 3연동과 슬라이딩 이야기가 �
 category: innergate
 keywords: [현관중문, 32평아파트, 레일없는중문, 양방향중문, 3연동중문, 뉴밸런스도어, 예림중문, 중문종류, 슬라이딩중문, 자기부상자동문]
 date: 2026-09-26
-updated: 2026-09-26
+updated: 2026-09-28
 published_at: 2026-09-26T12:57
 source: yerim-blog/posts/20260926_innergate-types-guide/post.md
 main_keyword: 현관중문 종류

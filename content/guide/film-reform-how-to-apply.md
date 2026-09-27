@@ -5,7 +5,7 @@ description: 싱크대 리폼을 하기로 했는데, 신청하면 그다음엔 
 category: kitchen
 keywords: [인테리어필름, 30평대주방, 주방리폼, 싱크대문짝교체, HP530, 쁘레회벽스노우, 예림인테리어필름, 싱크대리폼, 싱크대리폼비용, 예림리폼서비스]
 date: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-28
 published_at: 2026-09-27T10:28
 source: yerim-blog/posts/20260927_film-reform-how-to-apply/post.md
 main_keyword: 싱크대 리폼
