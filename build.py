@@ -391,7 +391,7 @@ def render(p, pages, by_url):
         inner = f'<h1>{E(p["title"])}</h1>{lead}{hero}{body}'
         if groups: inner += '<h2>제품군</h2><div class="grid">' + "".join(card(q) for q in groups) + "</div>"
         if prods: inner += '<h2>제품</h2><div class="grid">' + "".join(card(q) for q in prods) + "</div>"
-        if guides: inner += '<h2>가이드</h2>' + list_items(guides)
+        if guides: inner += f'<h2>가이드 ({len(guides)})</h2>' + list_items(guides)   # 이 페이지에 걸린 가이드 수
         inner += faq_html(p.get("faq"))
         if p.get("faq"): lds.append(jsonld_faq(p["faq"]))
         return base(p, inner, by_url, lds)
