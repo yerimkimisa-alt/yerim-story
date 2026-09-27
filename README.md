@@ -20,7 +20,8 @@ site/
 │   ├── about.md         /about/      예림 소개 (Organization + FAQ)
 │   ├── door.md …        /door/ …     제품 분류 6개 (category)
 │   ├── door/system-door.md              /door/system-door/          제품군 (group)
-│   ├── door/system-door/ybf-140t.md     /door/system-door/ybf-140t/ 제품 (product, draft)
+│   ├── window/utility-window.md         /window/utility-window/     제품군 (group)
+│   ├── window/utility-window/ybf-140t.md /window/utility-window/ybf-140t/ 제품 (product)
 │   └── guide/<slug>.md  /guide/<slug>/  가이드 (에이전트 산출물)
 ├── static/              style.css · img/<slug>/N.jpg
 ├── tools/import_post.py 에이전트 post.md → content/guide/  변환
@@ -95,5 +96,5 @@ site/
 ## 결정이 필요한 것
 
 - **학습용 크롤러 정책** — `training_policy: allow|disallow`
-- **YBF-140T 사양 검증** — 전략 문서 §10.2 항목 8개. 검증 전까지 draft
+- ~~**YBF-140T 사양 검증** — 전략 문서 §10.2 항목 8개. 검증 전까지 draft~~ 완료 2026-09-27 R-80 — 룩북 사양으로 공개, 창호/다용도창으로 이동
 - **로고 URL** — `config.json` organization.logo 실제 경로
