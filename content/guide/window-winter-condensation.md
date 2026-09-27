@@ -9,6 +9,7 @@ updated: 2026-09-25
 published_at: 2026-09-25T10:49
 source: yerim-blog/posts/20260925_window-winter-condensation/post.md
 main_keyword: 창문 결로
+products: [smart-balcony, best-balcony-1, best-balcony-2, best-split-balcony, smart-general-window, turning-door, ybf-140t, grace-handle]
 ---
 
 아침마다 창문 결로를 닦아 내고 창가에 서면 찬바람까지 느껴진다면, 샷시 교체부터 떠올리게 됩니다. 뽁뽁이나 문풍지로 당장은 버틸 수 있지만, 물이 왜 맺히는지부터 가려 봐야 하는데요. 결로는 따뜻하고 습한 실내 공기가 차가운 창 표면에 닿아 식으면서 물로 맺히는 현상입니다. 원인을 생활습관, 시공 마감, 창 성능의 세 층으로 나눠, 층마다 교체 전에 확인할 것 다섯 가지를 짚어 드리겠습니다.

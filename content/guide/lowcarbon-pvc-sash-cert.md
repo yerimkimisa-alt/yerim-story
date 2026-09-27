@@ -9,6 +9,7 @@ updated: 2026-09-27
 published_at: 2026-09-27T15:08
 source: yerim-blog/posts/20260927_lowcarbon-pvc-sash-cert/post.md
 main_keyword: 저탄소 인증
+products: [smart-balcony, best-balcony-1, best-balcony-2, smart-general-window]
 ---
 
 창호 견적서나 카탈로그에서 '저탄소 인증'이라는 문구를 봤지만, 무엇이 저탄소라는 뜻인지 알기 어려웠던 분이 많으실 텐데요. '저탄소 인증'을 검색하면 농산물이나 음료 이야기가 먼저 나오지만, 여기서 다룰 것은 PVC 창호의 자재가 받는 인증입니다. 인증서 한 장에서 확인할 곳은 상호명, 대상 제품과 제품명, 인증 내용의 숫자와 단위, 단계별 값, 인증기간과 인증기관까지 다섯 줄입니다. 이 글에서는 예림 계열사가 받은 창호 프로파일 인증서 두 장을 한 줄씩 함께 읽어 보겠습니다.

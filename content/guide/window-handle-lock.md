@@ -9,6 +9,7 @@ updated: 2026-09-27
 published_at: 2026-09-27T04:09
 source: yerim-blog/posts/20260927_window-handle-lock/post.md
 main_keyword: 샷시 손잡이
+products: [grace-handle, turbine-handle, functional-handle, window-lock-hardware]
 ---
 
 창은 아직 쓸 만한데 손잡이가 헐거워졌거나, 창을 닫고 나서도 잠겼는지 손으로 한 번 더 확인하게 될 때가 있습니다. 이럴 때 창을 통째로 바꾸기 전에 샷시 손잡이(창문 손잡이)부터 살펴볼 수 있는데요. 예림은 창호와 창호 손잡이를 함께 만드는 제조사입니다. 그래서 손잡이를 바꾸기 전에 무엇부터 확인할지, 손잡이가 창을 잠그는 방식 세 가지는 어떻게 다른지 차례로 정리해 보겠습니다.
