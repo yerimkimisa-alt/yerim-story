@@ -9,7 +9,7 @@ updated: 2026-09-25
 published_at: 2026-09-25T12:16
 source: yerim-blog/posts/20260925_kitchen-fit-fridge/post.md
 main_keyword: 키친핏 냉장고장
-products: [supreme-pet-matt, prestige-acryl, supreme-pet-glossy, prestige-pp, prime-mfb]
+products: [supreme-pet-matt, prestige-acryl, supreme-pet-glossy, prestige-pp, prime-mfb, super-matt]
 ---
 
 키친핏 냉장고를 먼저 사고 장을 나중에 짜면 냉장고가 앞으로 튀어나오거나 도어가 장에 걸리기 쉽습니다. 반대로 장을 먼저 짜 두면 원하는 모델이 들어가지 않을 수 있는데요. 장 안에 넣는 냉장고는 가구와 한 벽을 이루기 때문에 몇 mm 차이가 마감을 좌우합니다. 그래서 키친핏 냉장고장은 치수는 제조사 설치 가이드로, 색은 가구 보드로 맞추는 두 갈래로 정리했습니다.

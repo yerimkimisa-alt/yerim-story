@@ -9,7 +9,7 @@ updated: 2026-09-26
 published_at: 2026-09-26T18:11
 source: yerim-blog/posts/20260926_living-artwall-wallpanel/post.md
 main_keyword: 거실 아트월
-products: [arte-wall-max, arte-wall, arte-wall-plus, arte-wall-glam, veloce-wall, semi-noncombustible-wall, system-wall, temba-board, novo-stone-floor]
+products: [arte-wall-max, arte-wall, arte-wall-plus, arte-wall-glam, veloce-wall, semi-noncombustible-wall, system-wall, temba-board, novo-stone-floor, natural-wood, premium-wood-ho, paint-film]
 ---
 
 거실 아트월을 새로 하려고 견적을 받아 보면 가장 먼저 갈리는 것이 소재입니다. 월판넬로 할지, 목공으로 벽을 짠 뒤 필름을 입힐지, 타일을 붙일지에 따라 이음선과 색을 고르는 방법이 모두 달라지는데요. 업체마다 설명하는 기준도 달라 같은 조건으로 놓고 비교하기가 쉽지 않습니다.

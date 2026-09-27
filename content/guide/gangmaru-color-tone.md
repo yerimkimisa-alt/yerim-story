@@ -9,7 +9,7 @@ updated: 2026-09-27
 published_at: 2026-09-27T02:51
 source: yerim-blog/posts/20260927_gangmaru-color-tone/post.md
 main_keyword: 강마루 색상
-products: [quick-step-floor, novo-stone-floor, novo-nature-floor, lisio-floor, arte-wall-max, arte-wall]
+products: [quick-step-floor, novo-stone-floor, novo-nature-floor, lisio-floor, arte-wall-max, arte-wall, stone-film, fabric-film]
 ---
 
 문과 문틀이 이미 오크색인데 바닥은 어떤 색으로 깔아야 할지, 리모델링을 앞두고 가장 오래 붙잡게 되는 질문 중 하나입니다. 강마루 색상은 샘플 한 장으로 볼 때는 다 무난해 보이는데, 막상 문과 벽 옆에 깔리면 전혀 다른 인상이 되기 때문이죠. 바닥은 집에서 가장 넓은 면이라 먼저 정해 두면 벽과 문은 그 기준을 따라 고르기가 훨씬 쉬워집니다. 이 글에서는 벽과 바닥을 같은 패턴으로 잇는 방법, 같은 계열로 밝게 잇는 톤온톤, 우드 바닥으로 대비를 주는 방법까지 세 갈래로 정리했습니다.

@@ -9,6 +9,7 @@ updated: 2026-09-25
 published_at: 2026-09-25T08:22
 source: yerim-blog/posts/20260925_film-reform-service/post.md
 main_keyword: 싱크대 필름 리폼
+products: [super-matt, paint-film, natural-wood]
 ---
 
 문짝 색이 누렇게 바래고 모서리 시트지가 들떴는데, 싱크대를 통째로 바꿔야 할지 싱크대 필름 리폼으로 될지 고민하는 분들이 많습니다. 예림 인테리어필름 리폼 서비스는 쓰던 주방 가구를 살려 둔 채, 겉으로 드러나는 문짝 면에만 필름을 입혀 주방을 새로 꾸미는 서비스입니다. 그런데 리폼으로 될지는 표면의 색이 아니라 도어의 구조가 정합니다. 서비스 소개는 [리폼서비스 OPEN 공지](https://blog.naver.com/yerimdoor/224415770102)에 있고, 이 글은 교체 전에 확인할 기준만 정리합니다.

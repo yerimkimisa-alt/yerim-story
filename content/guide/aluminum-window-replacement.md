@@ -9,7 +9,7 @@ updated: 2026-09-26
 published_at: 2026-09-26T15:21
 source: yerim-blog/posts/20260926_aluminum-window-replacement/post.md
 main_keyword: 알루미늄 샷시
-products: [al-sliding-window, al-curtain-wall, al-system-door, smart-balcony, best-balcony-1, grace-handle]
+products: [al-sliding-window, al-curtain-wall, al-system-door, smart-balcony, best-balcony-1, grace-handle, antibacterial-hc-hl]
 ---
 
 베란다의 오래된 알루미늄 샷시가 겨울마다 유난히 차갑게 느껴질 때가 있습니다. 알아보면 다들 PVC(하이샷시)로 바꾸라고 하는데, 요즘은 알루미늄도 잘 나온다는 말이 함께 들리죠. 예림은 PVC 창호와 알미늄 창호를 모두 만드는 제조사입니다. 그래서 한쪽 편을 들지 않고 두 소재를 무엇으로 확인해야 하는지 나눠 보겠습니다.

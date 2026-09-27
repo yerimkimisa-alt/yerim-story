@@ -9,6 +9,7 @@ updated: 2026-09-27
 published_at: 2026-09-27T10:28
 source: yerim-blog/posts/20260927_film-reform-how-to-apply/post.md
 main_keyword: 싱크대 리폼
+products: [super-matt, paint-film, natural-wood]
 ---
 
 싱크대 리폼을 하기로 했는데, 신청하면 그다음엔 무엇이 오고 언제 돈을 내는지 몰라 망설이는 분들이 많습니다. 예림 인테리어필름 리폼 서비스는 주방 가구를 그대로 두고 보이는 도어 겉면에 필름을 입히는 주방 리폼 서비스인데요. 대상은 싱크대부터 냉장고장, 아일랜드까지이고 자세한 소개는 [리폼서비스 OPEN 공지](https://blog.naver.com/yerimdoor/224415770102)에 있습니다. 리폼이 되는 싱크대인지부터 궁금하다면 [리폼 전 자가진단 가이드](https://yerimkimisa-alt.github.io/yerim-story/guide/film-reform-service/)의 5문항으로 먼저 가늠해 보세요. 이 글은 신청하는 순서대로, 단계마다 내가 할 일과 예림이 하는 일을 나눠 정리합니다.

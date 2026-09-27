@@ -9,7 +9,7 @@ updated: 2026-09-24
 published_at: 2026-09-24T23:30
 source: yerim-blog/posts/20260924_hidden-door-no-molding/post.md
 main_keyword: 히든도어
-products: [hidden-door, step-door, grande-door, anti-warp-door, ultra-door-frame, foam-wood-door-frame, al-round-corner-moulding, pvc-moulding, essential-handle, hidden-hinge, door-closer-autoseal]
+products: [hidden-door, step-door, grande-door, anti-warp-door, ultra-door-frame, foam-wood-door-frame, al-round-corner-moulding, pvc-moulding, essential-handle, hidden-hinge, door-closer-autoseal, stone-film, super-matt, paint-film]
 ---
 
 천장몰딩과 걸레받이를 없애는 무몰딩(마이너스몰딩)으로 정했는데, 방마다 문선과 문틀이 그대로 남아 고민인 분들이 많습니다. 천장과 바닥의 선을 지운 집일수록 남은 문의 선이 더 눈에 띄기 때문인데요. 이 글에서는 히든도어를 비롯한 문 쪽 선택지를 제품 구조 단위로 나눠, 어떤 선을 무엇으로 지우는지 정리합니다.
