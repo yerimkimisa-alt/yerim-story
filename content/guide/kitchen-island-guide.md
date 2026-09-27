@@ -9,6 +9,7 @@ updated: 2026-09-27
 published_at: 2026-09-27T01:03
 source: yerim-blog/posts/20260927_kitchen-island-guide/post.md
 main_keyword: 주방 아일랜드
+products: [prestige-pet, supreme-pp, supreme-pet-matt, prime-mfb, body-mfc, formflex, led-lighting-system]
 ---
 
 주방 아일랜드는 주방 리모델링이나 입주를 앞둔 많은 분들이 꿈꾸는 구성입니다. 그런데 막상 들이려고 하면 우리 집 주방에 들어갈지, 동선이 오히려 불편해지지는 않을지, 상판과 문짝은 무엇으로 할지가 한꺼번에 걸리는데요. 이 글은 가구재를 만드는 쪽에서 아일랜드를 크기, 동선, 자재 순서로 고르는 법을 예림 가구재가 쓰인 실제 현장으로 정리했습니다.

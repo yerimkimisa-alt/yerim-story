@@ -9,6 +9,7 @@ updated: 2026-09-26
 published_at: 2026-09-26T16:36
 source: yerim-blog/posts/20260926_built-in-closet-mr/post.md
 main_keyword: 붙박이장
+products: [supreme-pet-matt, prestige-acryl, prestige-pp, prime-mfb, prestige-glass, deco-pvc, body-mfc]
 ---
 
 맞춤 붙박이장 견적을 받아 보면 업체마다 PET, 하이그로시, E0 같은 말이 먼저 나옵니다. 용어는 비슷한데 적는 방식이 제각각이라 같은 조건으로 놓고 비교하기가 어렵죠. 이 글은 자재를 만드는 쪽에서 본 고르는 순서를 보드, 도어 표면재, 마감과 도어 방식, 컬러의 네 단계로 정리하고, 그 기준을 예림 프리미엄 가구재인 예림보드 럭스 MR로 설명합니다.

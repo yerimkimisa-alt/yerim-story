@@ -9,6 +9,7 @@ updated: 2026-09-27
 published_at: 2026-09-27T01:55
 source: yerim-blog/posts/20260927_kitchen-remodel-order/post.md
 main_keyword: 주방 리모델링
+products: [supreme-pet-matt, supreme-pet-glossy]
 ---
 
 싱크대 문이 들뜨고 색이 바랬는데, 다 뜯어내자니 비용과 공사 기간이 부담스럽고 필름만 붙이자니 오래 갈지 걱정되는 분들이 많습니다. 주방 리모델링은 무엇을 먼저 하느냐보다 어디까지 바꿀지를 먼저 정해야 하는 공사인데요. 선택지는 전체 교체, 도어만 교체, 필름 리폼 세 가지입니다. 가구재와 필름을 함께 만드는 입장에서, 범위를 좁혀 가는 판단 순서 다섯 단계를 몸통, 배치, 상·하부장, 냉장고장, 색 순으로 정리했습니다.

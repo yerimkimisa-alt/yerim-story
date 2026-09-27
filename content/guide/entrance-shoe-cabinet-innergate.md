@@ -9,7 +9,7 @@ updated: 2026-09-27
 published_at: 2026-09-27T01:32
 source: yerim-blog/posts/20260927_entrance-shoe-cabinet-innergate/post.md
 main_keyword: 현관 신발장
-products: [super-slim-innergate, super-slim-light-gansal, rian-swing-door, rian-sliding, frameless-glass-door]
+products: [super-slim-innergate, super-slim-light-gansal, rian-swing-door, rian-sliding, frameless-glass-door, supreme-pet-matt, prestige-pp, supreme-pp, prestige-acryl, led-lighting-system]
 ---
 
 중문과 현관 신발장은 따로 고르고 따로 견적을 받는 경우가 많습니다. 그런데 현관문을 열면 두 가지가 한 화면에 들어와서, 색과 선이 따로 놀면 집에 들어서는 순간부터 눈에 걸리죠. 이 글은 현관중문의 개폐 방식은 이미 정했다는 전제에서, 그 중문이 신발장과 어떻게 만나는지를 색, 소재, 라인 순서로 짚습니다. 예림은 신발장 도어에 쓰는 럭스 MR, 벽과 현관문에 입히는 하임 필름, 그리고 중문을 모두 만들기 때문에 세 자재를 색 이름과 코드로 짝지을 수 있습니다.

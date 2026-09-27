@@ -9,6 +9,7 @@ updated: 2026-09-27
 published_at: 2026-09-27T05:12
 source: yerim-blog/posts/20260927_kitchen-door-material/post.md
 main_keyword: 싱크대 문짝
+products: [prestige-glass, prestige-acryl, prestige-pp, prestige-pet, supreme-pp, supreme-pet-matt, supreme-pet-glossy, deco-pvc, prime-mfb, prime-uv, rehau-edge]
 ---
 
 싱크대 문짝 견적을 받아 보면 하이그로시, PET, 무광, 유광 같은 표면 이름이 먼저 눈에 들어옵니다. 그런데 몇 년 뒤 탈이 나는 자리는 표면 이름과는 조금 다른 곳인데요. 개수대 아래 문짝 하단이 부풀거나, 손잡이 없는 하부장 면에 지문이 쌓이는 자리입니다.

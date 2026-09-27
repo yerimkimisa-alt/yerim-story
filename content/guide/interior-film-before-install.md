@@ -9,6 +9,7 @@ updated: 2026-09-27
 published_at: 2026-09-27T04:41
 source: yerim-blog/posts/20260927_interior-film-before-install/post.md
 main_keyword: 인테리어 필름
+products: [supreme-pet-matt, deco-pvc]
 ---
 
 이사나 리모델링을 앞두고 벽지는 정했는데, 창틀과 붙박이장, 현관문은 바꾸기엔 부담스러워 필름을 알아보는 분들이 많습니다. 인테리어 필름은 뒷면에 점착제가 있어 벽이나 문 표면에 붙여 마감하는 자재인데요. 붙이는 기술은 시공자의 몫이지만, 어디에 어떤 기능과 색, 품번으로 붙일지는 집주인이 먼저 정해야 합니다. 이 글은 그 결정을 여섯 가지로 짚습니다.
