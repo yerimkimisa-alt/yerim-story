@@ -368,10 +368,11 @@ def render(p, pages, by_url):
     lds = []
     if t == "home":
         cats = "".join(gallery_card(c, by_url.get(f"/{c['slug']}/")) for c in CFG["categories"])
-        guides = sorted([q for q in pages if q["type"] == "guide" and not q["draft"]], key=newest, reverse=True)[:8]
+        all_guides = sorted([q for q in pages if q["type"] == "guide" and not q["draft"]], key=newest, reverse=True)
+        guides = all_guides[:8]
         prods = [q for q in pages if q["type"] == "product" and not q["draft"]][:6]
         inner = f'<h1>{E(p["title"])}</h1>{lead}{body}<h2>제품군</h2><div class="gallery">{cats}</div>'
-        if guides: inner += f'<h2>최근 가이드</h2>{list_items(guides)}'
+        if guides: inner += f'<h2>최근 가이드 ({len(all_guides)})</h2>{list_items(guides)}'
         if prods: inner += f'<h2>제품</h2><div class="grid">{"".join(card(q) for q in prods)}</div>'
         return base(p, inner, by_url)
     if t in ("category", "group", "section"):
