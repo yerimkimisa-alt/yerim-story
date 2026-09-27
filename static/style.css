@@ -3,7 +3,7 @@
   --bg:#FFFFFF;--ink:#1A1A1A;--ink2:#4B4B4B;--muted:#767676;--line:#E2E2E2;--soft:#F6F6F5;
   --accent:#8A4B12;--link:#0B57D0;--code:#F1F1F0;
   --mono:ui-monospace,"Cascadia Mono","Consolas","D2Coding",monospace;
-  --sans:system-ui,-apple-system,"Segoe UI","Pretendard","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
+  --sans:"Pretendard Variable","Pretendard",system-ui,-apple-system,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
 }
 @media (prefers-color-scheme:dark){
   :root{--bg:#121212;--ink:#EDEDED;--ink2:#C2C2C2;--muted:#8E8E8E;--line:#2A2A2A;--soft:#1B1B1B;--accent:#D89A5B;--link:#8AB4F8;--code:#1F1F1F}

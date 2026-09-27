@@ -271,6 +271,8 @@ def base(p, body, by_url, extra_ld=()):
 <meta property="og:site_name" content="{E(CFG['site_name'])}">
 {og_img}
 <link rel="alternate" type="application/rss+xml" title="{E(CFG['site_name'])}" href="{href('/feed.xml')}">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="{static_url('/style.css')}">
 {ld}
 </head>
