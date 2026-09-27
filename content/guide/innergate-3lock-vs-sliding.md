@@ -9,7 +9,7 @@ updated: 2026-09-24
 published_at: 2026-09-24T22:35
 source: yerim-blog/posts/20260924_innergate-3lock-vs-sliding/post.md
 main_keyword: 현관중문
-products: [super-slim-innergate, super-slim-auto-door, rian-sliding, rian-auto-door, alma-sliding, frameless-glass-door, easy-super-slim]
+products: [super-slim-innergate, super-slim-auto-door, rian-sliding, rian-auto-door, alma-sliding, frameless-glass-door, easy-super-slim, innergate-hardware]
 ---
 
 현관 폭이 1,100~1,200mm 안팎인 구축 아파트를 리모델링하다 보면 현관중문을 3연동으로 할지 슬라이딩으로 할지에서 한 번은 멈추게 됩니다. 문이 3장이면 현관이 더 좁아 보이지 않을까, 슬라이딩은 문이 빠질 벽이 있을까 하는 고민이 꼬리를 물기 때문인데요. 예림은 연동·슬라이딩·스윙·자동문을 모두 만드는 제조사라 어느 한쪽을 권할 이유가 없습니다. 이 글에서는 현관 폭, 문이 대피할 벽, 청소 습관 세 가지 조건으로 두 방식이 어떻게 갈리는지 정리하고, 세 번째 선택지까지 함께 짚어 보겠습니다.

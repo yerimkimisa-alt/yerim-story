@@ -9,7 +9,7 @@ updated: 2026-09-27
 published_at: 2026-09-27T03:20
 source: yerim-blog/posts/20260927_fire-door-semi-noncombustible/post.md
 main_keyword: 방화문
-products: [flame-retardant-door, semi-noncombustible-door, steel-fire-door]
+products: [flame-retardant-door, semi-noncombustible-door, steel-fire-door, semi-noncombustible-wall, flame-retardant-temba, door-closer-autoseal]
 ---
 
 현관문 교체 견적서에는 '방화문'이, 상가나 학원 인테리어 도면에는 '준불연'과 '방염'이 적혀 있는 경우가 많습니다. 셋 다 불과 관련된 말이라 같은 뜻인지, 하나만 갖추면 되는지 헷갈리기 쉬운데요. 세 단어는 판정하는 대상부터 다릅니다. 방화문은 문 전체가 버티는 시간을, 준불연은 재료가 타기 어려운 정도를, 방염은 표면의 방염성능검사 통과 여부를 봅니다. 이 글은 세 단어를 한 표로 나누고, 세 가지를 모두 만드는 제조사로서 눈여겨볼 점을 정리했습니다.

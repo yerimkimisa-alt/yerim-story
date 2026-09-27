@@ -9,7 +9,7 @@ updated: 2026-09-26
 published_at: 2026-09-26T12:57
 source: yerim-blog/posts/20260926_innergate-types-guide/post.md
 main_keyword: 현관중문 종류
-products: [alma-sliding, rian-sliding, rian-swing-door, rian-pivot-door, new-balance-door, rian-auto-door, super-slim-innergate, super-slim-auto-door, frameless-glass-door, folding-door, rian-led-door, super-slim-light-gansal, easy-super-slim, easy-slim]
+products: [alma-sliding, rian-sliding, rian-swing-door, rian-pivot-door, new-balance-door, rian-auto-door, super-slim-innergate, super-slim-auto-door, frameless-glass-door, folding-door, rian-led-door, super-slim-light-gansal, easy-super-slim, easy-slim, innergate-hardware]
 ---
 
 현관중문을 알아보면 3연동과 슬라이딩 이야기가 대부분이라 다른 방식은 잘 보이지 않습니다. 예림 중문 페이지는 스윙 도어·슬라이딩 도어·폴딩 도어·연동 도어·자동문 등 다양한 개폐 방식을 소개하는데요. 이 글은 제품을 움직이는 방식으로 나눠 보면 현관중문 종류가 어떻게 정리되는지, 방식별 제작 범위와 고르는 순서까지 담았습니다.

@@ -9,7 +9,7 @@ updated: 2026-09-27
 published_at: 2026-09-27T03:47
 source: yerim-blog/posts/20260927_bathroom-door-abs-moisture/post.md
 main_keyword: 화장실문 교체
-products: [abs-point-door, ez-door, real-texture-door, flame-retardant-door, moldingless-glass-door, ultra-door-frame, foam-wood-door-frame]
+products: [abs-point-door, ez-door, real-texture-door, flame-retardant-door, moldingless-glass-door, ultra-door-frame, foam-wood-door-frame, bathroom-hardware]
 ---
 
 샤워를 마치고 나오다 화장실문 아래쪽이 부풀고 표면 시트가 들뜬 것을 발견하는 경우가 있습니다. 틈을 메워 더 쓸지, 새 문으로 바꿀지 고민이 되는 순간인데요. 화장실문 교체를 알아보면 소재 이야기와 문틀 이야기가 한꺼번에 나와 판단이 오히려 어려워집니다. 이 글은 예림 고객센터 FAQ 답변을 근거로 문이 부푸는 이유, 바꿀 소재, 문틀, 주문 전 확인할 것을 차례로 정리합니다.

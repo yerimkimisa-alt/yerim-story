@@ -9,6 +9,7 @@ updated: 2026-09-25
 published_at: 2026-09-25T16:00
 source: yerim-blog/posts/20260925_temba-louver-guide/post.md
 main_keyword: 템바보드
+products: [temba-board, temba-design-louver, flame-retardant-temba, waterproof-temba-louver, hinoki-acoustic-louver, acoustic-board, metal-moulding]
 ---
 
 거실이나 침실 벽에 입체감을 주려고 템바보드를 찾다 보면 템바루바, 디자인루바, 흡음 루바라는 이름이 뒤섞여 나옵니다. 이름은 비슷한데 무엇이 다른지 짚어 주는 글은 드물죠. 업계에서 말하는 템바루바는 판 한 장짜리와 좁은 판을 잇는 루바를 함께 부르는 말이고, 예림에서는 템바 보드와 템바 디자인루바로 나뉩니다. 이 글은 이름, 모양 4가지, 자리, 흡음 순서로 고르는 기준을 정리합니다.
