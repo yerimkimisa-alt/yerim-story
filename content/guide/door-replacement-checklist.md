@@ -11,6 +11,7 @@ source: yerim-blog/posts/20260925_door-replacement-checklist/post.md
 main_keyword: 방문 교체
 image: /img/door-replacement-checklist/2.jpg
 image_alt: 문짝만 교체 · 기존 문틀은 같은 색 인테리어 필름으로 랩핑 — 2023 예림 블로그 현장
+products: [real-texture-door, abs-point-door, wood-deco-door, ez-door, veloce-door, al-modular-door, ultra-door-frame, foam-wood-door-frame]
 ---
 
 오래 산 집의 방문은 시트지가 벗겨지거나 구멍이 나고, 화장실문은 습기에 들뜹니다. 그런데 방문 교체를 알아보면 "문틀까지 다 뜯어야 한다"는 말과 "문짝만 교체해도 된다"는 말이 갈리죠. 방문은 문틀과 문짝으로 이루어져 있어 문틀까지 바꿔야 할 것처럼 느껴지기 쉽습니다. 이 글은 방문 교체 전에 문짝만인지 문틀까지인지 가리는 것부터 소재, 문틀, 상담 준비까지 네 단계로 정리합니다.

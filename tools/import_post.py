@@ -117,6 +117,9 @@ def main():
             cover_fm = f"image: {placed[cv][0]}\nimage_alt: {placed[cv][1]}\n"
         else:
             print(f"cover: {cv} 번 사진이 본문에 없어 무시합니다 — 본문 첫 사진이 대표 이미지가 됩니다")
+    # 관련 제품 — post.md `products: [슬러그, …]` 가 가이드 아래 '관련 제품' 카드가 된다 (제품 페이지 파일명 = 슬러그)
+    prods = fm.get("products", "").strip()
+    cover_fm += f"products: {prods}\n" if prods else ""
     out = f"""---
 type: guide
 title: {fm.get('title', slug)}

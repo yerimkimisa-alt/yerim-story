@@ -9,6 +9,7 @@ updated: 2026-09-25
 published_at: 2026-09-25T13:37
 source: yerim-blog/posts/20260925_door-film-wallpaper-tone/post.md
 main_keyword: 방문 필름
+products: [hidden-door, real-texture-door, ez-door, moldingless-glass-door]
 ---
 
 벽지는 정했는데 방문 필름 색에서 멈추는 분들이 많습니다. 같은 화이트인데 완성된 방에서 문과 벽이 따로 놀기도 하죠. 필름과 벽지는 색 계열이 같아도 표면감이 달라 실제 공간에서는 다른 톤으로 읽히기 때문입니다. 이 글은 벽지 기준, 명도, 쿨·웜, 질감, 실물 확인의 다섯 단계와 하임 × 개나리벽지 조합표로 문 색을 좁힙니다.

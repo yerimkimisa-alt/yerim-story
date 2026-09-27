@@ -9,6 +9,7 @@ updated: 2026-09-27
 published_at: 2026-09-27T02:23
 source: yerim-blog/posts/20260927_dressroom-open-storage-door/post.md
 main_keyword: 드레스룸 문
+products: [rian-led-door, rian-gansal, rian-sliding, frameless-glass-door, rian-partition, lattice-gallery-door]
 ---
 
 방 하나를 시스템행거와 선반으로 채우면 옷이 한눈에 들어와 고르기 편합니다. 그런데 문 없이 지내다 보면 선반에 먼지가 앉고, 침실에서 걸린 옷이 그대로 보이는 게 신경 쓰이기 시작하죠. 그래서 드레스룸 문을 다시 고민하게 되는데요, 선반을 전부 장으로 바꿀 필요는 없습니다.
