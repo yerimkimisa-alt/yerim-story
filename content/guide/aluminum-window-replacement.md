@@ -37,6 +37,8 @@ PVC 샷시(흔히 하이샷시)는 창이 놓일 자리부터 봅니다. 예림 
 
 예림 알미늄 창호는 단열 슬라이딩창, AL 시스템 도어, 단열 커튼월 세 가지입니다. AL 시스템 도어는 폴리아미드 단열재를 쓴 슬림형 알미늄 도어입니다. 창에 해당하는 단열 슬라이딩창은 이중창과 단창으로 나오며, 프레임 안팎은 폴리아미드로 잇고 안팎 레일은 폴리우레탄 단열재로 연결한 이중 단열 구조예요. 안팎을 두 겹으로 끊은 셈이고, 홈페이지는 "단열과 기밀성능이 더욱 향상"됐다고 설명합니다. 프레임과 창짝은 45도로 조립해 하나의 형재를 이루고, 유리 규격에 맞춰 유리고정태를 골라 쓸 수 있습니다.
 
+<figure><img src="/img/aluminum-window-replacement/5.jpg" alt="단열 슬라이딩창(알미늄 창호) 적용 연출 이미지 — 예림 홈페이지" loading="lazy"><figcaption>단열 슬라이딩창(알미늄 창호) 적용 연출 이미지 — 예림 홈페이지</figcaption></figure>
+
 예림이 꼽는 알미늄 창호의 장점은 다섯 가지입니다. 복층 유리와 단열재 구성이 쉬운 단열성, 부식·녹에 강해 해안가나 고습 환경에 맞는 내구성, 뒤틀림·퇴색을 견디는 내후성, 녹는점이 높은 데서 오는 내화성, 비규격 맞춤 제작이 쉬운 설계유연성이죠. 컬러는 솔리드 11종과 아노다이징 METAL SILVER 1종이며, 실내외 컬러를 따로 고를 수 있습니다.
 
 구조는 [단열 슬라이딩창 제품 상세](https://www.yerim.net/kor/products/products-view.html?uid=2236&utm_source=story&utm_medium=post&utm_campaign=aluminum-window-replacement)에서 보실 수 있습니다. 예림 알미늄 창호는 PVC처럼 효율등급을 매겨 싣지 않고, 창호 룩북에 규격별 열관류율과 기밀성 수치를 싣습니다. 단열 슬라이딩 이중창(220mm)은 0.817, 단창(145mm) 24mm 유리는 1.398 W/m²·K 입니다. 규격별 수치는 문의로 확인하세요.
@@ -54,7 +56,7 @@ PVC 샷시(흔히 하이샷시)는 창이 놓일 자리부터 봅니다. 예림 
 
 등급 숫자로 비교하고 싶다면 PVC 성능표부터 보시는 것이 순서입니다. 해안가·고습 환경, 규격에 맞지 않는 큰 개구부, 화재 안전, 알루미늄 특유의 컬러와 질감이 중요하다면 단열 알루미늄 자료도 함께 보세요. 두 소재의 라인업은 [예림 창호 제품 페이지](https://www.yerim.net/kor/products/chassis_new.html?utm_source=story&utm_medium=post&utm_campaign=aluminum-window-replacement)에, 손잡이는 [예림 창호 손잡이 '그레이스'](https://blog.naver.com/yerimdoor/223569001919)에 정리돼 있습니다.
 
-<figure><img src="/img/aluminum-window-replacement/5.jpg" alt="그레이스 핸들 YH-DG 잠금표시 · 그립핸들 YGH-DG 차콜 · 잠금 표시창이 보이는 클로즈업" loading="lazy"><figcaption>그레이스 핸들 YH-DG 잠금표시 · 그립핸들 YGH-DG 차콜 · 잠금 표시창이 보이는 클로즈업</figcaption></figure>
+<figure><img src="/img/aluminum-window-replacement/6.jpg" alt="그레이스 핸들 YH-DG 잠금표시 · 그립핸들 YGH-DG 차콜 · 잠금 표시창이 보이는 클로즈업" loading="lazy"><figcaption>그레이스 핸들 YH-DG 잠금표시 · 그립핸들 YGH-DG 차콜 · 잠금 표시창이 보이는 클로즈업</figcaption></figure>
 
 ## 알루미늄 샷시 교체 전 자주 묻는 질문
 

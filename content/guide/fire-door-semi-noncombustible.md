@@ -54,6 +54,8 @@ products: [flame-retardant-door, semi-noncombustible-door, steel-fire-door]
 
 예림 준불연 도어&문틀은 예림 블로그에서 처음 소개하는 제품입니다. 준불연 성능으로 불이 났을 때 연소가 쉽게 일어나지 않게 했고, 단열 성능도 함께 갖췄습니다. 눈여겨볼 점은 겉 판넬만이 아니라 도어 심재와 가스켓, 오토실까지 화재 확대를 막는 기능성 소재를 썼다는 것이에요. 규격은 도어 T45, 문틀 T15이고 도어는 폭 775~1,200mm, 높이 1,800~2,390mm 범위입니다. 자세한 내용은 [예림 준불연 도어&문틀 사양 보기](https://www.yerim.net/kor/products/products-view.html?uid=2093&utm_source=story&utm_medium=post&utm_campaign=fire-door-semi-noncombustible)에서 확인하실 수 있습니다.
 
+<figure><img src="/img/fire-door-semi-noncombustible/4.jpg" alt="준불연 도어 & 문틀 연출 — 예림 홈페이지" loading="lazy"><figcaption>준불연 도어 & 문틀 연출 — 예림 홈페이지</figcaption></figure>
+
 방염 도어 YA-001 민자는 '방염 인증 소재'로 만든 문입니다(2026 예림 도어·중문 룩북). 방수 기능이 있어 물에 젖어도 부패하거나 뒤틀리지 않는다고 소개하고, 8대 중금속 불검출 소재, 목재를 대체하는 재료로 적습니다. 문틀은 방염·방수 울트라 클립 슬림 문틀과 짝을 이루고, 색상은 6종입니다. 방염 필름·루바까지 함께 정리한 [방염 도어 YA-001과 방염 필름 더 보기](https://blog.naver.com/yerimdoor/223474306450) 글도 참고해 보세요.
 
 <figure><img src="/img/fire-door-semi-noncombustible/5.jpg" alt="방염 도어 YA-001 민자 · 크림화이트 WA-06 연출 — 2026 예림 도어·중문 룩북" loading="lazy"><figcaption>방염 도어 YA-001 민자 · 크림화이트 WA-06 연출 — 2026 예림 도어·중문 룩북</figcaption></figure>

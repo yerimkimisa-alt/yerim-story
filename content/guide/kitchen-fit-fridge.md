@@ -56,7 +56,7 @@ main_keyword: 키친핏 냉장고장
 
 네이처 오크 YPW-01(Pure White)과 몽블랑 체스넛 MFB-505(Soft Neutral)는 특정 냉장고 색과 짝지은 보드가 아닙니다. 같은 무드 안에서 함께 쓰기 좋은 포인트 보드로 제안했어요. 표의 컬러는 [예림 키친 제품 페이지](https://www.yerim.net/kor/products/kitchen_new.html?utm_source=story&utm_medium=post&utm_campaign=kitchen-fit-fridge)에서 확인하실 수 있습니다.
 
-<figure><img src="/img/kitchen-fit-fridge/5.jpg" alt="붙박이장 예림보드 럭스 MR 매트 듀이클라우드 SM-30 · 벽 인테리어 필름 매트 듀이클라우드 · 50평 아파트" loading="lazy"><figcaption>붙박이장 예림보드 럭스 MR 매트 듀이클라우드 SM-30 · 벽 인테리어 필름 매트 듀이클라우드 · 50평 아파트</figcaption></figure>
+<figure><img src="/img/kitchen-fit-fridge/5.jpg" alt="붙박이장 예림보드 럭스 MR 매트 듀이클라우드 SM-30 · 벽 인테리어 필름 매트 듀이클라우드 HSM30 · 50평 아파트" loading="lazy"><figcaption>붙박이장 예림보드 럭스 MR 매트 듀이클라우드 SM-30 · 벽 인테리어 필름 매트 듀이클라우드 HSM30 · 50평 아파트</figcaption></figure>
 
 색 이름만큼 중요한 것이 표면의 결입니다. 같은 화이트 계열도 매트와 글로시는 빛을 받는 방식이 달라, 나란히 두면 톤이 다르게 느껴지는데요. 2025년 7월 제안은 코타화이트에 매트(SM-31)를, 글램화이트에 글로시(SG-03)를 짝지었고 2026년 7월 제안은 새틴 계열에 아크(Prestige Acryl)를 짝지었습니다. 아크는 0.4T 울트라 매트 코팅 표면에 내지문성·내스크래치성을 표기한 라인입니다. Supreme PET는 매트와 글로시 두 질감이 있고, 홈페이지 표기상 내지문성은 매트에만 있습니다. 손이 자주 닿는 냉장고장 도어라면 실물 도어의 광택을 보고 같은 결의 보드를 고르세요.
 

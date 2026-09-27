@@ -66,7 +66,7 @@ MR은 Moisture Resistance, 즉 내수 성능을 뜻합니다. 2025년 7월 기�
 
 <figure><img src="/img/built-in-closet-mr/5.jpg" alt="예림보드 LUX 매트 캐시미어 SM-03 붙박이장과 하임 HSM03 매트 캐시미어 도어·몰딩 — 30평 아파트" loading="lazy"><figcaption>예림보드 LUX 매트 캐시미어 SM-03 붙박이장과 하임 HSM03 매트 캐시미어 도어·몰딩 — 30평 아파트</figcaption></figure>
 
-<figure><img src="/img/built-in-closet-mr/6.jpg" alt="럭스 보드 '밤부' 붙박이장과 블랙 엣지 — 가수 이지혜 하우스 안방" loading="lazy"><figcaption>럭스 보드 '밤부' 붙박이장과 블랙 엣지 — 가수 이지혜 하우스 안방</figcaption></figure>
+<figure><img src="/img/built-in-closet-mr/6.jpg" alt="예림보드 럭스 MR 밤부(MFB-504) 붙박이장과 블랙 엣지 — 가수 이지혜 하우스 안방" loading="lazy"><figcaption>예림보드 럭스 MR 밤부(MFB-504) 붙박이장과 블랙 엣지 — 가수 이지혜 하우스 안방</figcaption></figure>
 
 <figure><img src="/img/built-in-closet-mr/7.jpg" alt="예림보드 LUX 매트 화이트 SM-01 붙박이장 — 55평 아파트 게스트룸" loading="lazy"><figcaption>예림보드 LUX 매트 화이트 SM-01 붙박이장 — 55평 아파트 게스트룸</figcaption></figure>
 
@@ -115,7 +115,7 @@ Q. 손잡이 없는 장 도어는 어떤 표면이 좋나요? 내지문이 강�
 
 ### 사례 더 보기
 
-[가수 이지혜 하우스](https://blog.naver.com/yerimdoor/224381965765)는 안방 붙박이장에 럭스 보드 '밤부'를 쓰고 엣지를 블랙으로 잡았습니다. 도어 면과 대비되는 어두운 엣지를 두르면 문과 문 사이 선이 또렷해져, 장 전체가 한 덩어리보다는 여러 면으로 나뉘어 읽힙니다. 엣지 색은 도어 색을 정한 뒤에 따로 고를 수 있는 요소라, 같은 도어로도 인상을 바꿀 여지가 남습니다.
+[가수 이지혜 하우스](https://blog.naver.com/yerimdoor/224381965765)는 안방 붙박이장에 럭스 보드 '밤부'(Prime MFB-504)를 쓰고 엣지를 블랙으로 잡았습니다. 도어 면과 대비되는 어두운 엣지를 두르면 문과 문 사이 선이 또렷해져, 장 전체가 한 덩어리보다는 여러 면으로 나뉘어 읽힙니다. 엣지 색은 도어 색을 정한 뒤에 따로 고를 수 있는 요소라, 같은 도어로도 인상을 바꿀 여지가 남습니다.
 
 [55평 아파트 현장](https://blog.naver.com/yerimdoor/223946402607)은 게스트룸 수납장 도어에 럭스 매트 화이트 SM-01을 썼습니다. 30평 아파트 현장은 장 도어를 주방 상하부장과 같은 가구재로 제작해 집 안의 수납 가구 톤을 하나로 묶었어요. 하임 필름에는 HSM30·HSM03 외에도 HSM28 매트 스노우베이지·HSM29 매트 포그그레이·HSM20 매트 라이트그레이처럼, 샘플북이 도어·보드·필름 일체화 컬러로 묶은 매트 색(16색)이 더 있어 벽과 문까지 이어서 맞출 때 선택지가 넓습니다.
 

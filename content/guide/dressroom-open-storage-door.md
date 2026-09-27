@@ -48,19 +48,21 @@ products: [rian-led-door, rian-gansal, rian-sliding, frameless-glass-door, rian-
 
 <figure><img src="/img/dressroom-open-storage-door/4.jpg" alt="인테리어 필름 HP540 슬라이딩 도어 (Designed by 달앤스타일)" loading="lazy"><figcaption>인테리어 필름 HP540 슬라이딩 도어 (Designed by 달앤스타일)</figcaption></figure>
 
-문의 존재를 더 지우려면 히든 도어 HD-01이 있습니다. 문틀이 숨어 벽처럼 보이고, 마감을 벽과 같게 하면 입구가 군더더기 없이 정리됩니다. 슬라이딩이라면 일반형 히든 행거 레일로 하드웨어 돌출을 없앨 수 있고, 2022년 셀럽 하우스에서도 드레스룸에 히든 행거 레일을 썼습니다. 일반형 히든 행거레일은 도어 폭 840~1,200mm, 최대 하중 40kg 이고, 도어가 개구부보다 폭 210mm·높이 60mm 이상 커야 하며 벽과 도어 사이 22mm, 천장까지 50mm 이상 여유와 보강된 벽체가 필요합니다.
+문의 존재를 더 지우려면 히든 도어 HD-01이 있습니다. 문틀이 숨어 벽처럼 보이고, 마감을 벽과 같게 하면 입구가 군더더기 없이 정리됩니다. 슬라이딩이라면 일반형 히든 행거 레일로 하드웨어 돌출을 없앨 수 있고, 2022년 셀럽 하우스에서도 드레스룸에 히든 행거 레일을 썼습니다. 일반형 히든 행거레일은 도어 폭 840~1,200mm, 최대 하중 40kg 이고, 도어가 개구부보다 폭 210mm·높이 60mm 이상 커야 하며 벽과 도어 사이 22mm, 천장까지 50mm 이상 여유와 보강된 벽체가 필요합니다. 문을 벽 속으로 완전히 넣고 싶다면 [뉴 프리미엄 행거레일](https://www.yerim.net/kor/products/products-view.html?uid=2117&utm_source=story&utm_medium=post&utm_campaign=dressroom-open-storage-door)이 있고, 홈페이지 표기로 W 655~1,200 × H ~3,000mm, 하중 ~60kg 규격입니다.
 
 <figure><img src="/img/dressroom-open-storage-door/5.jpg" alt="드레스룸 구획 · 일부 전면 거울 도어 — 49평 구축" loading="lazy"><figcaption>드레스룸 구획 · 일부 전면 거울 도어 — 49평 구축</figcaption></figure>
 
 ## 옷을 비추는 문, LED 무드 도어와 매립 조명
 
-창이 없는 방이라면 드레스룸 문 자체를 조명으로 쓰는 방법이 있습니다. LED 무드 도어(룩북 제품명 리안 LED, YSL-200 LED)는 알루미늄 프레임 상·하·좌·우 4면에 LED 를 넣은 문으로, 싱글레일은 완전히 닫히거나 완전히 열렸을 때, 더블레일은 닫혔을 때 켜집니다. 조명은 3,000K 전구색(KC인증)이고 무선 리모컨으로 켜고 끄며 밝기를 조절하며, 시공 때 별도 배선 공사가 필요합니다. 예림은 이 문을 드레스룸 도어나 붙박이장 도어로 제안했고, 침실 드레스룸에는 3,000K 전구색이 맞는다고 소개했습니다. 2024 굿디자인 은상과 2024 우수디자인을 함께 받은 문이기도 해요.
+창이 없는 방이라면 드레스룸 문 자체를 조명으로 쓰는 방법이 있습니다. LED 무드 도어(룩북 제품명 리안 LED, YSL-200 LED)는 알루미늄 프레임 상·하·좌·우 4면에 LED 를 넣은 문으로, 싱글레일은 완전히 닫히거나 완전히 열렸을 때, 더블레일은 닫혔을 때 켜집니다. 조명은 3,000K 전구색(KC인증)이고 무선 리모컨으로 켜고 끄며 밝기를 조절하며, 시공 때 별도 배선 공사가 필요합니다. 예림은 이 문을 드레스룸 도어나 붙박이장 도어로 제안했고, 침실 드레스룸에는 3,000K 전구색이 맞는다고 소개했습니다. 2024 굿디자인 은상과 2024 우수디자인을 함께 받은 문이기도 해요. 제작 범위는 [LED 무드 도어 상세](https://www.yerim.net/kor/products/products-view.html?uid=1942&utm_source=story&utm_medium=post&utm_campaign=dressroom-open-storage-door)에서 확인할 수 있습니다.
 
 <figure><img src="/img/dressroom-open-storage-door/6.jpg" alt="리안 LED YSL-200 LED 슬라이딩 연출 — 2026 예림 도어·중문 룩북" loading="lazy"><figcaption>리안 LED YSL-200 LED 슬라이딩 연출 — 2026 예림 도어·중문 룩북</figcaption></figure>
 
-열어 둔 선반과 행거 쪽은 조명을 매립하는 조합이 어울립니다. 예림 가구 부자재로 소개된 LED 조명 시스템에서 드레스룸 구성은 슬림매립 45도 프로파일 세트 14x9입니다. 선반 안쪽 빛도 문과 같은 3,000K로 맞추면 문을 열고 들어설 때 빛의 색이 어긋나지 않습니다. 제작 범위는 [LED 무드 도어 상세](https://www.yerim.net/kor/products/products-view.html?uid=1942&utm_source=story&utm_medium=post&utm_campaign=dressroom-open-storage-door)에서 확인할 수 있습니다.
+열어 둔 선반과 행거 쪽은 조명을 매립하는 조합이 어울립니다. 예림 가구 부자재로 소개된 LED 조명 시스템에서 드레스룸 구성은 [슬림매립 45도 프로파일 세트 14x9](https://www.yerim.net/kor/products/products-view.html?uid=2011&utm_source=story&utm_medium=post&utm_campaign=dressroom-open-storage-door)입니다. 선반 안쪽 빛도 문과 같은 3,000K로 맞추면 문을 열고 들어설 때 빛의 색이 어긋나지 않습니다.
 
-정리하면 시스템행거로 열어 둔 수납은 그대로 두고, 창이 있으면 간살·유리로, 침실 안이면 원 슬라이딩·히든으로, 옷을 비추고 싶으면 LED 무드 도어로 드레스룸 문을 고르면 됩니다. 창, 위치, 조명 세 가지만 먼저 확인하면 소재 고르기가 한결 단순해집니다. 닫힌 장은 [붙박이장 고르는 법](https://yerimkimisa-alt.github.io/yerim-story/guide/built-in-closet-mr/), 현관 중문은 [현관중문 종류](https://yerimkimisa-alt.github.io/yerim-story/guide/innergate-types-guide/)에서 이어서 보실 수 있습니다.
+<figure><img src="/img/dressroom-open-storage-door/7.jpg" alt="슬림매립 45도 LED 프로파일 14x9 연출 — 예림 홈페이지" loading="lazy"><figcaption>슬림매립 45도 LED 프로파일 14x9 연출 — 예림 홈페이지</figcaption></figure>
+
+정리하면 시스템행거로 열어 둔 수납은 그대로 두고, 창이 있으면 간살·유리로, 침실 안이면 원 슬라이딩·히든으로, 옷을 비추고 싶으면 LED 무드 도어로 드레스룸 문을 고르면 됩니다. 닫힌 장은 [붙박이장 고르는 법](https://yerimkimisa-alt.github.io/yerim-story/guide/built-in-closet-mr/), 현관 중문은 [현관중문 종류](https://yerimkimisa-alt.github.io/yerim-story/guide/innergate-types-guide/)에서 이어서 보실 수 있습니다.
 
 ### 드레스룸 문 소재별 제작 범위
 

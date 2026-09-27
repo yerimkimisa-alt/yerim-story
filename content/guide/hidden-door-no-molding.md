@@ -85,7 +85,7 @@ products: [hidden-door, step-door, grande-door, anti-warp-door, ultra-door-frame
 
 ### 홈페이지 라인업과 히든 하드웨어
 
-예림 홈페이지 도어 라인업은 히든 도어를 "간결한 스타일의 히든 도어"로, 스텝도어를 "인테리어쇼(INSHOW)와의 협업으로 탄생한 미니멀리즘 디자인의 스텝 도어", "일체화된 디자인으로 간결한 미니멀리즘 스타일의 스텝 도어"로 소개합니다. 같은 페이지에는 히든 하드웨어와 일반형 히든 행거 레일도 현행 품목으로 올라 있습니다. 세부 품목과 옵션은 [예림 도어 제품 페이지](https://www.yerim.net/kor/products/door_new.html?utm_source=story&utm_medium=post&utm_campaign=hidden-door-no-molding)나 대리점 상담으로 확인하시길 권합니다.
+예림 홈페이지 도어 라인업은 히든 도어를 "간결한 스타일의 히든 도어"로, 스텝도어를 "인테리어쇼(INSHOW)와의 협업으로 탄생한 미니멀리즘 디자인의 스텝 도어", "일체화된 디자인으로 간결한 미니멀리즘 스타일의 스텝 도어"로 소개합니다. 같은 페이지에는 일반형 히든 행거 레일도 현행 품목으로 올라 있고, 히든 도어 전용 하드웨어로는 도어 뒷면에 다는 데드락 YDL-511·512·513과 매립형 여닫이 댐퍼 LDD-V가 있습니다. 천장·바닥 선을 지우는 몰딩으로는 PVC 백색 마이너스 몰딩(25×15·30×15)과 천장몰딩·걸레받이로 쓰는 PVC 히든 몰딩(8자·10자, 전 색상 래핑)이 있습니다. 세부 품목과 옵션은 [예림 도어 제품 페이지](https://www.yerim.net/kor/products/door_new.html?utm_source=story&utm_medium=post&utm_campaign=hidden-door-no-molding)나 대리점 상담으로 확인하시길 권합니다.
 
 ### 2026 룩북에 적힌 문틀·도어 사양
 

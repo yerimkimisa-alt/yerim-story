@@ -50,7 +50,7 @@ products: [super-slim-innergate, super-slim-light-gansal, rian-swing-door, rian-
 
 ## 라인, 벤치와 하부 띄움으로 높이를 나눕니다
 
-현관 신발장의 라인은 높이를 어떻게 나누느냐의 문제입니다. 예림 현장에서 반복된 방법은 양쪽 신발장 가운데 한쪽을 비우고 벤치를 두는 구성인데요, 2025년 5월 34평 현장이 이 구성을 썼고 2024년 10월 48평 현장도 벤치를 둔 구성입니다. 2025년 12월 32평 현장은 네이처 오크(YPW-01) 벤치를 리안 양방향 여닫이 중문과 함께 두었죠. 중문으로 좁아진 현관에서 수납을 한 칸 덜어 앉을 자리를 만드는 선택입니다.
+현관 신발장의 라인은 높이를 어떻게 나누느냐의 문제입니다. 예림 현장에서 반복된 방법은 양쪽 신발장 가운데 한쪽을 비우고 벤치를 두는 구성인데요, 2025년 5월 34평 현장이 이 구성을 썼고 2024년 10월 48평 현장도 벤치를 둔 구성입니다. 2025년 12월 32평 현장은 네이처 오크(YPW-01) 벤치를 리안 양방향 여닫이 중문과 함께 두었죠. 중문으로 좁아진 현관에서 수납을 한 칸 덜어 앉을 자리를 만드는 선택입니다. 덜어 낸 수납은 중문 쪽에서 보탤 수도 있어, [슈퍼 슬림 3연동 C타입](https://www.yerim.net/kor/products/products-view.html?uid=119&utm_source=story&utm_medium=post&utm_campaign=entrance-shoe-cabinet-innergate)은 고정문에 선반을 답니다.
 
 <figure><img src="/img/entrance-shoe-cabinet-innergate/6.jpg" alt="예림보드 럭스 MR 아크 퓨어코튼 신발장 · 네이처 오크(YPW-01) 벤치 — 32평 아파트" loading="lazy"><figcaption>예림보드 럭스 MR 아크 퓨어코튼 신발장 · 네이처 오크(YPW-01) 벤치 — 32평 아파트</figcaption></figure>
 
@@ -117,6 +117,8 @@ products: [super-slim-innergate, super-slim-light-gansal, rian-swing-door, rian-
 
 ③ 슈퍼 슬림 라이트 간살 YSS-114 × 필름 HSM21 × 보드 럭스 SM-21 매트 샌드그레이(p087)
 
+<figure><img src="/img/entrance-shoe-cabinet-innergate/14.jpg" alt="슈퍼슬림 라이트 간살 3연동 연출 — 예림 홈페이지" loading="lazy"><figcaption>슈퍼슬림 라이트 간살 3연동 연출 — 예림 홈페이지</figcaption></figure>
+
 룩북 Yerim Color Link 표는 매트 계열을 도어·필름 HSM□□, 보드 럭스 SM-□□ 같은 이름으로 운영합니다(p005). 모두 연출 이미지이며 시공 현장이 아닙니다.
 
 ### 중문 목문틀 래핑 4색
@@ -133,7 +135,7 @@ products: [super-slim-innergate, super-slim-light-gansal, rian-swing-door, rian-
 ### 자주 묻는 질문
 
 **Q. 중문을 ㄱ자로 달 때 신발장은 천장까지 높게 짜나요, 낮게 두나요?**
-예림이 공개한 신발장 권장 높이나 중문과 맞추는 기준 치수는 없습니다. 대신 예림 현장에서 쓴 방향은 두 가지입니다. 하나는 양쪽 신발장 중 한쪽을 비워 벤치를 두는 구성이고, 다른 하나는 좁은 현관에서 신발장을 낮게 짜고 거울과 타공 가벽으로 개방감을 낸 2023년 현장의 방법입니다.
+예림이 공개한 신발장 권장 높이나 중문과 맞추는 기준 치수는 없습니다. 대신 예림 현장에서 쓴 방향은 두 가지입니다. 하나는 양쪽 신발장 중 한쪽을 비워 벤치를 두는 구성이고, 다른 하나는 좁은 현관에서 신발장을 낮게 짜고 거울과 타공 가벽으로 개방감을 낸 2023년 현장의 방법입니다. 수납이 모자라면 슈퍼 슬림 3연동 C타입 고정문에 선반을 더할 수 있는데, 문틀 외경이 1,050mm 미만이면 선반은 달 수 없고 후크는 폭과 관계없이 답니다. 선반과 후크를 묶은 구성으로는 [YSS-D세트](https://www.yerim.net/kor/products/products-view.html?uid=1423&utm_source=story&utm_medium=post&utm_campaign=entrance-shoe-cabinet-innergate)가 있습니다. 중문 자체를 ㄱ자로 꺾어야 한다면 중문과 파티션을 모서리에서 잇는 [코너형 연결 시스템(YPT-207/YSS-102)](https://www.yerim.net/kor/products/products-view.html?uid=1045&utm_source=story&utm_medium=post&utm_campaign=entrance-shoe-cabinet-innergate)이 있고, 예림 홈페이지는 이 구성을 현관·침실·서재에 소개합니다.
 
 **Q. 중문과 신발장을 한 번에 맞추면 무엇이 다른가요?**
 색 이름과 코드로 짝을 지어 요청할 수 있습니다. 럭스 MR 매트 밀크화이트(SM-02)와 하임 필름 매트 밀크화이트(HSM02), 중문 문틀 래핑 CL01과 하임 필름 HC801 퓨어화이트가 그런 짝입니다. 자재 실물은 2026년 7월 리뉴얼한 본사 프리미엄 전시장에서 볼 수 있습니다.

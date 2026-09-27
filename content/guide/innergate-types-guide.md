@@ -98,6 +98,16 @@ products: [alma-sliding, rian-sliding, rian-swing-door, rian-pivot-door, new-bal
 
 두 New 제품은 방식은 그대로이고 간살 무게와 문틀 소재가 달라진 경우입니다. 방식을 먼저 정한 다음, 간살 무게나 문틀 소재 같은 차이로 한 번 더 좁혀 볼 수 있습니다. 규격이 적히지 않은 제품은 대리점 상담으로 확인합니다.
 
+### 방식마다 더 있는 에센셜 제품
+
+스윙에는 예림 홈페이지가 '스윙 도어'로 소개하는 [슬림 스윙 SD-100·108](https://www.yerim.net/kor/products/products-view.html?uid=974&utm_source=story&utm_medium=post&utm_campaign=innergate-types-guide)도 있습니다. 홈페이지는 양방향으로 열리고 회전 반경이 작으며 90% 이상 개방된다고 설명하고, 룩북 규격은 도어 W ~1,243 × H ~2,220 × T 43, 문틀 W 900~1,300 × H ~2,300 × T 60이며 자동 복귀 힌지를 씁니다. 리안 여닫이는 앞뒤로 여는 양방향 [SW-110](https://www.yerim.net/kor/products/products-view.html?uid=115&utm_source=story&utm_medium=post&utm_campaign=innergate-types-guide) 같은 SW 계열과 한쪽으로만 여는 한방향 [YFL-100](https://www.yerim.net/kor/products/products-view.html?uid=116&utm_source=story&utm_medium=post&utm_campaign=innergate-types-guide) 같은 YFL 계열로도 나뉩니다.
+
+연동에는 에센셜 [슬림 3연동 YGS-100·101](https://www.yerim.net/kor/products/products-view.html?uid=169&utm_source=story&utm_medium=post&utm_campaign=innergate-types-guide)이 있고, 도어 W 300~940 × H 1,500~2,400 × T 26, 문틀 W 900~2,400 × H 400~2,400에 블랙·크림화이트·진그레이·차콜·로열블루 분체도장 5색입니다. [클래식 연동 YG-100](https://www.yerim.net/kor/products/products-view.html?uid=297&utm_source=story&utm_medium=post&utm_campaign=innergate-types-guide)은 2연동 포켓·3/6연동·4연동으로 나오고, 홈페이지는 4연동이 열렸을 때 개구부의 3/4를 확보한다고 설명합니다. 열린 연동문은 문짝 한 장 폭만큼 겹쳐 모이므로, 같은 개구부라면 연동 수가 많아 한 장 폭이 좁을수록 지나는 폭이 넓어집니다.
+
+폴딩에는 프레임리스 글라스 폴딩 도어 말고 알루미늄 폴딩도어가 있습니다. 알루미늄 폴딩도어는 바닥 매립 없이 시공하는 [아파트형](https://www.yerim.net/kor/products/products-view.html?uid=971&utm_source=story&utm_medium=post&utm_campaign=innergate-types-guide)과 폴리아미드 단열재를 넣은 [단열형](https://www.yerim.net/kor/products/products-view.html?uid=964&utm_source=story&utm_medium=post&utm_campaign=innergate-types-guide) 등 7가지이고, 나머지는 일반형·창문형·고하중형·카센터형·고시형입니다. 같은 접이 방식의 [루버셔터](https://www.yerim.net/kor/products/products-view.html?uid=951&utm_source=story&utm_medium=post&utm_campaign=innergate-types-guide)도 홈페이지에 함께 올라 있습니다.
+
+자동문은 자기부상 두 가지 말고 일반 자동문도 있습니다. [리안 200 자동문](https://www.yerim.net/kor/products/products-view.html?uid=1063&utm_source=story&utm_medium=post&utm_campaign=innergate-types-guide)은 도어 W 700~1,300 × H 1,500~2,300 × T 32이고 하부 레일 없이 무선 터치패드로 엽니다. 슈퍼 슬림 3연동 자동문 [SAD-100](https://www.yerim.net/kor/products/products-view.html?uid=163&utm_source=story&utm_medium=post&utm_campaign=innergate-types-guide)과 슬림 3연동 자동문 [YAD-100·101](https://www.yerim.net/kor/products/products-view.html?uid=174&utm_source=story&utm_medium=post&utm_campaign=innergate-types-guide)도 하부 레일이 없는 일반 자동문입니다. 방식별 전체 제품은 [에센셜 중문](https://yerimkimisa-alt.github.io/yerim-story/innergate/essential-innergate/) 페이지에 모았습니다.
+
 ### 표에 다 담지 못한 세부 사양
 
 본문 표는 폭과 높이만 옮겼습니다. 아래는 2026 예림 도어·중문 룩북과 같은 상세 페이지에 적힌 두께·유리·프레임과 도어·문틀 세부 치수이며, 원문의 W·H·T 표기를 그대로 둡니다.

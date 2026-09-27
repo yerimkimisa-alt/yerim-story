@@ -29,7 +29,7 @@ main_keyword: 싱크대 문짝
 
 한 주방에 라인을 섞어 쓰는 것도 방법입니다. 하부장은 보드와 에지로, 상부장은 질감으로 따로 고르는 식이죠. 섞을 때의 색은 뒤의 상판 이야기와 함께 정하면 됩니다.
 
-<figure><img src="/img/kitchen-door-material/7.jpg" alt="예림보드 럭스 MR Prestige PET 메탈 쉐도우 코퍼브라운과 Prime MFB 몽블랑 체스넛 조합" loading="lazy"><figcaption>예림보드 럭스 MR Prestige PET 메탈 쉐도우 코퍼브라운과 Prime MFB 몽블랑 체스넛 조합</figcaption></figure>
+<figure><img src="/img/kitchen-door-material/7.jpg" alt="예림보드 럭스 MR Prestige PET 메탈 쉐도우 코퍼브라운(PM-63)과 Prime MFB 몽블랑 체스넛(MFB-505) 조합" loading="lazy"><figcaption>예림보드 럭스 MR Prestige PET 메탈 쉐도우 코퍼브라운(PM-63)과 Prime MFB 몽블랑 체스넛(MFB-505) 조합</figcaption></figure>
 
 ## 물과 열이 닿는 하부장은 보드와 에지부터
 
@@ -37,7 +37,7 @@ main_keyword: 싱크대 문짝
 
 <figure><img src="/img/kitchen-door-material/2.jpg" alt="예림보드 럭스 MR — 에지 마감" loading="lazy"><figcaption>예림보드 럭스 MR — 에지 마감</figcaption></figure>
 
-보드만큼 중요한 것이 옆면을 감싸는 에지입니다. 독일 레하우(REHAU) 에지는 Prestige Acryl·PP, Supreme PP·PET Matt, Prime MFB 등에 쓰이고(일부 색 제외), 압출 방식의 코어 색상 에지라 전면과 옆면의 색이 이어집니다. 예림은 '주방처럼 열기와 습기에 자주 노출되는 공간에서는 에지가 내구성과 품질을 결정하는 데 중요한 역할을 한다'고 설명하죠. 개수대와 화구 하부장은 이 두 층부터 보시고, 견적에 에지 사양도 적어 달라고 하면 같은 조건으로 비교할 수 있습니다.
+보드만큼 중요한 것이 옆면을 감싸는 에지입니다. 독일 레하우(REHAU) 에지는 Prestige Acryl·PP, Supreme PP·PET Matt, Prime MFB 등에 쓰이고(일부 색 제외), 압출 방식의 코어 색상 에지라 전면과 옆면의 색이 이어집니다. 예림은 열기와 습기가 잦은 주방에서 에지가 내구성과 품질을 좌우한다고 설명하죠. 플러스 아이템에는 접착 틈이 없는 레이저 엣지 공법의 주문재 도어도 있습니다. 개수대와 화구 하부장은 이 두 층부터 보시고, 견적에 에지 사양도 적어 달라고 하면 같은 조건으로 비교할 수 있습니다.
 
 ## 손이 닿는 면은 표면 마감으로 고릅니다
 
@@ -47,7 +47,7 @@ main_keyword: 싱크대 문짝
 
 더 단단한 표면이 필요하다면 Prestige Acryl, 이른바 '아크'가 있습니다. 아크릴 0.4T에 울트라 매트 코팅으로 기존 새틴 시리즈 대비 6배 강한 표면 경도를 냈고, 내오염·내지문·내스크래치·항균 성능을 갖췄습니다. 예전의 새틴 퓨어코튼이 지금의 아크 퓨어코튼(YPA-02)이라고 보시면 됩니다.
 
-광택을 원한다면 광택 마감이 확인되는 Supreme PET Glossy를 볼 수 있습니다. 견적서에서 흔히 보는 '하이그로시'라는 이름은 예림 분류에는 없어요. 다만 내지문 표기는 글로시에서 제외되니, 손이 많이 닿는 하부장에는 매트나 아크를, 광택은 손이 덜 가는 면에 두는 식으로 나눌 수 있습니다. 라인별 컬러는 [예림보드 럭스 MR 도어재 라인 보기](https://www.yerim.net/kor/products/kitchen_new.html?utm_source=story&utm_medium=post&utm_campaign=kitchen-door-material)에서 확인할 수 있습니다.
+광택을 원한다면 Supreme PET Glossy를 볼 수 있습니다. 견적서에서 흔히 보는 '하이그로시'라는 이름은 예림 분류에는 없어요. 다만 내지문 표기는 글로시에서 제외되니, 손이 많이 닿는 하부장에는 매트나 아크를, 광택은 손이 덜 가는 면에 두는 식으로 나눌 수 있습니다. 라인별 컬러는 [예림보드 럭스 MR 도어재 라인 보기](https://www.yerim.net/kor/products/kitchen_new.html?utm_source=story&utm_medium=post&utm_campaign=kitchen-door-material)에서 확인할 수 있습니다.
 
 ## 상판이 먼저 정해졌다면, 문짝을 맞춥니다
 
