@@ -255,6 +255,14 @@ def uid_links(m):
     return a(nums[0], "제품 페이지") if len(nums) == 1 else "제품 페이지 " + " · ".join(a(n, str(i)) for i, n in enumerate(nums, 1))
 
 
+def url_label(u):
+    """예림 홈페이지 주소는 긴 URL 대신 뜻으로 보인다. 다른 사이트 주소는 그대로."""
+    if "yerim.net" not in u: return u
+    for key, name in (("products-view", "예림 홈페이지 제품 페이지"), ("products-list", "예림 홈페이지 제품 목록"), ("/story/", "예림 홈페이지 스토리")):
+        if key in u: return name
+    return "예림 홈페이지"
+
+
 def autolink(html):
     """화면에 글자로만 찍힌 주소(사양 출처·FAQ 등)를 새 창 링크로. 이미 <a>·<script>·<code>·<style> 안인 것은 그대로."""
     out, skip = [], 0
@@ -265,7 +273,7 @@ def autolink(html):
                 skip += -1 if part.startswith("</") else (0 if part.endswith("/>") else 1)
             out.append(part)
         else:
-            out.append(part if skip > 0 else _UID.sub(uid_links, _URL.sub(lambda m: f'<a href="{m.group(0)}" target="_blank" rel="noopener">{m.group(0)}</a>', part)))
+            out.append(part if skip > 0 else _UID.sub(uid_links, _URL.sub(lambda m: f'<a href="{m.group(0)}" target="_blank" rel="noopener">{url_label(m.group(0))}</a>', part)))
     return "".join(out)
 
 
@@ -549,7 +557,7 @@ def main():
 
 
 if __name__ == "__main__" and "--selftest" in sys.argv:
-    assert autolink('<td>p.021 · https://www.yerim.net/x.html?uid=1930</td>') == '<td>p.021 · <a href="https://www.yerim.net/x.html?uid=1930" target="_blank" rel="noopener">https://www.yerim.net/x.html?uid=1930</a></td>'
+    assert autolink('<td>p.021 · https://www.yerim.net/kor/products/products-view.html?uid=1930</td>') == '<td>p.021 · <a href="https://www.yerim.net/kor/products/products-view.html?uid=1930" target="_blank" rel="noopener">예림 홈페이지 제품 페이지</a></td>'
     assert autolink('(출처 https://a.com/b).') == '(출처 <a href="https://a.com/b" target="_blank" rel="noopener">https://a.com/b</a>).'
     assert autolink('<a href="https://a.com">https://a.com</a>') == '<a href="https://a.com">https://a.com</a>'
     assert autolink('<script>{"u":"https://a.com"}</script>') == '<script>{"u":"https://a.com"}</script>'
