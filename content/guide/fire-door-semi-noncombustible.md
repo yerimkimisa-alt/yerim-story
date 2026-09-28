@@ -5,7 +5,7 @@ description: 현관문 교체 견적서에는 '방화문'이, 상가나 학원 �
 category: door
 keywords: [방화문, 준불연도어, 갑종방화문, 60분방화문, 화재안전도어, 준불연, 방염도어, 철재방화문, 예림도어, 방화문교체]
 date: 2026-09-27
-updated: 2026-09-28
+updated: 2026-09-29
 published_at: 2026-09-27T03:20
 source: yerim-blog/posts/20260927_fire-door-semi-noncombustible/post.md
 main_keyword: 방화문
@@ -56,7 +56,7 @@ products: [flame-retardant-door, semi-noncombustible-door, steel-fire-door, semi
 
 <figure><img src="/img/fire-door-semi-noncombustible/4.jpg" alt="준불연 도어 & 문틀 연출 — 예림 홈페이지" loading="lazy"><figcaption>준불연 도어 & 문틀 연출 — 예림 홈페이지</figcaption></figure>
 
-방염 도어 YA-001 민자는 '방염 인증 소재'로 만든 문입니다(2026 예림 도어·중문 룩북). 방수 기능이 있어 물에 젖어도 부패하거나 뒤틀리지 않는다고 소개하고, 8대 중금속 불검출 소재, 목재를 대체하는 재료로 적습니다. 문틀은 방염·방수 울트라 클립 슬림 문틀과 짝을 이루고, 색상은 6종입니다. 방염 필름·루바까지 함께 정리한 [방염 도어 YA-001과 방염 필름 더 보기](https://blog.naver.com/yerimdoor/223474306450) 글도 참고해 보세요.
+방염 도어 YA-001 민자는 '방염 인증 소재'로 만든 문입니다(2026 예림 도어·중문 룩북). 방수 기능이 있어 물에 젖어도 부패하거나 뒤틀리지 않는다고 소개하고, 목재를 대체하는 재료로 적습니다. 문틀은 방염·방수 울트라 클립 슬림 문틀과 짝을 이루고, 색상은 6종입니다. 방염 필름·루바까지 함께 정리한 [방염 도어 YA-001과 방염 필름 더 보기](https://blog.naver.com/yerimdoor/223474306450) 글도 참고해 보세요.
 
 <figure><img src="/img/fire-door-semi-noncombustible/5.jpg" alt="방염 도어 YA-001 민자 · 크림화이트 WA-06 연출 — 2026 예림 도어·중문 룩북" loading="lazy"><figcaption>방염 도어 YA-001 민자 · 크림화이트 WA-06 연출 — 2026 예림 도어·중문 룩북</figcaption></figure>
 
