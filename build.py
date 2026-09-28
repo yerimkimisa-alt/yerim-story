@@ -245,20 +245,20 @@ _TAG = re.compile(r"(<[^>]+>)")
 _URL = re.compile(r"https?://[^\s<>\"'()\[\]]+[^\s<>\"'()\[\].,;:·]")
 
 
-# 출처의 "예림 홈페이지 uid 2048" 은 홈페이지 제품 상세 번호 — 방문자에겐 뜻이 없으니 "제품 페이지" 링크로 바꿔 보인다
-_UID = re.compile(r"\buid ?(\d{2,5}(?:~\d{2,5})?(?:·\d{2,5}(?:~\d{2,5})?)*)")
+# 출처의 "예림 홈페이지 uid 2048" 은 홈페이지 제품 상세 번호 — 방문자에겐 뜻이 없으니 "제품설명" 링크로 바꿔 보인다 (2026-09-28)
+_UID = re.compile(r"(?:예림 )?(?:홈페이지 )?\buid ?(\d{2,5}(?:~\d{2,5})?(?:·\d{2,5}(?:~\d{2,5})?)*)")
 
 
 def uid_links(m):
     nums = [x.split("~")[0] for x in m.group(1).split("·")]   # 범위(2210~2226)는 첫 제품으로
     a = lambda n, t: f'<a href="{ORG["url"]}/kor/products/products-view.html?uid={n}" target="_blank" rel="noopener">{t}</a>'
-    return a(nums[0], "제품 페이지") if len(nums) == 1 else "제품 페이지 " + " · ".join(a(n, str(i)) for i, n in enumerate(nums, 1))
+    return a(nums[0], "제품설명") if len(nums) == 1 else "제품설명 " + " · ".join(a(n, str(i)) for i, n in enumerate(nums, 1))
 
 
 def url_label(u):
     """예림 홈페이지 주소는 긴 URL 대신 뜻으로 보인다. 다른 사이트 주소는 그대로."""
     if "yerim.net" not in u: return u
-    for key, name in (("products-view", "예림 홈페이지 제품 페이지"), ("products-list", "예림 홈페이지 제품 목록"), ("/story/", "예림 홈페이지 스토리")):
+    for key, name in (("products-view", "제품설명"), ("products-list", "예림 홈페이지 제품 목록"), ("/story/", "예림 홈페이지 스토리")):
         if key in u: return name
     return "예림 홈페이지"
 
@@ -557,11 +557,11 @@ def main():
 
 
 if __name__ == "__main__" and "--selftest" in sys.argv:
-    assert autolink('<td>p.021 · https://www.yerim.net/kor/products/products-view.html?uid=1930</td>') == '<td>p.021 · <a href="https://www.yerim.net/kor/products/products-view.html?uid=1930" target="_blank" rel="noopener">예림 홈페이지 제품 페이지</a></td>'
+    assert autolink('<td>p.021 · https://www.yerim.net/kor/products/products-view.html?uid=1930</td>') == '<td>p.021 · <a href="https://www.yerim.net/kor/products/products-view.html?uid=1930" target="_blank" rel="noopener">제품설명</a></td>'
     assert autolink('(출처 https://a.com/b).') == '(출처 <a href="https://a.com/b" target="_blank" rel="noopener">https://a.com/b</a>).'
     assert autolink('<a href="https://a.com">https://a.com</a>') == '<a href="https://a.com">https://a.com</a>'
     assert autolink('<script>{"u":"https://a.com"}</script>') == '<script>{"u":"https://a.com"}</script>'
-    assert autolink('예림 홈페이지 uid 1028 — 로고') == '예림 홈페이지 <a href="https://www.yerim.net/kor/products/products-view.html?uid=1028" target="_blank" rel="noopener">제품 페이지</a> — 로고'
+    assert autolink('예림 홈페이지 uid 1028 — 로고') == '<a href="https://www.yerim.net/kor/products/products-view.html?uid=1028" target="_blank" rel="noopener">제품설명</a> — 로고'
     assert autolink('uid 2208·2209').count('<a ') == 2 and 'uid=2210"' in autolink('uid 2210~2226') and '~' not in autolink('uid 2210~2226')
     print("autolink ok"); sys.exit(0)
 
