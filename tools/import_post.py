@@ -112,9 +112,7 @@ def main():
         m = re.search(r"^published_at:\s*(\S+)", prev, re.M)
         if m: published_at = m.group(1)
         m = re.search(r"^updated:\s*(\S+)", prev, re.M)
-        prev_body = prev.split("
----
-", 1)[-1].strip()
+        prev_body = prev.split("\n---\n", 1)[-1].strip()
         if prev_body != main_md.strip():
             updated = datetime.now().strftime("%Y-%m-%d")
         elif m:
