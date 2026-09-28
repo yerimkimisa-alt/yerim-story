@@ -241,7 +241,26 @@ def newtab(html):
     return _A.sub(r'<a \1 target="_blank" rel="noopener">', html)
 
 
+_TAG = re.compile(r"(<[^>]+>)")
+_URL = re.compile(r"https?://[^\s<>\"'()\[\]]+[^\s<>\"'()\[\].,;:·]")
+
+
+def autolink(html):
+    """화면에 글자로만 찍힌 주소(사양 출처·FAQ 등)를 새 창 링크로. 이미 <a>·<script>·<code>·<style> 안인 것은 그대로."""
+    out, skip = [], 0
+    for part in _TAG.split(html):
+        if part.startswith("<"):
+            t = re.match(r"</?\s*(\w+)", part)
+            if t and t.group(1).lower() in ("a", "script", "code", "pre", "style"):
+                skip += -1 if part.startswith("</") else (0 if part.endswith("/>") else 1)
+            out.append(part)
+        else:
+            out.append(part if skip > 0 else _URL.sub(lambda m: f'<a href="{m.group(0)}" target="_blank" rel="noopener">{m.group(0)}</a>', part))
+    return "".join(out)
+
+
 def base(p, body, by_url, extra_ld=()):
+    body = autolink(body)
     crumbs = crumbs_for(p, by_url)
     lds = [jsonld_crumbs(crumbs)] + list(extra_ld)
     if p["type"] in ("home", "page"):
@@ -518,6 +537,13 @@ def main():
         return 1 if issues else 0
     return 0
 
+
+if __name__ == "__main__" and "--selftest" in sys.argv:
+    assert autolink('<td>p.021 · https://www.yerim.net/x.html?uid=1930</td>') == '<td>p.021 · <a href="https://www.yerim.net/x.html?uid=1930" target="_blank" rel="noopener">https://www.yerim.net/x.html?uid=1930</a></td>'
+    assert autolink('(출처 https://a.com/b).') == '(출처 <a href="https://a.com/b" target="_blank" rel="noopener">https://a.com/b</a>).'
+    assert autolink('<a href="https://a.com">https://a.com</a>') == '<a href="https://a.com">https://a.com</a>'
+    assert autolink('<script>{"u":"https://a.com"}</script>') == '<script>{"u":"https://a.com"}</script>'
+    print("autolink ok"); sys.exit(0)
 
 if __name__ == "__main__":
     try:
