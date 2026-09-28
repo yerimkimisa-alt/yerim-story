@@ -13,7 +13,7 @@ specs:
     note: 예림 홈페이지 https://www.yerim.net/kor/products/products-list.html?depth1=3&depth2=238&depth3=474 (2026-09-27 수집)
   - name: 제품 설명
     value: 「PVC-PP 시리즈는 섬세하고 입체적인 패턴에 엠보를 적용하여 소재의 질감을 구현」「뛰어난 접착력으로 우수한 가공성과 내구성」
-    note: 예림 홈페이지 PVC 바디재 상세 설명 (uid 1849~2221)
+    note: 예림 홈페이지 PVC 바디재 상세 설명
   - name: 기본 색
     value: 화이트엠보 BS-01 · 연그레이 BS-11 · 밀크화이트 BS-100 (S100) · 샌드베이지 BS-200 (S200)
     note: 예림 홈페이지 uid 2216~2218·2221

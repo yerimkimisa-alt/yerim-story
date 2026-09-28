@@ -245,6 +245,16 @@ _TAG = re.compile(r"(<[^>]+>)")
 _URL = re.compile(r"https?://[^\s<>\"'()\[\]]+[^\s<>\"'()\[\].,;:·]")
 
 
+# 출처의 "예림 홈페이지 uid 2048" 은 홈페이지 제품 상세 번호 — 방문자에겐 뜻이 없으니 "제품 페이지" 링크로 바꿔 보인다
+_UID = re.compile(r"\buid ?(\d{2,5}(?:~\d{2,5})?(?:·\d{2,5}(?:~\d{2,5})?)*)")
+
+
+def uid_links(m):
+    nums = [x.split("~")[0] for x in m.group(1).split("·")]   # 범위(2210~2226)는 첫 제품으로
+    a = lambda n, t: f'<a href="{ORG["url"]}/kor/products/products-view.html?uid={n}" target="_blank" rel="noopener">{t}</a>'
+    return a(nums[0], "제품 페이지") if len(nums) == 1 else "제품 페이지 " + " · ".join(a(n, str(i)) for i, n in enumerate(nums, 1))
+
+
 def autolink(html):
     """화면에 글자로만 찍힌 주소(사양 출처·FAQ 등)를 새 창 링크로. 이미 <a>·<script>·<code>·<style> 안인 것은 그대로."""
     out, skip = [], 0
@@ -255,7 +265,7 @@ def autolink(html):
                 skip += -1 if part.startswith("</") else (0 if part.endswith("/>") else 1)
             out.append(part)
         else:
-            out.append(part if skip > 0 else _URL.sub(lambda m: f'<a href="{m.group(0)}" target="_blank" rel="noopener">{m.group(0)}</a>', part))
+            out.append(part if skip > 0 else _UID.sub(uid_links, _URL.sub(lambda m: f'<a href="{m.group(0)}" target="_blank" rel="noopener">{m.group(0)}</a>', part)))
     return "".join(out)
 
 
@@ -543,6 +553,8 @@ if __name__ == "__main__" and "--selftest" in sys.argv:
     assert autolink('(출처 https://a.com/b).') == '(출처 <a href="https://a.com/b" target="_blank" rel="noopener">https://a.com/b</a>).'
     assert autolink('<a href="https://a.com">https://a.com</a>') == '<a href="https://a.com">https://a.com</a>'
     assert autolink('<script>{"u":"https://a.com"}</script>') == '<script>{"u":"https://a.com"}</script>'
+    assert autolink('예림 홈페이지 uid 1028 — 로고') == '예림 홈페이지 <a href="https://www.yerim.net/kor/products/products-view.html?uid=1028" target="_blank" rel="noopener">제품 페이지</a> — 로고'
+    assert autolink('uid 2208·2209').count('<a ') == 2 and 'uid=2210"' in autolink('uid 2210~2226') and '~' not in autolink('uid 2210~2226')
     print("autolink ok"); sys.exit(0)
 
 if __name__ == "__main__":

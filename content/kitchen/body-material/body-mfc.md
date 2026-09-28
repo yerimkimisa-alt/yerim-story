@@ -13,7 +13,7 @@ specs:
     note: 예림 홈페이지 https://www.yerim.net/kor/products/products-list.html?depth1=3&depth2=238&depth3=475 (2026-09-27 수집)
   - name: 제조 방식
     value: 「몸통용 PB에 LPM 열압을 가해 접착시켜 완성한 몸통 전용 프리미엄 라인업」
-    note: 예림 홈페이지 MFC 상세 설명 (uid 2210~2226)
+    note: 예림 홈페이지 MFC 바디재 상세 설명
   - name: 보드 표기
     value: 샘플 라벨 「MFC (PB 18T E0)」
     note: 예림 홈페이지 MFC 상세 사진의 샘플 라벨 — 홈페이지 텍스트에는 보드 등급·두께·MR 표기 없음
