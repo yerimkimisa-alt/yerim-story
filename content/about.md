@@ -56,7 +56,7 @@ faq:
 ### 2026
 
 - 09월 인테리어 필름 리폼 서비스 오픈 — 기존 주방 가구 표면에 인테리어 필름을 시공하는 원데이 서비스 ([필름 리폼 가이드](/guide/film-reform-service/))
-- 09월 PS(Pet Safety) 인증 획득 — ㈜예림임업, 인테리어 필름·월판넬·마루 대상
+- 09월 PS(Pet Safety) 인증 획득 — ㈜예림, 인테리어 필름·월판넬·마루 대상
 - 07월 인천 본사 프리미엄 전시장 리뉴얼 — 인테리어쇼(INSHOW)와 협업한 체험형 쇼룸 'INSHOW 스타일 하우스'와 Material Library, 공동 개발 [체네레바크 필름](/film/collaboration/cenere-bark/) 공개
 - 06월 룩북 시리즈(Door+·Interior Decor Film·Window) 공개, 새 브랜드 슬로건 'Your Space Begins Here'
 - 06월 2026-2027 신제품 — [울트라(WPC) 소재](/door/door-frame/ultra-door-frame/) 적용 확대, [슈퍼 슬림 3연동 자기부상 자동문](/innergate/essential-innergate/super-slim-auto-door/), 프리미엄 중문 [알마](/innergate/premium-innergate/alma-sliding/), [개나리벽지 연계 인테리어 필름](/film/collaboration/gni-gaenari/)
