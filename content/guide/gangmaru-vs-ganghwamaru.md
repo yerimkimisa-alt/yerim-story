@@ -34,7 +34,7 @@ products: [novo-stone-floor, novo-nature-floor, lisio-floor, quick-step-floor]
 
 <figure><img src="/img/gangmaru-vs-ganghwamaru/4.jpg" alt="강마루 리시오 — 2026 예림 도어·중문 룩북" loading="lazy"><figcaption>강마루 리시오 — 2026 예림 도어·중문 룩북</figcaption></figure>
 
-예림 마루에는 벨기에 UNILIN사가 만드는 프리미엄 마루(퀵스텝)도 있습니다. 세계적 특허 기술인 유니클릭 시스템으로 판을 물려 시공하고 두께는 8T로, 앞의 세 라인과는 만들어지는 방식이 다릅니다. 네 라인의 색과 규격은 [예림 마루 4라인 보기](https://www.yerim.net/kor/products/products-list.html?depth1=5&depth2=52&utm_source=story&utm_medium=post&utm_campaign=gangmaru-vs-ganghwamaru)에서 한 화면에 비교하실 수 있어요.
+남은 한 라인은 벨기에 UNILIN사가 만드는 프리미엄 마루(퀵스텝)입니다. 세계적 특허 기술인 유니클릭 시스템으로 판을 물려 시공하고 두께는 8T로, 앞의 세 라인과는 만들어지는 방식이 다릅니다. 네 라인의 색과 규격은 [예림 마루 4라인 보기](https://www.yerim.net/kor/products/products-list.html?depth1=5&depth2=52&utm_source=story&utm_medium=post&utm_campaign=gangmaru-vs-ganghwamaru)에서 한 화면에 비교하실 수 있어요.
 
 <figure><img src="/img/gangmaru-vs-ganghwamaru/5.jpg" alt="프리미엄 마루(퀵스텝) IPA4160 쉐브론 오크 미디엄 — 80평 리빙룸" loading="lazy"><figcaption>프리미엄 마루(퀵스텝) IPA4160 쉐브론 오크 미디엄 — 80평 리빙룸</figcaption></figure>
 
