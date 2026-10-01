@@ -5,7 +5,7 @@ description: 문과 문틀이 이미 오크색인데 바닥은 어떤 색으로 
 category: wall
 keywords: [강마루색상, 강마루, 10평원룸, 톤온톤인테리어, 우드톤바닥, 모데나크림, 아르떼월, 예림마루, 화이트강마루, 오크마루]
 date: 2026-09-27
-updated: 2026-09-29
+updated: 2026-10-02
 published_at: 2026-09-27T02:51
 source: yerim-blog/posts/20260927_gangmaru-color-tone/post.md
 main_keyword: 강마루 색상
@@ -31,7 +31,7 @@ products: [quick-step-floor, novo-stone-floor, novo-nature-floor, lisio-floor, a
 
 <figure><img src="/img/gangmaru-color-tone/3.jpg" alt="강마루 네이처 YN-105 리치브라운 연출 — 2026 예림 도어·중문 룩북" loading="lazy"><figcaption>강마루 네이처 YN-105 리치브라운 연출 — 2026 예림 도어·중문 룩북</figcaption></figure>
 
-스톤 강마루는 일반 강마루 대비 찍힘에 5배 강하다는 점을 내세웁니다. 강마루 노보 네이처는 뉴트럴화이트부터 리치브라운까지 다섯 색으로 구성돼 있어요. 프리미엄 마루는 벨기에 UNILIN사가 생산하는 퀵스텝으로, 오크 두 색이 있습니다. 라인별 전체 색은 [예림 마루 전체 색상 보기](https://www.yerim.net/kor/products/products-list.html?depth1=5&depth2=52&utm_source=story&utm_medium=post&utm_campaign=gangmaru-color-tone)에서 한 화면에 비교하실 수 있습니다.
+스톤 강마루는 일반 강마루 대비 찍힘에 5배 강하다는 점을 내세웁니다. 강마루 노보 네이처는 뉴트럴화이트부터 리치브라운까지 다섯 색으로 구성돼 있어요. 프리미엄 마루는 벨기에 UNILIN사가 생산하는 퀵스텝(종류로는 강화마루)으로, 오크 두 색이 있습니다. 라인별 전체 색은 [예림 마루 전체 색상 보기](https://www.yerim.net/kor/products/products-list.html?depth1=5&depth2=52&utm_source=story&utm_medium=post&utm_campaign=gangmaru-color-tone)에서 한 화면에 비교하실 수 있습니다.
 
 ## 방법 1 · 벽과 바닥을 같은 패턴으로
 
@@ -90,7 +90,7 @@ products: [quick-step-floor, novo-stone-floor, novo-nature-floor, lisio-floor, a
 
 ### 마루를 고를 때 함께 보는 성질
 
-예림 에센셜 마루(강마루 노보 스톤·노보 네이처·리시오)는 매끄러운 발걸음 감촉, 친환경 소재, 우수한 열전도성을 내세웁니다. 그 가운데 노보 스톤과 노보 네이처는 친환경 Super E0등급을 함께 밝히고 있습니다. 프리미엄 마루(퀵스텝)는 벨기에 UNILIN사가 생산하며, Hydro-Seal로 표면과 틈새까지 방수하고 Scratch Guard로 긁힘·오염을 막습니다. 유니클릭 시스템을 쓰고, 원목마루보다 열 저항이 낮아 바닥 난방에 적합하며, 규격은 396×1,200×8T(4pcs 1.901㎡)입니다. 판 폭이 넓은 광폭 강마루는 줄눈(메지선)이 적어 같은 면적에서도 공간이 넓고 시원해 보입니다. 색을 정한 뒤 판 크기까지 함께 보면, 바닥에 들어갈 줄눈의 수가 공간 인상에 어떤 차이를 만드는지 가늠할 수 있어요.
+예림 에센셜 마루(강마루 노보 스톤·노보 네이처·리시오)는 매끄러운 발걸음 감촉, 친환경 소재, 우수한 열전도성을 내세웁니다. 그 가운데 노보 스톤과 노보 네이처는 친환경 Super E0등급을 함께 밝히고 있습니다. 프리미엄 마루(퀵스텝)는 벨기에 UNILIN사가 생산하며, Hydro-Seal로 표면과 틈새까지 방수하고 Scratch Guard로 긁힘·오염을 막습니다. 유니클릭 시스템을 쓰고, 원목마루보다 열 저항이 낮아 바닥 난방에 적합하며, 규격은 396×1,200×8T(4pcs 1.901㎡)입니다. 판 폭이 넓은 광폭 강마루는 줄눈(메지선)이 적어 같은 면적에서도 공간이 넓고 시원해 보입니다. 색을 정한 뒤 판 크기까지 함께 보면, 바닥에 들어갈 줄눈의 수가 공간 인상에 어떤 차이를 만드는지 가늠할 수 있어요. 색보다 먼저 강마루와 강화마루 가운데 어느 쪽을 깔지 정해야 한다면, [강마루 강화마루 차이, 집 기준으로 고르기](https://yerimkimisa-alt.github.io/yerim-story/guide/gangmaru-vs-ganghwamaru/)에서 두 종류를 집 조건별로 먼저 비교해 보시길 권합니다.
 
 ### 소재는 달라도 컬러는 한 갈래로
 
