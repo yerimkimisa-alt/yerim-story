@@ -5,7 +5,7 @@ description: 오래 산 집의 방문은 시트지가 벗겨지거나 구멍이 
 category: door
 keywords: [방문교체, 32평아파트, 구축아파트리모델링, 문짝교체, ABS도어, 양방향슬림문틀, 예림도어, 문틀교체, 우드데코도어]
 date: 2026-09-25
-updated: 2026-09-28
+updated: 2026-10-01
 published_at: 2026-09-25T18:40
 source: yerim-blog/posts/20260925_door-replacement-checklist/post.md
 main_keyword: 방문 교체
@@ -47,7 +47,7 @@ ABS는 뒤틀림·부패가 없어 욕실처럼 습기 많은 곳에 맞고, 일
 
 ## 문틀까지 바꾼다면, 문틀도 새로 고르는 자재입니다
 
-예림 문틀은 울트라 문틀(클립 슬림·히든·스텝), AL 문틀(AL 모듈러 도어 전용), 발포·목재 문틀로 나뉩니다. 울트라 클립 슬림 문틀은 문틀과 스토퍼가 모두 방수·방염 울트라 소재라 욕실처럼 습기 많은 현장에 권장됩니다. 방풍·방음이 필요하면 가스켓이 닫힘 소음과 충격을 줄이는 PVC 발포문틀을 봅니다. 습기가 걱정되면 PVC 소재의 발포형 슬림 문틀이나, 고밀도 LVB 가틀에 PVC 캡 분리형이라 현장 긁힘·파손을 막는 가변형 슬림 문틀이 있습니다. 울트라 클립 슬림 문틀은 끼움 방식 조립이라 무타카 시공이 가능합니다. 문틀마다 운영 규격이 여러 가지라 실측 뒤에 맞추며, 전체는 [예림 도어 프레임 목록](https://www.yerim.net/kor/products/products-list.html?depth1=1&depth2=47&utm_source=story&utm_medium=post&utm_campaign=door-replacement-checklist)에 있습니다.
+예림 문틀은 울트라 문틀(클립 슬림·히든·스텝), AL 문틀(AL 모듈러 도어 전용), 발포·목재 문틀로 나뉩니다. 울트라 클립 슬림 문틀은 문틀과 스토퍼가 모두 방수·방염 울트라 소재라 욕실처럼 습기 많은 현장에 권장됩니다. 방풍·방음이 필요하면 문틀 가스켓이 들어가는지 확인합니다. 가스켓은 충격과 소음을 줄이고 방음·방풍을 맡는데, 울트라 히든 문틀은 기본 적용이고 일체형 문틀은 달 수 없습니다. 습기가 걱정되면 PVC 소재의 발포형 슬림 문틀이나, 고밀도 LVB 가틀에 PVC 캡 분리형이라 현장 긁힘·파손을 막는 가변형 슬림 문틀이 있습니다. 울트라 클립 슬림 문틀은 끼움 방식 조립이라 무타카 시공이 가능합니다. 문틀마다 운영 규격이 여러 가지라 실측 뒤에 맞추며, 전체는 [예림 도어 프레임 목록](https://www.yerim.net/kor/products/products-list.html?depth1=1&depth2=47&utm_source=story&utm_medium=post&utm_campaign=door-replacement-checklist)에 있습니다.
 
 [2025년 12월 32평 아파트 현장](https://blog.naver.com/yerimdoor/224112747114)에서는 거실 쪽 방문에 문틀은 양방향 슬림 문틀, 문짝은 무광 질감의 YA-820 매트를 조합했습니다. 문틀까지 바꾸면 벽에 고정된 문틀을 철거하는 만큼 주변 벽 마감에도 손이 갑니다. 예림 블로그도 슬림 문틀은 설치 뒤 벽체 작업과 도장·벽지·필름 같은 벽 마감까지 해야 완성도가 나온다고 안내했습니다. 문선을 아예 지우는 무문선·히든 도어는 [히든도어 가이드](https://yerimkimisa-alt.github.io/yerim-story/guide/hidden-door-no-molding/)에, 관련 제품은 [예림 문틀·도어 솔루션 제품 모음(2024년 5월)](https://blog.naver.com/yerimdoor/223464785960)에 정리해 두었습니다.
 
