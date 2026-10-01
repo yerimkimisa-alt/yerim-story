@@ -5,7 +5,7 @@ description: 아침마다 창문 결로를 닦아 내고 창가에 서면 찬바
 category: window
 keywords: [창호, 30평아파트, 창문결로, 외풍차단, 발코니이중창, 터닝도어, 예림창호, 샷시교체, 결로방지]
 date: 2026-09-25
-updated: 2026-09-28
+updated: 2026-10-01
 published_at: 2026-09-25T10:49
 source: yerim-blog/posts/20260925_window-winter-condensation/post.md
 main_keyword: 창문 결로
@@ -32,7 +32,7 @@ products: [smart-balcony, best-balcony-1, best-balcony-2, best-split-balcony, sm
 
 <figure><img src="/img/window-winter-condensation/4.jpg" alt="창호 손잡이 YH-DG 잠금표시 차콜 · 파란색 표시는 열림, 잠그면 빨간색" loading="lazy"><figcaption>창호 손잡이 YH-DG 잠금표시 차콜 · 파란색 표시는 열림, 잠그면 빨간색</figcaption></figure>
 
-주방과 베란다 사이 출입문에서 바람이 든다면 문 자체의 구조를 살펴봅니다. 터닝도어 YBF-130T는 문틀과 문짝에 이중 가스켓을 적용한 PVC 도어입니다. [23평 아파트 리모델링 현장](https://blog.naver.com/yerimdoor/223250226925)에서는 주방에서 베란다로 나가는 출입문에 이 터닝도어를 HP522 컬러로 적용했습니다. 다용도실 문은 자주 여닫는 만큼 닫힌 상태에서 둘레에 틈이 느껴지는지부터 확인해 보세요.
+주방과 베란다 사이 출입문에서 바람이 든다면 문 자체의 구조를 살펴봅니다. 터닝도어 YBF-130T는 문틀과 문짝에 이중 가스켓을 적용한 PVC 도어입니다. [23평 아파트 리모델링 현장](https://blog.naver.com/yerimdoor/223250226925)에서는 주방에서 베란다로 나가는 출입문에 이 터닝도어를 HP522 컬러로 적용했습니다. 다용도실 문은 자주 여닫는 만큼 닫힌 상태에서 둘레에 틈이 느껴지는지부터 확인해 보세요. 현관문·중문·방문 쪽 틈은 [외풍 차단, 창 말고 문에서 새는 틈 4곳](https://yerimkimisa-alt.github.io/yerim-story/guide/door-draft-gap/)에 정리했습니다.
 
 <figure><img src="/img/window-winter-condensation/5.jpg" alt="터닝도어 YBF-130T · 하임 필름 HP522, 주방에서 베란다로 나가는 출입문" loading="lazy"><figcaption>터닝도어 YBF-130T · 하임 필름 HP522, 주방에서 베란다로 나가는 출입문</figcaption></figure>
 
