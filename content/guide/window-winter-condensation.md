@@ -32,7 +32,7 @@ products: [smart-balcony, best-balcony-1, best-balcony-2, best-split-balcony, sm
 
 <figure><img src="/img/window-winter-condensation/4.jpg" alt="창호 손잡이 YH-DG 잠금표시 차콜 · 파란색 표시는 열림, 잠그면 빨간색" loading="lazy"><figcaption>창호 손잡이 YH-DG 잠금표시 차콜 · 파란색 표시는 열림, 잠그면 빨간색</figcaption></figure>
 
-주방과 베란다 사이 출입문에서 바람이 든다면 문 자체의 구조를 살펴봅니다. 터닝도어 YBF-130T는 문틀과 문짝에 이중 가스켓을 적용한 PVC 도어입니다. [23평 아파트 리모델링 현장](https://blog.naver.com/yerimdoor/223250226925)에서는 주방에서 베란다로 나가는 출입문에 이 터닝도어를 HP522 컬러로 적용했습니다. 다용도실 문은 자주 여닫는 만큼 닫힌 상태에서 둘레에 틈이 느껴지는지부터 확인해 보세요. 현관문·중문·방문 쪽 틈은 [외풍 차단, 창 말고 문에서 새는 틈 4곳](https://yerimkimisa-alt.github.io/yerim-story/guide/door-draft-gap/)에 정리했습니다.
+주방과 베란다 사이 출입문에서 바람이 든다면 문 자체의 구조를 살펴봅니다. 터닝도어 YBF-130T는 문틀과 문짝에 이중 가스켓을 적용한 PVC 도어입니다. [23평 아파트 리모델링 현장](https://blog.naver.com/yerimdoor/223250226925)에서는 주방에서 베란다로 나가는 출입문에 이 터닝도어를 HP522 컬러로 적용했습니다. 다용도실 문은 자주 여닫는 만큼 닫힌 상태에서 둘레에 틈이 느껴지는지부터 확인해 보세요.
 
 <figure><img src="/img/window-winter-condensation/5.jpg" alt="터닝도어 YBF-130T · 하임 필름 HP522, 주방에서 베란다로 나가는 출입문" loading="lazy"><figcaption>터닝도어 YBF-130T · 하임 필름 HP522, 주방에서 베란다로 나가는 출입문</figcaption></figure>
 
@@ -95,3 +95,5 @@ YBF-120R2는 유리를 22mm 공기층에서 24mm 아르곤으로 바꿔도 3등�
 ### PVC 창의 기밀과 수밀, 손잡이 타입
 
 예림은 PVC 창호의 기밀성을 프로파일 구조 설계와 기밀재로 확보합니다. 빗물을 막는 수밀성은 수두(水頭) 높이를 고려한 내부 물막이턱이 맡습니다. 같은 PVC 창이라도 기밀과 수밀을 서로 다른 구조가 맡는 셈입니다. 창호 손잡이 그레이스 핸들(YH-DG)은 일반(자동잠금)·잠금표시·수동 세 가지이고 같은 디자인의 그립핸들은 YGH-DG이며, 잠김 여부를 색으로 보여 주는 것은 잠금표시형입니다. 창의 단열 성능은 위 효율등급으로 보고, 창틀 소재가 만들어질 때의 환경영향은 다른 제도로 봅니다. 관계 법인 ㈜예림화학의 PVC 창호 백색·칼라 프로파일 2종은 저탄소제품 인증(제2025-1197·1198호, 2028-10-23까지)을 받았는데, 이 인증은 프로파일 1kg당 탄소발자국을 다루며 결로나 단열 성능을 뜻하지 않습니다.
+
+창 말고 현관문·중문·방문 쪽 틈은 [외풍 차단, 창 말고 문에서 새는 틈 4곳](https://yerimkimisa-alt.github.io/yerim-story/guide/door-draft-gap/)에 정리했습니다.
