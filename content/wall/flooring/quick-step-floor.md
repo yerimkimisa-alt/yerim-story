@@ -4,7 +4,7 @@ title: 퀵스텝 마루 (QUICK·STEP)
 model: IPA4160 쉐브론 오크 미디엄 · IPA4145 로얄 오크 다크 브라운
 description: 퀵스텝은 Unilin 이 벨기에에서 생산하는 마루로, 예림은 프리미엄 마루로 IPA4160 쉐브론 오크 미디엄과 IPA4145 로얄 오크 다크 브라운 두 색을 운영합니다. 396×1,200×8mm 판에 Hydro-Seal·Scratch Guard 표면을 적용했고, 룩북의 환경표지·EU Ecolabel 은 ㈜신명마루·Unilin BV 명의입니다.
 category: wall
-updated: 2026-09-28
+updated: 2026-10-02
 draft: false
 keywords: [퀵스텝, 퀵스텝 마루, QUICK-STEP, IPA4160, IPA4145, 쉐브론 마루, 헤링본 마루, Unilin]
 specs:
@@ -50,9 +50,9 @@ related: [/guide/gangmaru-color-tone/]
 
 퀵스텝은 Unilin 이 벨기에에서 생산하는 마루로, 예림은 2026 예림 도어·중문 룩북에서 이 제품을 **프리미엄 마루**로 싣습니다. 쉐브론 패턴의 IPA4160 쉐브론 오크 미디엄과 짙은 IPA4145 로얄 오크 다크 브라운 두 색이고, 룩북 쪽에는 두 건의 인증서가 함께 실려 있지만 모두 타사 명의입니다.
 
-<figure><img src="/img/quick-step-floor/1.jpg" alt="퀵스텝 IPA4160 쉐브론 오크 미디엄 쉐브론 패턴 바닥 연출 이미지" loading="lazy"><figcaption>강마루 퀵스텝 IPA4160 쉐브론 오크 미디엄 연출 — 2026 예림 도어·중문 룩북</figcaption></figure>
+<figure><img src="/img/quick-step-floor/1.jpg" alt="퀵스텝 IPA4160 쉐브론 오크 미디엄 쉐브론 패턴 바닥 연출 이미지" loading="lazy"><figcaption>퀵스텝 IPA4160 쉐브론 오크 미디엄 연출 — 2026 예림 도어·중문 룩북</figcaption></figure>
 
-<figure><img src="/img/quick-step-floor/2.jpg" alt="퀵스텝 IPA4145 로얄 오크 다크 브라운 바닥과 뉴 프리미엄 행거레일 연출 이미지" loading="lazy"><figcaption>강마루 퀵스텝 IPA4145 로얄 오크 다크 브라운 · 뉴 프리미엄 행거레일(푸쉬 댐퍼형) · 아르떼 월 AWS-013GF 모데나크림 연출 — 2026 예림 도어·중문 룩북</figcaption></figure>
+<figure><img src="/img/quick-step-floor/2.jpg" alt="퀵스텝 IPA4145 로얄 오크 다크 브라운 바닥과 뉴 프리미엄 행거레일 연출 이미지" loading="lazy"><figcaption>퀵스텝 IPA4145 로얄 오크 다크 브라운 · 뉴 프리미엄 행거레일(푸쉬 댐퍼형) · 아르떼 월 AWS-013GF 모데나크림 연출 — 2026 예림 도어·중문 룩북</figcaption></figure>
 
 ## 어떤 문제를 해결하나
 

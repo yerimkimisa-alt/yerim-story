@@ -4,7 +4,7 @@ title: 예림 MDF 몰딩 — 웨인스코팅·래핑·마감·평·방염 몰딩
 model: 웨인스코팅(도색용 페이퍼 시트) 12종 · 래핑 몰딩 · 마감 몰딩 · 평몰딩 30~600 · 방염 몰딩
 description: 예림 MDF 몰딩은 도장용 웨인스코팅 몰딩 12종과, 시트를 입힌 래핑 몰딩(천정·계단·코너기둥·걸레받이·문선·허리·루바), 마감 몰딩, 평몰딩 30~600, 방염 몰딩으로 구성됩니다. 출고 길이는 2,440mm 이고 전 색상 래핑이 가능합니다.
 category: wall
-updated: 2026-09-28
+updated: 2026-10-02
 draft: false
 keywords: [MDF 몰딩, 웨인스코팅 몰딩, 래핑 몰딩, 천장 몰딩, 문선 몰딩, 걸레받이, 평몰딩, 방염 몰딩]
 specs:
@@ -47,11 +47,11 @@ related: [/guide/door-replacement-checklist/, /guide/hidden-door-no-molding/]
 
 예림 MDF 몰딩은 MDF 를 깎아 만든 몰딩으로, 현장 도장용 **웨인스코팅 몰딩**과 시트를 입혀 나오는 **래핑 몰딩**으로 나뉩니다. 2026 예림 도어·중문 룩북은 천정·계단·코너기둥·걸레받이·문선·허리·루바 품목과 마감 몰딩, 폭 30~600mm 평몰딩, 방염 몰딩까지 네 쪽(p.180~p.183)에 싣습니다.
 
-<figure><img src="/img/mdf-moulding/1.jpg" alt="웨인스코팅 몰딩 32 배꼽 몰딩 15 데코 몰딩 80 걸레받이 거실 벽 연출 이미지" loading="lazy"><figcaption>웨인스코팅 몰딩 32 배꼽 몰딩 · 15 데코 몰딩 · 80 걸레받이 · 강마루 퀵스텝 IPA4160 연출 — 2026 예림 도어·중문 룩북</figcaption></figure>
+<figure><img src="/img/mdf-moulding/1.jpg" alt="웨인스코팅 몰딩 32 배꼽 몰딩 15 데코 몰딩 80 걸레받이 거실 벽 연출 이미지" loading="lazy"><figcaption>웨인스코팅 몰딩 32 배꼽 몰딩 · 15 데코 몰딩 · 80 걸레받이 · 퀵스텝 IPA4160 연출 — 2026 예림 도어·중문 룩북</figcaption></figure>
 
 <figure><img src="/img/mdf-moulding/2.jpg" alt="래핑 몰딩 빗각 액자 몰딩 페일화이트 HS046 벽 연출 이미지" loading="lazy"><figcaption>래핑 몰딩 빗각 액자 몰딩 · HS046 페일화이트 연출 — 2026 예림 도어·중문 룩북</figcaption></figure>
 
-<figure><img src="/img/mdf-moulding/3.jpg" alt="웨인스코팅 몰딩 37 데코몰딩 라인 걸레받이 매트 스노우베이지 연출 이미지" loading="lazy"><figcaption>웨인스코팅 몰딩 37 데코몰딩 · 라인 걸레받이 · HSM28 매트 스노우베이지 · 강마루 퀵스텝 IPA4160 연출 — 2026 예림 도어·중문 룩북</figcaption></figure>
+<figure><img src="/img/mdf-moulding/3.jpg" alt="웨인스코팅 몰딩 37 데코몰딩 라인 걸레받이 매트 스노우베이지 연출 이미지" loading="lazy"><figcaption>웨인스코팅 몰딩 37 데코몰딩 · 라인 걸레받이 · HSM28 매트 스노우베이지 · 퀵스텝 IPA4160 연출 — 2026 예림 도어·중문 룩북</figcaption></figure>
 
 ## 어떤 문제를 해결하나
 
