@@ -5,7 +5,7 @@ description: 거실 아트월을 새로 하려고 견적을 받아 보면 가장
 category: wall
 keywords: [거실아트월, 월판넬, 30평아파트, 거실벽인테리어, 톤온톤인테리어, 아르떼월, 벨로체월, 예림월판넬, 아트월]
 date: 2026-09-26
-updated: 2026-09-28
+updated: 2026-10-02
 published_at: 2026-09-26T18:11
 source: yerim-blog/posts/20260926_living-artwall-wallpanel/post.md
 main_keyword: 거실 아트월
@@ -105,7 +105,7 @@ products: [arte-wall-max, arte-wall, arte-wall-plus, arte-wall-glam, veloce-wall
 ### 자주 묻는 질문
 
 **반려동물이 있는 집에도 월판넬을 써도 되나요?**
-㈜예림 PS(Pet Safety) 인증 대상에는 월판넬과 마루가 포함돼 있습니다. 다만 인증을 받은 세부 품번은 이 글에서 확인하지 못했습니다. 고르신 품번이 대상인지는 대리점 상담에서 확인하시는 편이 정확합니다.
+㈜예림 PS(Pet Safety) 인증 대상에는 월판넬 아르떼 월과 강마루 노보(스톤·네이처)가 들어 있습니다. 다만 인증을 받은 세부 품번은 이 글에서 확인하지 못했습니다. 고르신 품번이 대상인지는 대리점 상담에서 확인하시는 편이 정확합니다.
 
 **견적과 구매는 어디서 하나요?**
 예림은 제조와 대리점 판매를 원칙으로 합니다. 견적과 구매는 대리점에서 진행되고, 가까운 대리점은 대표번호나 홈페이지 1:1 상담으로 연결됩니다. 실물 샘플을 먼저 보고 싶다면 [새로워진 본사 프리미엄 전시장 소개](https://blog.naver.com/yerimdoor/224355590223)에서 Material Library 구성을 확인할 수 있어요.
