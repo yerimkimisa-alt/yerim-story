@@ -5,7 +5,7 @@ description: 현관 폭이 1,100~1,200mm 안팎인 구축 아파트를 리모델
 category: innergate
 keywords: [현관중문, 30평아파트, 좁은현관, 화이트우드인테리어, 3연동중문, 슬라이딩중문, 예림중문, 자기부상자동문, 리안슬라이딩]
 date: 2026-09-24
-updated: 2026-09-28
+updated: 2026-10-02
 published_at: 2026-09-24T22:35
 source: yerim-blog/posts/20260924_innergate-3lock-vs-sliding/post.md
 main_keyword: 현관중문
@@ -89,3 +89,7 @@ products: [super-slim-innergate, super-slim-auto-door, rian-sliding, rian-auto-d
 ### 중문 라인과 시공·A/S
 
 예림 중문은 프리미엄·스타일·에센셜·이지 네 라인에 유리 옵션을 더해 구성됩니다. 개폐 방식을 먼저 정하고 나면 라인, 유리 디자인, 인테리어 필름 컬러·질감, 하드웨어를 차례로 고르는 순서가 됩니다. 시공과 설치 이후 A/S는 전국 전문 시공팀 체계로 이어집니다. 가격과 시공비는 현관 폭·높이와 라인, 옵션에 따라 달라지므로 현관 실측값을 가지고 가까운 대리점에서 견적을 받는 것이 정확합니다.
+
+### 현관 인테리어 전체 순서
+
+현관문부터 틈새까지 무엇을 먼저 정할지는 [현관 인테리어, 문·중문·신발장 정하는 순서](https://yerimkimisa-alt.github.io/yerim-story/guide/entrance-interior-order/)에 정리했습니다.

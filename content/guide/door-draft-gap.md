@@ -5,7 +5,7 @@ description: 이중창으로 바꿨는데도 겨울마다 현관 쪽과 문간�
 category: door
 keywords: [도어, 34평아파트, 외풍차단, 문틈막이, 오토실, 문틀가스켓, 예림도어, 문풍지, 현관중문]
 date: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-02
 published_at: 2026-10-01T10:27
 source: yerim-blog/posts/20261001_door-draft-gap/post.md
 main_keyword: 외풍 차단
@@ -120,3 +120,7 @@ products: [door-closer-autoseal, foam-wood-door-frame, ultra-door-frame, super-s
 ### 유리 숫자가 궁금하다면
 
 시스템 도어 YBF-140T는 22~39mm 유리를 적용할 수 있고, 등급은 유리 구성에 따라 갈립니다. 22·24·39mm라는 숫자를 읽는 법은 [로이유리 샷시, 22·24·39mm 숫자 읽는 법](https://yerimkimisa-alt.github.io/yerim-story/guide/window-glass-guide/)에 정리했습니다. 출입문을 고를 때 창과 같은 기준으로 유리를 보시면 됩니다.
+
+### 현관 인테리어 전체 순서
+
+현관문부터 틈새까지 무엇을 먼저 정할지는 [현관 인테리어, 문·중문·신발장 정하는 순서](https://yerimkimisa-alt.github.io/yerim-story/guide/entrance-interior-order/)에 정리했습니다.

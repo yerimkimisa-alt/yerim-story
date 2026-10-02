@@ -5,7 +5,7 @@ description: 현관중문을 알아보면 3연동과 슬라이딩 이야기가 �
 category: innergate
 keywords: [현관중문, 32평아파트, 레일없는중문, 양방향중문, 3연동중문, 뉴밸런스도어, 예림중문, 중문종류, 슬라이딩중문, 자기부상자동문]
 date: 2026-09-26
-updated: 2026-09-28
+updated: 2026-10-02
 published_at: 2026-09-26T12:57
 source: yerim-blog/posts/20260926_innergate-types-guide/post.md
 main_keyword: 현관중문 종류
@@ -141,3 +141,7 @@ products: [alma-sliding, rian-sliding, rian-swing-door, rian-pivot-door, new-bal
 - 스윙 — 프레임리스 글래스 스윙: [스텐 냉장고와 어울리는 주방가구, 44평 아파트 리모델링](https://blog.naver.com/yerimdoor/223911343354)
 - 스윙 — 프레임리스 글래스 스윙: [34평인테리어에 어울리는 화이트우드 컬러 조합](https://blog.naver.com/yerimdoor/224388162137)
 - 2026 신제품 — 알마 슬라이딩 · 슈퍼슬림 3연동 자기부상 자동문 · 울트라 클립 3연동 문틀: [예림의 새로운 LOOKBOOK SERIES를 소개합니다](https://blog.naver.com/yerimdoor/224318520574)
+
+### 현관 인테리어 전체 순서
+
+현관문부터 틈새까지 무엇을 먼저 정할지는 [현관 인테리어, 문·중문·신발장 정하는 순서](https://yerimkimisa-alt.github.io/yerim-story/guide/entrance-interior-order/)에 정리했습니다.

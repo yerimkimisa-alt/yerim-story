@@ -5,7 +5,7 @@ description: 중문과 현관 신발장은 따로 고르고 따로 견적을 받
 category: innergate
 keywords: [현관신발장, 34평아파트, 현관인테리어, 원톤인테리어, 럭스MR, 간살중문, 예림, 현관중문, 신발장색상, 중문신발장]
 date: 2026-09-27
-updated: 2026-09-28
+updated: 2026-10-02
 published_at: 2026-09-27T01:32
 source: yerim-blog/posts/20260927_entrance-shoe-cabinet-innergate/post.md
 main_keyword: 현관 신발장
@@ -142,3 +142,7 @@ products: [super-slim-innergate, super-slim-light-gansal, rian-swing-door, rian-
 
 **Q. 신발장 하부를 띄우고 조명을 넣으면 좋은가요?**
 2026년 1월 현장은 신발장 하단 간접조명으로 "바닥 면이 밝아지면서 공간의 경계가 확장"된다고 소개했습니다. 예림 LED 슬림매립·슬림노출 프로파일이 신발장·붙박이장 하부용으로 나와 있고, 예림 색온도 가이드는 신발장에 주백색 4,000K를 둡니다.
+
+### 현관 인테리어 전체 순서
+
+현관문부터 틈새까지 무엇을 먼저 정할지는 [현관 인테리어, 문·중문·신발장 정하는 순서](https://yerimkimisa-alt.github.io/yerim-story/guide/entrance-interior-order/)에 정리했습니다.

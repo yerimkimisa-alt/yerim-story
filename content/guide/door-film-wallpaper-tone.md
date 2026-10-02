@@ -5,7 +5,7 @@ description: 벽지는 정했는데 방문 필름 색에서 멈추는 분들이 
 category: film
 keywords: [인테리어필름, 30평대아파트, 원톤인테리어, 벽지조합, 개나리벽지, 쁘레회벽크렘, 하임필름, 방문필름, 무몰딩]
 date: 2026-09-25
-updated: 2026-09-28
+updated: 2026-10-02
 published_at: 2026-09-25T13:37
 source: yerim-blog/posts/20260925_door-film-wallpaper-tone/post.md
 main_keyword: 방문 필름
@@ -84,3 +84,7 @@ products: [hidden-door, real-texture-door, ez-door, moldingless-glass-door, al-r
 ### 2026 필름 룩북의 벽지 × 필름 추천 조합
 
 룩북은 화이트 짝 말고도 개나리 프리모 벽지에 필름 두 가지를 겹친 조합을 제안합니다. 프리모 99124-1 × 아크 페블그레이 HPA11 · 그란데 체스넛토프 GW002, 프리모 99125-3 × 아크 얼그레이 HPA04 · 메탈쉐도우그라파이트 HPM62, 프리모 99119-2 × 매트 포그그레이 HSM29 · 세이메이플 HO4305 입니다. 개나리 협업 필름 HP601~604 가운데 방염 표시는 HP601·HP603 에만 있습니다.
+
+### 현관 인테리어 전체 순서
+
+현관문부터 틈새까지 무엇을 먼저 정할지는 [현관 인테리어, 문·중문·신발장 정하는 순서](https://yerimkimisa-alt.github.io/yerim-story/guide/entrance-interior-order/)에 정리했습니다.
