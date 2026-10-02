@@ -5,7 +5,7 @@ description: 방 하나를 시스템행거와 선반으로 채우면 옷이 한�
 category: innergate
 keywords: [드레스룸문, 21평아파트, 드레스룸인테리어, 미니멀인테리어, 간살슬라이딩도어, LED무드도어, 예림, 시스템행거, 드레스룸도어]
 date: 2026-09-27
-updated: 2026-09-28
+updated: 2026-10-03
 published_at: 2026-09-27T02:23
 source: yerim-blog/posts/20260927_dressroom-open-storage-door/post.md
 main_keyword: 드레스룸 문
@@ -44,7 +44,7 @@ products: [rian-led-door, rian-gansal, rian-sliding, frameless-glass-door, rian-
 
 <figure><img src="/img/dressroom-open-storage-door/3.jpg" alt="YSL-200 원 슬라이딩 드레스룸 도어 — 44평 아파트" loading="lazy"><figcaption>YSL-200 원 슬라이딩 드레스룸 도어 — 44평 아파트</figcaption></figure>
 
-레일까지 숨기고 싶다면 리안 200 슬라이딩 상부구동처럼 레일이 보이지 않고 댐핑이 들어간 구조를 볼 만합니다. 달앤스타일이 설계한 2026년 4월 현장은 HP540 톤을 안방 슬라이딩 도어부터 욕실, 드레스룸 도어까지 이었습니다. 드레스룸 문을 방문과 같은 색으로 맞추면 벽의 일부처럼 읽힙니다.
+레일까지 숨기고 싶다면 리안 200 슬라이딩 상부구동을 천장 매립형으로 주문하면 됩니다. 매립형은 상부 금속 보강이 필요합니다. 달앤스타일이 설계한 2026년 4월 현장은 HP540 톤을 안방 슬라이딩 도어부터 욕실, 드레스룸 도어까지 이었습니다. 드레스룸 문을 방문과 같은 색으로 맞추면 벽의 일부처럼 읽힙니다.
 
 <figure><img src="/img/dressroom-open-storage-door/4.jpg" alt="인테리어 필름 HP540 슬라이딩 도어 (Designed by 달앤스타일)" loading="lazy"><figcaption>인테리어 필름 HP540 슬라이딩 도어 (Designed by 달앤스타일)</figcaption></figure>
 
@@ -74,7 +74,7 @@ products: [rian-led-door, rian-gansal, rian-sliding, frameless-glass-door, rian-
 | 리안 200 간살 슬라이딩 하부구동 | 540~1,300 | 2,500 | 42 | |
 | 리안 200 간살 슬라이딩 NG | 540~1,200 | ~2,500 | 42 | 유리 없음 |
 | 리안 라이트간살 슬라이딩 | 500~1,300 | ~2,700 | 42 | 간살 두께 12 · 간격 60 |
-| 리안 200 슬라이딩 상부구동 | 540~1,300 | ~2,700 | 42 | 레일 비노출 · 댐핑 |
+| 리안 200 슬라이딩 상부구동 | 540~1,300 | ~2,700 | 42 | 바닥 레일 없음 · 댐핑 (상부 레일은 매립형 주문 시 비노출) |
 | 프레임리스 글래스 슬라이딩 도어 | 780~1,100 | ~2,400 | 유리 10 | 벽 고정형 · 천장 고정형, 양방향 댐퍼. 8T 는 하드웨어만 따로 살 때 |
 | LED 무드 도어 | 750~1,300 | 1,500~2,500 | 42 | 전구색 LED |
 
