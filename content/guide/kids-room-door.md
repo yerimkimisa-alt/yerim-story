@@ -26,7 +26,7 @@ products: [kids-door, door-stopper-safety]
 
 <figure><img src="/img/kids-room-door/3.jpg" alt="YHS-023 미닫이 손끼임방지보호대 (연경질) — 예림 홈페이지" loading="lazy"><figcaption>YHS-023 미닫이 손끼임방지보호대 (연경질) — 예림 홈페이지</figcaption></figure>
 
-문이 열리는 끝은 댐퍼스토퍼 YHS-010이 잡고, 환기나 청소 때 열어 둔 문은 바닥 고정형 도어 캐치 YHS-100이 붙잡아 둡니다. 룩북은 YHS-100을 「도어를 가볍게 밀기만 하면 고정과 해제를 할 수 있는 기능성 스토퍼」로 소개합니다. 부품별 사양은 [도어스토퍼·손끼임 방지 부품 정리](https://yerimkimisa-alt.github.io/yerim-story/door/door-hardware/door-stopper-safety/)에 모아 두었습니다.
+스토퍼로는 댐퍼스토퍼 YHS-010이 있고, 환기나 청소 때 열어 둔 문은 바닥 고정형 도어 캐치 YHS-100이 붙잡아 둡니다. 룩북은 YHS-100을 「도어를 가볍게 밀기만 하면 고정과 해제를 할 수 있는 기능성 스토퍼」로 소개합니다. 부품별 사양은 [도어스토퍼·손끼임 방지 부품 정리](https://yerimkimisa-alt.github.io/yerim-story/door/door-hardware/door-stopper-safety/)에 모아 두었습니다.
 
 <figure><img src="/img/kids-room-door/4.jpg" alt="YHS-100CR 바닥 고정형 도어 캐치 (크롬 유광) — 예림 홈페이지" loading="lazy"><figcaption>YHS-100CR 바닥 고정형 도어 캐치 (크롬 유광) — 예림 홈페이지</figcaption></figure>
 
@@ -101,7 +101,7 @@ products: [kids-door, door-stopper-safety]
 
 룩북 p058 연출은 YAK-202G 프렌즈 예림 140 [순백]에 핸들 YDL-805 [핑크], 필름 HS046 [페일화이트]·HS022 [베이비핑크]를 함께 썼습니다. p059 연출에는 필름 HW1019 오크마일드, HS043 라벤더, HS017 샌드크래커가 쓰였습니다. 템바 보드나 템바 디자인 루바 R23 반달은 문과 같은 톤으로 벽을 맞출 때 함께 볼 수 있는 자재입니다.
 
-가구까지 색을 맞춘 사례로는 [히든도어부터 아치형중문까지 60평대 아파트](https://blog.naver.com/yerimdoor/223018607239)의 두 남매 방이 있습니다. 예림보드 Lux 매트 라이트그레이와 매트 로즈핑크로 붙박이장과 책상을 만든 집입니다. LUX는 지금의 MR 이전에 쓰던 보드 이름입니다.
+가구까지 색을 맞춘 사례로는 [히든도어부터 아치형중문까지 60평대 아파트](https://blog.naver.com/yerimdoor/223018607239)의 두 남매 방이 있습니다. 예림보드 Lux 매트 라이트그레이와 매트 로즈핑크로 붙박이장과 책상을 만든 집입니다. LUX는 지금의 럭스 MR 이전 이름입니다.
 
 ### 자주 묻는 질문 더 보기
 
