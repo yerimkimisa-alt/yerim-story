@@ -5,7 +5,7 @@ description: 중문과 현관 신발장은 따로 고르고 따로 견적을 받
 category: innergate
 keywords: [현관신발장, 34평아파트, 현관인테리어, 원톤인테리어, 럭스MR, 간살중문, 예림, 현관중문, 신발장색상, 중문신발장]
 date: 2026-09-27
-updated: 2026-10-02
+updated: 2026-10-03
 published_at: 2026-09-27T01:32
 source: yerim-blog/posts/20260927_entrance-shoe-cabinet-innergate/post.md
 main_keyword: 현관 신발장
@@ -54,7 +54,7 @@ products: [super-slim-innergate, super-slim-light-gansal, rian-swing-door, rian-
 
 <figure><img src="/img/entrance-shoe-cabinet-innergate/6.jpg" alt="예림보드 럭스 MR 아크 퓨어코튼 신발장 · 네이처 오크(YPW-01) 벤치 — 32평 아파트" loading="lazy"><figcaption>예림보드 럭스 MR 아크 퓨어코튼 신발장 · 네이처 오크(YPW-01) 벤치 — 32평 아파트</figcaption></figure>
 
-신발장 하단을 띄우고 간접조명을 넣는 방법도 있습니다. 2026년 1월 현장은 이 방법을 두고 "바닥 면이 밝아지면서 공간의 경계가 확장"된다고 소개했습니다. 예림 LED 슬림매립·슬림노출 프로파일은 [LED 조명 시스템 글](https://blog.naver.com/yerimdoor/223517140646)에서 신발장·붙박이장 하부용으로 소개됐고, 같은 글의 색온도 가이드는 신발장에 주백색 4,000K를 둡니다.
+신발장 하단을 띄우고 간접조명을 넣는 방법도 있습니다. 2026년 1월 현장은 이 방법을 두고 "바닥 면이 밝아지면서 공간의 경계가 확장"된다고 소개했습니다. 예림 LED 슬림노출 프로파일(8x9)은 [LED 조명 시스템 글](https://blog.naver.com/yerimdoor/223517140646)에서 신발장·붙박이장 하부용으로 소개됐고, 같은 글의 색온도 가이드는 신발장에 주백색 4,000K를 둡니다.
 
 <figure><img src="/img/entrance-shoe-cabinet-innergate/7.jpg" alt="예림보드 LUX 세라믹 문 퍼시픽(CP-01) 신발장 · 카타니아 오크(YPW-02) 수납장, 하부 간접조명 — 48평 아파트" loading="lazy"><figcaption>예림보드 LUX 세라믹 문 퍼시픽(CP-01) 신발장 · 카타니아 오크(YPW-02) 수납장, 하부 간접조명 — 48평 아파트</figcaption></figure>
 
@@ -141,7 +141,7 @@ products: [super-slim-innergate, super-slim-light-gansal, rian-swing-door, rian-
 색 이름과 코드로 짝을 지어 요청할 수 있습니다. 럭스 MR 매트 밀크화이트(SM-02)와 하임 필름 매트 밀크화이트(HSM02), 중문 문틀 래핑 CL01과 하임 필름 HC801 퓨어화이트가 그런 짝입니다. 자재 실물은 2026년 7월 리뉴얼한 본사 프리미엄 전시장에서 볼 수 있습니다.
 
 **Q. 신발장 하부를 띄우고 조명을 넣으면 좋은가요?**
-2026년 1월 현장은 신발장 하단 간접조명으로 "바닥 면이 밝아지면서 공간의 경계가 확장"된다고 소개했습니다. 예림 LED 슬림매립·슬림노출 프로파일이 신발장·붙박이장 하부용으로 나와 있고, 예림 색온도 가이드는 신발장에 주백색 4,000K를 둡니다.
+2026년 1월 현장은 신발장 하단 간접조명으로 "바닥 면이 밝아지면서 공간의 경계가 확장"된다고 소개했습니다. 예림 LED 슬림노출 프로파일(8x9)이 신발장·붙박이장 하부용으로 나와 있고, 예림 색온도 가이드는 신발장에 주백색 4,000K를 둡니다.
 
 ### 현관 인테리어 전체 순서
 
