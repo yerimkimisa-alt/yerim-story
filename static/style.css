@@ -29,7 +29,6 @@ header.site .wrap{max-width:1080px;display:flex;flex-direction:column;align-item
 .brand{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:17px;color:var(--ink);text-decoration:none;letter-spacing:-.02em}
 .brand .logo{display:inline-flex;padding-right:10px;margin-right:2px;border-right:1px solid var(--line)}
 .brand .logo img{display:block;width:auto;height:18px}
-.brand small{font-family:var(--mono);font-weight:500;color:var(--muted);font-size:10.5px;letter-spacing:.14em}
 header.site nav{align-self:stretch;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:0 calc(-1 * var(--gutter));padding:2px var(--gutter);-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent)}
 header.site nav::-webkit-scrollbar{display:none}
 header.site nav a{flex:0 0 auto;padding:6px 12px;border-radius:999px;font-size:13.5px;font-weight:600;color:var(--ink2);text-decoration:none;background:var(--soft);white-space:nowrap}
@@ -191,4 +190,3 @@ footer.site .brand{color:var(--ink)}
 footer.site .ent{font-size:12.5px}
 
 @media print{header.site,footer.site,.cta,.toc,.skip{display:none}body{background:#fff}.card,.list li{box-shadow:none}}
-@media (max-width:420px){header.site .brand small{display:none}}

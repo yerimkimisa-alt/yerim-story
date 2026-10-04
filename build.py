@@ -352,7 +352,7 @@ def base(p, body, by_url, extra_ld=()):
 <body class="t-{p['type']}">
 <a class="skip" href="#main">본문 바로가기</a>
 <header class="site"><div class="wrap">
-  <a class="brand" href="{href('/')}">{logo}{E(CFG['site_name'])}<small>{E(CFG['site_name_en'])}</small></a>
+  <a class="brand" href="{href('/')}">{logo}{E(CFG['site_name'])}</a>
   <nav aria-label="제품군">{nav}</nav>
 </div></header>
 <main id="main"><div class="wrap">
