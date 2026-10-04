@@ -27,7 +27,8 @@ img{max-width:100%;height:auto}
 header.site{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 82%,transparent);-webkit-backdrop-filter:saturate(1.4) blur(14px);backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid var(--line)}
 header.site .wrap{max-width:1080px;display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding-top:10px;padding-bottom:8px}
 .brand{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:17px;color:var(--ink);text-decoration:none;letter-spacing:-.02em}
-.brand .mark{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:8px;background:var(--ink);color:var(--bg);font-size:14px;font-weight:800}
+.brand .logo{display:inline-flex;padding-right:10px;margin-right:2px;border-right:1px solid var(--line)}
+.brand .logo img{display:block;width:auto;height:18px}
 .brand small{font-family:var(--mono);font-weight:500;color:var(--muted);font-size:10.5px;letter-spacing:.14em}
 header.site nav{align-self:stretch;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:0 calc(-1 * var(--gutter));padding:2px var(--gutter);-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent)}
 header.site nav::-webkit-scrollbar{display:none}
@@ -190,3 +191,4 @@ footer.site .brand{color:var(--ink)}
 footer.site .ent{font-size:12.5px}
 
 @media print{header.site,footer.site,.cta,.toc,.skip{display:none}body{background:#fff}.card,.list li{box-shadow:none}}
+@media (max-width:420px){header.site .brand small{display:none}}

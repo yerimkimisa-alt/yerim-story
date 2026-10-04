@@ -114,7 +114,27 @@ def parse_front(text: str):
 
 
 # ---------------------------------------------------------------- load
+def git_dates():
+    """content/ 파일별 (첫 커밋일, 마지막 커밋일). frontmatter 에 date·updated 가 없을 때 쓴다.
+    파일 수정 시각(mtime)은 체크아웃할 때마다 오늘로 바뀌어 발행일·sitemap lastmod 가 배포일로 찍히므로 쓰지 않는다.
+    CI 는 전체 이력이 있어야 한다 (deploy.yml checkout fetch-depth: 0)."""
+    import subprocess
+    try:
+        out = subprocess.run(["git", "-C", HERE, "log", "--format=@%as", "--name-only", "--no-renames", "--", "content"],
+                             capture_output=True, text=True, encoding="utf-8", check=True).stdout
+    except (OSError, subprocess.CalledProcessError):
+        return {}
+    dates, day = {}, None
+    for ln in out.splitlines():   # 최신 커밋부터 나온다
+        if ln.startswith("@"): day = ln[1:]; continue
+        if ln.strip():
+            first, last = dates.get(ln, (day, day))
+            dates[ln] = (day, last)   # 더 오래된 커밋을 만날 때마다 첫 날짜를 당긴다
+    return {os.path.relpath(os.path.join(HERE, k), CONTENT).replace("\\", "/"): v for k, v in dates.items()}
+
+
 def load_pages():
+    gd = git_dates()
     pages = []
     for root, _, files in os.walk(CONTENT):
         for fn in files:
@@ -125,13 +145,14 @@ def load_pages():
             fm, body = parse_front(io.open(path, encoding="utf-8").read())
             url = "/" if rel == "index.md" else "/" + re.sub(r"(/index)?\.md$", "", rel) + "/"
             mtime = datetime.fromtimestamp(os.path.getmtime(path)).date().isoformat()
+            g_first, g_last = gd.get(rel, (mtime, mtime))   # 아직 커밋 안 된 새 파일만 mtime
             p = dict(fm)
             p.update(url=url, rel=rel, body_md=body, mtime=mtime,
                      type=fm.get("type") or infer_type(rel),
                      title=fm.get("title") or os.path.splitext(fn)[0],
                      description=fm.get("description", ""),
                      draft=bool(fm.get("draft", False)),
-                     date=str(fm.get("date") or mtime), updated=str(fm.get("updated") or fm.get("date") or mtime))
+                     date=str(fm.get("date") or g_first), updated=str(fm.get("updated") or g_last))
             segs = [s for s in url.split("/") if s]
             p["category"] = fm.get("category") or (segs[0] if segs and segs[0] in CATS else "")
             # 대표 이미지: frontmatter image 가 없으면 본문 첫 사진 — 목록 썸네일·og:image·JSON-LD 에 쓴다
@@ -299,6 +320,9 @@ def base(p, body, by_url, extra_ld=()):
         lds.insert(1, jsonld_website())
     ld = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in lds)
     a = ORG["address"]
+    # 예림 로고(흰색 원본 + 진한 색 사본) — 다크 모드면 흰 로고. 글자 "예림 스토리" 는 그대로 텍스트로 둔다(크롤러·검색용)
+    logo = (f'<picture class="logo"><source srcset="{static_url("/img/brand/yerim-logo-white.png")}" media="(prefers-color-scheme: dark)">'
+            f'<img src="{static_url("/img/brand/yerim-logo-dark.png")}" alt="YERIM" width="90" height="20"></picture>')
     page = f"""<!DOCTYPE html>
 <html lang="{CFG['language']}">
 <head>
@@ -328,7 +352,7 @@ def base(p, body, by_url, extra_ld=()):
 <body class="t-{p['type']}">
 <a class="skip" href="#main">본문 바로가기</a>
 <header class="site"><div class="wrap">
-  <a class="brand" href="{href('/')}"><span class="mark" aria-hidden="true">Y</span>{E(CFG['site_name'])}<small>{E(CFG['site_name_en'])}</small></a>
+  <a class="brand" href="{href('/')}">{logo}{E(CFG['site_name'])}<small>{E(CFG['site_name_en'])}</small></a>
   <nav aria-label="제품군">{nav}</nav>
 </div></header>
 <main id="main"><div class="wrap">
@@ -336,7 +360,7 @@ def base(p, body, by_url, extra_ld=()):
 {body}
 </div></main>
 <footer class="site"><div class="wrap">
-  <a class="brand" href="{href('/')}"><span class="mark" aria-hidden="true">Y</span>{E(CFG['site_name'])}</a>
+  <a class="brand" href="{href('/')}">{logo}{E(CFG['site_name'])}</a>
   <p class="tag">{E(CFG['tagline'])}</p>
   <div class="ent">{E(ORG['legal_name'])} · {E(a['region'])} {E(a['locality'])} {E(a['street'])} · 설립 {E(ORG['founding_date'])}</div>
   <div>공식 홈페이지 <a href="{E(ORG['url'])}">{E(ORG['url'].replace('https://',''))}</a> · <a href="{E(ORG['contact_url'])}">온라인 문의</a> · <a href="{href('/sitemap.xml')}">sitemap</a> · <a href="{href('/feed.xml')}">RSS</a> · <a href="{href('/llms.txt')}">llms.txt</a></div>

@@ -19,6 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # build.py 가 git 이력으로 발행·수정일을 정한다 (얕은 클론이면 전부 마지막 커밋 날짜가 된다)
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
