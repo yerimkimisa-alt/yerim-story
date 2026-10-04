@@ -50,7 +50,7 @@ KS F 3200:2022 흡수두께팽창률 시험에서 기존 럭스는 9.2%, 럭스 
 
 <figure><img src="/img/case-50py-kitchen-luxmr/6.jpg" alt="책장 YPA-02 · 상판 그레이쉬 오크 YPW-03 — 50평대 아파트 거실" loading="lazy"><figcaption>책장 YPA-02 · 상판 그레이쉬 오크 YPW-03 — 50평대 아파트 거실</figcaption></figure>
 
-현관 신발장은 럭스 MR 매트 샌드그레이 SM-21이고, 원문이 꼽은 선택 이유는 「지문이 잘 묻지 않는 내지문」입니다. 매트(SM) 라인은 전 제품의 내지문을 강화했기 때문에 드나들 때마다 손이 닿는 현관 문에 잘 맞습니다. 현관 벽까지 같은 색으로 잇고 싶다면 하임 HSM21 필름이 SM-21과 짝을 이루는 일체화 컬러입니다. 안방 붙박이장은 매트 듀이클라우드 SM-30, 벽은 같은 색 필름 하임 HSM30으로 맞췄고, 자세한 내용은 [붙박이장 고르는 법, 럭스 MR 기준으로](https://yerimkimisa-alt.github.io/yerim-story/guide/built-in-closet-mr/)에서 다뤘습니다.
+현관 신발장은 럭스 MR 매트 샌드그레이 SM-21이고, 원문이 꼽은 선택 이유는 「지문이 잘 묻지 않는 내지문」입니다. 매트(SM) 라인은 전 제품의 내지문을 강화했기 때문에 드나들 때마다 손이 닿는 신발장 문에 잘 맞습니다. 현관 벽까지 같은 색으로 잇고 싶다면 하임 HSM21 필름이 SM-21과 짝을 이루는 일체화 컬러입니다. 안방 붙박이장은 매트 듀이클라우드 SM-30, 벽은 같은 색 필름 하임 HSM30으로 맞췄고, 자세한 내용은 [붙박이장 고르는 법, 럭스 MR 기준으로](https://yerimkimisa-alt.github.io/yerim-story/guide/built-in-closet-mr/)에서 다뤘습니다.
 
 <figure><img src="/img/case-50py-kitchen-luxmr/7.jpg" alt="신발장 럭스 MR 매트 샌드그레이 SM-21 — 50평대 아파트 현관" loading="lazy"><figcaption>신발장 럭스 MR 매트 샌드그레이 SM-21 — 50평대 아파트 현관</figcaption></figure>
 
