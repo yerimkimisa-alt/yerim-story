@@ -5,7 +5,7 @@
 ## 왜 정적 HTML인가
 
 - **크롤링에 가장 유리** — JS 없이 HTML 안에 모든 텍스트·표·FAQ가 있다. 어떤 크롤러도 그대로 읽는다.
-- **디자인 최소** — 시스템 폰트, CSS 한 장, 본문 우선. "개발자스럽게".
+- **모바일 우선, JS 없음** — CSS 한 장(`static/style.css`)으로 폰 화면 기준 카드·칩·아코디언 UI. 목차·FAQ 접힘은 `<details>` 라 크롤러는 접힌 내용까지 HTML 텍스트로 읽는다.
 - **어디든 호스팅** — `site/dist/` 폴더를 GitHub Pages·Cloudflare Pages·Netlify·자체 서버 어디에 올려도 된다. 서버 프로그램이 필요 없다.
 - **기준 데이터 = 파일** — `content/*.md` 가 제품 마스터 데이터의 웹 표현. 수정 이력이 git에 남는다.
 
@@ -34,6 +34,7 @@ site/
 |---|---|
 | 1 키워드별 독립 URL | 파일 경로가 URL. `guide/innergate-3lock-vs-sliding.md` → `/guide/innergate-3lock-vs-sliding/` |
 | 2 HTML 텍스트 우선 | 사양은 `specs` 표, FAQ는 `faq` 블록 → 모두 HTML `<table>`·`<details>`. 이미지는 `alt`·`figcaption` 필수 |
+| 문단 인용 | 본문 h2·h3 에 한글 id 자동 부여(`#화장실문-아래가-…`) → AI 답변이 문단 단위로 딥링크. h2 가 3개 이상인 가이드는 목차 자동 생성 |
 | 3 크롤러 허용 | `robots.txt` 자동 생성. Googlebot·Bingbot·Yeti·OAI-SearchBot·PerplexityBot·ClaudeBot 허용. 학습용(GPTBot 등)은 `config.json` `training_policy` 로 결정 |
 | 4 구조화 데이터 | 페이지 타입별 JSON-LD: Organization(홈·소개) · Product(제품, specs → additionalProperty) · FAQPage(faq 있는 모든 페이지) · BreadcrumbList(전 페이지) · Article(가이드·소식) |
 | 5 색인 신호 | `sitemap.xml`(lastmod = updated) · `feed.xml` · `llms.txt`. Search Console·Bing·IndexNow 등록은 배포 후 사람이 |

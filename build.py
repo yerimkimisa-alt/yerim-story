@@ -155,7 +155,9 @@ def infer_type(rel):
 
 # ---------------------------------------------------------------- helpers
 E = html.escape
-MD = markdown.Markdown(extensions=["tables", "fenced_code", "sane_lists", "attr_list"])
+from markdown.extensions.toc import TocExtension, slugify_unicode
+# toc: 본문 h2·h3 에 한글 id 를 붙인다 — AI 검색이 문단 단위로 인용할 때 #앵커 딥링크가 생기고, 가이드 목차의 재료가 된다
+MD = markdown.Markdown(extensions=["tables", "fenced_code", "sane_lists", "attr_list", TocExtension(slugify=slugify_unicode, toc_depth="2-3")])
 
 
 def md(text):
@@ -166,6 +168,7 @@ def md(text):
     # 본문(마크다운·figure) 안의 사이트 절대경로(/img/…, /guide/…)에도 base_url 경로 접두를 붙인다
     if PREFIX:
         out = re.sub(r'(src|href)="/(?!/)', lambda m: f'{m.group(1)}="{PREFIX}/', out)
+    out = out.replace("<table>", '<div class="tbl"><table>').replace("</table>", "</table></div>")   # 폰에서 넓은 표는 가로 스크롤
     return newtab(out)   # 글 본문 안의 링크만 새 창 — 메뉴·목록·카드·푸터는 같은 창 (2026-09-27)
 
 
@@ -186,7 +189,8 @@ def crumbs_for(page, by_url):
         u = acc + "/"
         if u == page["url"]:
             items.append((page["title"], u)); break
-        t = by_url.get(u, {}).get("title") or CATS.get(s, {}).get("name") or {"guide": "가이드", "news": "소식"}.get(s, s)
+        # 섹션(가이드·소식)은 짧은 이름으로 — 섹션 페이지 제목은 길어서 경로·BreadcrumbList 에 맞지 않는다
+        t = {"/guide/": "가이드", "/news/": "소식"}.get(u) or by_url.get(u, {}).get("title") or CATS.get(s, {}).get("name") or s
         items.append((t, u))
     return items
 
@@ -289,14 +293,20 @@ def base(p, body, by_url, extra_ld=()):
     crumbs_html = "" if p["type"] == "home" else '<nav class="crumbs" aria-label="경로"><ol>' + "".join(
         f'<li>{E(n)}</li>' if u == p["url"] else f'<li><a href="{href(u)}">{E(n)}</a></li>' for n, u in crumbs) + "</ol></nav>"
     robots = '<meta name="robots" content="noindex,nofollow">' if p["draft"] else '<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">'
-    og_img = f'<meta property="og:image" content="{E(abs_url(p["image"]))}">' if p.get("image") else ""
+    img = p.get("image") or CFG["categories"][0]["cover"]   # 대표 이미지가 없으면 첫 제품 분류 커버 — 공유 카드가 비지 않게
+    og_img = f'<meta property="og:image" content="{E(abs_url(img))}">'
+    if p["type"] == "home":
+        lds.insert(1, jsonld_website())
     ld = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in lds)
     a = ORG["address"]
     page = f"""<!DOCTYPE html>
 <html lang="{CFG['language']}">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#FBFAF7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141311" media="(prefers-color-scheme: dark)">
+<meta name="format-detection" content="telephone=no">
 <title>{E(title)}</title>
 <meta name="description" content="{E(p['description'])}">
 <link rel="canonical" href="{E(abs_url(p['url']))}">
@@ -306,23 +316,28 @@ def base(p, body, by_url, extra_ld=()):
 <meta property="og:description" content="{E(p['description'])}">
 <meta property="og:url" content="{E(abs_url(p['url']))}">
 <meta property="og:site_name" content="{E(CFG['site_name'])}">
+<meta property="og:locale" content="ko_KR">
 {og_img}
+<meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="{E(CFG['site_name'])}" href="{href('/feed.xml')}">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="{static_url('/style.css')}">
 {ld}
 </head>
-<body>
+<body class="t-{p['type']}">
+<a class="skip" href="#main">본문 바로가기</a>
 <header class="site"><div class="wrap">
-  <a class="brand" href="{href('/')}">{E(CFG['site_name'])}<small>{E(CFG['site_name_en'])}</small></a>
+  <a class="brand" href="{href('/')}"><span class="mark" aria-hidden="true">Y</span>{E(CFG['site_name'])}<small>{E(CFG['site_name_en'])}</small></a>
   <nav aria-label="제품군">{nav}</nav>
 </div></header>
-<main><div class="wrap">
+<main id="main"><div class="wrap">
 {crumbs_html}
 {body}
 </div></main>
 <footer class="site"><div class="wrap">
+  <a class="brand" href="{href('/')}"><span class="mark" aria-hidden="true">Y</span>{E(CFG['site_name'])}</a>
+  <p class="tag">{E(CFG['tagline'])}</p>
   <div class="ent">{E(ORG['legal_name'])} · {E(a['region'])} {E(a['locality'])} {E(a['street'])} · 설립 {E(ORG['founding_date'])}</div>
   <div>공식 홈페이지 <a href="{E(ORG['url'])}">{E(ORG['url'].replace('https://',''))}</a> · <a href="{E(ORG['contact_url'])}">온라인 문의</a> · <a href="{href('/sitemap.xml')}">sitemap</a> · <a href="{href('/feed.xml')}">RSS</a> · <a href="{href('/llms.txt')}">llms.txt</a></div>
   <div>이 사이트의 제품 사양은 예림 공식 자료를 기준으로 하며, 수정일이 표기됩니다. 시험 성적·인증은 해당 페이지에 발행일과 적용 모델을 함께 적습니다.</div>
@@ -330,6 +345,18 @@ def base(p, body, by_url, extra_ld=()):
 </body>
 </html>"""
     return page
+
+
+def toc_html(tokens):
+    """가이드 목차 — h2 가 3개 이상일 때만. JS 없이 <details> 로 접힌다."""
+    h2 = [t for t in tokens if t["level"] == 2]
+    if len(h2) < 3: return ""
+    return '<details class="toc"><summary>목차</summary><ol>' + "".join(f'<li><a href="#{E(t["id"])}">{E(t["name"])}</a></li>' for t in h2) + "</ol></details>"
+
+
+def jsonld_website():
+    return {"@context": "https://schema.org", "@type": "WebSite", "@id": BASE + "/#website", "name": CFG["site_name"], "alternateName": CFG["site_name_en"],
+            "url": BASE + "/", "inLanguage": CFG["language"], "description": CFG["tagline"], "publisher": {"@id": BASE + "/#organization"}}
 
 
 def card(p):
@@ -372,7 +399,7 @@ def cta_html(p, by_url):
         links.append(f'<a href="{href("/" + cat["slug"] + "/")}">예림 {E(cat["name"])} 전체</a>')
     links.append(f'<a href="{E(ORG["url"])}">공식 홈페이지 제품 정보</a>')
     links.append(f'<a href="{E(ORG["contact_url"])}">온라인 문의·전시장</a>')
-    return f'<div class="cta"><b>더 알아보기</b>{" ".join(links)}</div>'
+    return f'<aside class="cta"><b>더 알아보기</b><div>{"".join(links)}</div></aside>'
 
 
 def related_html(p, pages):
@@ -394,24 +421,26 @@ def render(p, pages, by_url):
     t = p["type"]
     meta = []
     if t in ("guide", "news", "product"):
-        meta.append(f'<span><b>발행</b> {fmt_date(p["date"])}</span><span><b>수정</b> {fmt_date(p["updated"])}</span>')
+        meta.append(f'<span class="chip">{E(TYPE_LABEL[t])}</span><span><b>발행</b> <time datetime="{fmt_date(p["date"])}">{fmt_date(p["date"])}</time></span><span><b>수정</b> <time datetime="{fmt_date(p["updated"])}">{fmt_date(p["updated"])}</time></span>')
         if p["category"]: meta.append(f'<span><b>제품군</b> {E(CATS[p["category"]]["name"])}</span>')
         if p.get("model"): meta.append(f'<span><b>모델</b> {E(p["model"])}</span>')
-        if p.get("keywords"): meta.append(f'<span><b>키워드</b> {E(", ".join(p["keywords"]))}</span>')
     meta_html = f'<div class="meta">{"".join(meta)}</div>' if meta else ""
     # 가이드는 description 이 첫 문단에서 파생되므로 화면에 또 찍지 않는다 (meta·JSON-LD 에만). 중복 노출 방지.
     dup = p["description"][:40] in p["body_md"].replace("\n", " ") if p["description"] else False
     lead = f'<p class="lead">{E(p["description"])}</p>' if p["description"] and t != "home" and not dup else ""
     draft = '<div class="notice"><b>검증 전 초안</b> — 이 페이지는 사실 검증이 끝나지 않아 검색에 노출되지 않습니다(noindex). 확인 후 frontmatter 의 draft 를 false 로 바꾸면 공개됩니다.</div>' if p["draft"] else ""
     body = md(p["body_md"])
+    toc = toc_html(MD.toc_tokens if hasattr(MD, "toc_tokens") else [])
+    tags = f'<div class="tags">{"".join("<span>#" + E(k) + "</span>" for k in p.get("keywords") or [])}</div>' if p.get("keywords") else ""
     lds = []
     if t == "home":
         cats = "".join(gallery_card(c, by_url.get(f"/{c['slug']}/")) for c in CFG["categories"])
         all_guides = sorted([q for q in pages if q["type"] == "guide" and not q["draft"]], key=newest, reverse=True)
         guides = all_guides[:8]
         prods = [q for q in pages if q["type"] == "product" and not q["draft"]][:6]
-        inner = f'<h1>{E(p["title"])}</h1>{lead}{body}<h2>제품군</h2><div class="gallery">{cats}</div>'
-        if guides: inner += f'<h2>최근 가이드 ({len(all_guides)})</h2>{list_items(guides)}'
+        inner = f'<section class="intro"><p class="eyebrow">{E(CFG["site_name_en"])} · {E(ORG["legal_name"])} 공식 지식 사이트</p><h1>{E(p["title"])}</h1>{lead}{body}<p class="go"><a class="btn" href="{href("/guide/")}">가이드 전체 보기</a><a class="btn ghost" href="{href("/about/")}">예림 소개</a></p></section>'
+        inner += f'<h2>제품군</h2><div class="gallery">{cats}</div>'
+        if guides: inner += f'<h2>최근 가이드 <span class="n">{len(all_guides)}</span></h2>{list_items(guides)}<p class="more"><a href="{href("/guide/")}">가이드 {len(all_guides)}편 모두 보기 →</a></p>'
         if prods: inner += f'<h2>제품</h2><div class="grid">{"".join(card(q) for q in prods)}</div>'
         return base(p, inner, by_url)
     if t in ("category", "group", "section"):
@@ -430,7 +459,7 @@ def render(p, pages, by_url):
         inner = f'<h1>{E(p["title"])}</h1>{lead}{hero}{body}'
         if groups: inner += '<h2>제품군</h2><div class="grid">' + "".join(card(q) for q in groups) + "</div>"
         if prods: inner += '<h2>제품</h2><div class="grid">' + "".join(card(q) for q in prods) + "</div>"
-        if guides: inner += f'<h2>가이드 ({len(guides)})</h2>' + list_items(guides)   # 이 페이지에 걸린 가이드 수
+        if guides: inner += f'<h2>가이드 <span class="n">{len(guides)}</span></h2>' + list_items(guides)   # 이 페이지에 걸린 가이드 수
         inner += faq_html(p.get("faq"))
         if p.get("faq"): lds.append(jsonld_faq(p["faq"]))
         return base(p, inner, by_url, lds)
@@ -442,13 +471,12 @@ def render(p, pages, by_url):
         docs = ""
         if p.get("docs"):
             docs = '<h2 id="docs">자료·인증</h2><ul>' + "".join(f'<li>{E(d.get("name",""))}{(" — " + E(d["date"])) if d.get("date") else ""}{(" · <a href=\"" + E(d["url"]) + "\">보기</a>") if d.get("url") else ""}</li>' for d in p["docs"]) + "</ul>"
-        inner = f'<h1>{E(p["title"])}</h1>{meta_html}{draft}{lead}{body}{spec}{docs}{faq_html(p.get("faq"))}{related_html(p, pages)}{cta_html(p, by_url)}'
+        inner = f'<article><h1>{E(p["title"])}</h1>{meta_html}{draft}{lead}{body}{spec}{docs}{faq_html(p.get("faq"))}{tags}</article>{related_html(p, pages)}{cta_html(p, by_url)}'
         lds.append(jsonld_product(p))
         if p.get("faq"): lds.append(jsonld_faq(p["faq"]))
         return base(p, inner, by_url, lds)
     if t in ("guide", "news"):
-        tags = f'<div class="tags">{"".join("<span>#" + E(k) + "</span>" for k in p.get("keywords") or [])}</div>' if p.get("keywords") else ""
-        inner = f'<h1>{E(p["title"])}</h1>{meta_html}{draft}{lead}{body}{faq_html(p.get("faq"))}{tags}{related_html(p, pages)}{cta_html(p, by_url)}'
+        inner = f'<article><h1>{E(p["title"])}</h1>{meta_html}{draft}{lead}{toc}{body}{faq_html(p.get("faq"))}{tags}</article>{related_html(p, pages)}{cta_html(p, by_url)}'
         lds.append(jsonld_article(p))
         if p.get("faq"): lds.append(jsonld_faq(p["faq"]))
         return base(p, inner, by_url, lds)
